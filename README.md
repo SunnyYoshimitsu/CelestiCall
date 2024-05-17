@@ -1,2 +1,35 @@
 # CelestiCall
  An attempt at making a somewhat modern smartphone with many functions. 
+
+CelestiCall is a phone with a somewhat outdated concept that I've come up with for the Summer of 2024. The purpose of the phone? to allow me to learn and get experience on many computer subjects all at once. 
+And what are those "experience" and "subjects" I'm talking about? They're power system design, FPGA design, 3D printing, communication, Linux, web design and many more.
+
+Let me tell about what I see this phone will have as I want this to be unique and with quite a large amount of personal touch up. 
+1) This phone will be running on an FPGA, specifically Zynq FPGAs. This is because I want to learn about how to create a whole SoC from scratch (with a hardcore A9 of course), as this will teach me about the SoC design and more. 
+2) It will serve as both a phone and as a portable small Linux computer with HDMI. This is one reason why I said the concept is a little outdated as many modern phone can just screen share to TV and call it a day. However since my phone won't be in any of the TV's ecosystem, I will "cheat" and have it "screen-share" via HDMI. My inspiration is the ChromeBit and the Motorola Atrix HD.
+3) I also will have a web "program" very much similar to what ChromeOS offer but obviously way more bootleg as it will be made by one person. This is a way that I will be able to artificially extend the power of the little device by having many computing heavy problems or storage be on the cloud. 
+
+Here I'll go into a personal requirement for what I think the smartphone should be and have. I'll describe the software and the hardware along with the type of apps I would like to have running on it.
+
+Requirement: 
+* Interaction : All modern smartphone have touchscreens and really that's one of the reason that started the smartphone trend. I might add some physical buttons but that's up for considerations.
+* Communication : A phone is not a phone if one can't call from it. I'll make the phone being able to use 4G and possibly 5G as 3G and below at least in the US is defunct. Also this hopefully will allow the phone to access the internet.
+* Usage Time : The target is the battery lasting up to a whole day on a single charge on heavy use. I will go into what "heavy use" entails later.
+* Operating System : Linux is a must and also more like an existing distro. If possible and if the system is powerful enough I might use Android(possibly 2.0) since I don't have the manpower to make my own softwares.
+There wil be this much requirement for now, it might be changed later.
+
+Hardware: 
+Physical dimesion: Similar to that of Iphone I or the various Window phones
+                   Small and comact as to be able to reach from bottom of the screen to the top
+Computer Hardware: Runs off dual Cortex A9 on an FPGA and hopefully give up to 2GB of RAM
+                   ARM A9 is a relative strong chips that could run many lightweight Linux distro without much problem 
+
+Software: 
+Onboard-based: Android 2.0 would be preferrable
+               It's a widely used distro with a lot of available softwares
+Web-based: Something like a personal/homebrew Google Drive and the ability to use a home server as extra computing extension and a NAS as online hard-drive. 
+           This would allow the device to be more than it can be
+
+I know this sounds ambitious as going to the moon by oneself. HOWEVER, with the way technology is evolving, I believe it's possible....Please let a student dream.....
+
+Email: huynguyenwork123@gmail.com
