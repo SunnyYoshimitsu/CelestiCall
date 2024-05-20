@@ -30,6 +30,11 @@ Onboard-based: Android 2.0 would be preferrable
 Web-based: Something like a personal/homebrew Google Drive and the ability to use a home server as extra computing extension and a NAS as online hard-drive. 
            This would allow the device to be more than it can be
 
+
+Here's the architecture of the SoC would look like: 
+Note: if there's an asterisk, it means that that specific part will be custom. 
+![CelestiSoC](https://github.com/SunnyYoshimitsu/CelestiCall/assets/136009002/0d122c06-7c1a-4c0c-a782-86ca1e217960)
+
 I know this sounds ambitious as going to the moon by oneself. HOWEVER, with the way technology is evolving, I believe it's possible....Please let a student dream.....
 
 Email: huynguyenwork123@gmail.com
