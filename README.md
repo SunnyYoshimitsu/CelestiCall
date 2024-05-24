@@ -70,7 +70,8 @@ Roadmap
 The above two steps will be prototyped via COTS development boards and easy to use breadboard.
 
 *Make a prototype PCB with components:
-    Estimated Time: ~2 months
+
+    Estimated Time: ~2 months 
     Estimated cost: ~$400
 
     1) Start with a simple FPGA board
