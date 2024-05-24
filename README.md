@@ -93,6 +93,8 @@ The above two steps will be prototyped via COTS development boards and easy to u
  *End Step: 
     This step will involve the creation of the "bootleg Google Drive" that I've detailed in the beginning along with making a case for the phone.
      
+Rough Project Timeline/Plans:
+![Rough Project Timeline](https://github.com/SunnyYoshimitsu/CelestiCall/assets/136009002/3190b728-f7d2-48c9-950e-be4748c2441a)
 
 
 
