@@ -67,10 +67,31 @@ Roadmap
                  -For starter: a framebuffer in RAM
                  -End goal: running on a custom GPU (HyperNova)
 
-*Make a prototype PCB with components (Estimated time: ~1 month)(Estimated cost: <500€):
-    Estimated Time: ~1 months
+The above two steps will be prototyped via COTS development boards and easy to use breadboard.
+
+*Make a prototype PCB with components:
+    Estimated Time: ~2 months
     Estimated cost: ~$400
-    Budget: $600
+
+    1) Start with a simple FPGA board
+    2) Add peripherals like the WiFI, GPRS and camera
+    3) Add touchscreen and physical input (buttons)
+
+ *Design and manufacture outer shell:
+    Estimated Time: ~2 months
+    Estimated cost: ~$50
+
+    Design concept: The shell of the phone will be somewhat similar looking to any modern smartphone, however it will be thicker than the norm. This is to be able to accomodate at least two full size USB and HDMI ports along with possibly 2 PMODs interface. 
+
+    With hardware: 
+                 Bambu Lab 3D printer
+    With software: 
+                 Krita for concept art
+                 Solidwork for the end product
+
+ *End Step: 
+    This step will involve the creation of the "bootleg Google Drive" that I've detailed in the beginning along with making a case for the phone.
+     
 
 
 
