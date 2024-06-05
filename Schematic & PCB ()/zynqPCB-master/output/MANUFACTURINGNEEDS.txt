@@ -1,0 +1,13 @@
+Board Specs:
+
+PCB:
+120mm x 60mm
+8 layers, .062 inches / 1.6mm thick
+1oz copper
+50ohm 4mil impedance on internal signal layers
+.25mm drill
+4 mil trace/clearance
+Dielectric: FR4
+ENIG Finish
+Via-In-Pad required
+

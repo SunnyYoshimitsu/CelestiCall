@@ -1,0 +1,5 @@
+The schematic and PCB have been updated and will be kept up to date in this folder. 
+
+Changes for schematic involve removals of all former peripheral chips due to space constraints, low energy budget, and generally low utilities. 
+
+Changes for PCB include 10% smaller sizes, more efficient/shorter traces, and new chip placements. 

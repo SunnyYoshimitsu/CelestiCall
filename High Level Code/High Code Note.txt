@@ -1,0 +1,1 @@
+This folder will be for higher-level codes and developments like C codes and Linux kernels. Anything that is conventionally regarded as "software" will be here. 
