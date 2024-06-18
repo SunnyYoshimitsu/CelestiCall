@@ -98,6 +98,19 @@ Rough Project Timeline/Plans:
 
 
 
+To do list/learn/plan(6/17):
+
+Start making prototypes of the GPU and the Audio mixer
+Then integrate them to a HDMI output
+
+GPU: Learn about "CUDA" cores, make a RGB framebuffer of 800 x 600 size for the touchscreen output. Make variable screen resolution for HDMI out. 
+Audio: extend upon school filter projects and DMA sound replay. 
+       If too complicated, then make a simple PCM passthrough and FIFO for sound replay from memory. 
+
+Integrate both GPU and Audio though the HyperNova top module to output to HDMI, display and audio jack. Add controls to allow versatile displaying. 
+Possibly add possible VGA output for second display via the PMOD (max 64 colors only). 
+
+
 
 I know this sounds ambitious as going to the moon by oneself. HOWEVER, with the way technology is evolving, I believe it's possible....Please let a student dream.....
 
