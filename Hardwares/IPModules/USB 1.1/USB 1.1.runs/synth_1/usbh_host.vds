@@ -1,0 +1,412 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Jul 26 12:38:53 2024
+# Process ID: 30032
+# Current directory: D:/CelestiCall/Hardwares/IPModules/USB 1.1/USB 1.1.runs/synth_1
+# Command line: vivado.exe -log usbh_host.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source usbh_host.tcl
+# Log file: D:/CelestiCall/Hardwares/IPModules/USB 1.1/USB 1.1.runs/synth_1/usbh_host.vds
+# Journal file: D:/CelestiCall/Hardwares/IPModules/USB 1.1/USB 1.1.runs/synth_1\vivado.jou
+# Running On: DESKTOP-I4589KT, OS: Windows, CPU Frequency: 3693 MHz, CPU Physical cores: 12, Host memory: 34246 MB
+#-----------------------------------------------------------
+source usbh_host.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Hatsu/AppData/Roaming/Xilinx/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/CelestiCall/Hardwares/IPModules/ip_repo/USAB_1.1_HC_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/CelestiCall/Hardwares/IPModules/ip_repo/USB_1.1_HC_1_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+Command: synth_design -top usbh_host -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 3472
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 934.969 ; gain = 448.141
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'usbh_host' [C:/Users/Hatsu/Downloads/core_usb_host-master/core_usb_host-master/src_v/usbh_host.v:40]
+INFO: [Synth 8-6157] synthesizing module 'usbh_sie' [C:/Users/Hatsu/Downloads/core_usb_host-master/core_usb_host-master/src_v/usbh_sie.v:35]
+	Parameter USB_CLK_FREQ bound to: 48000000 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'usbh_crc16' [C:/Users/Hatsu/Downloads/core_usb_host-master/core_usb_host-master/src_v/usbh_crc16.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'usbh_crc16' (0#1) [C:/Users/Hatsu/Downloads/core_usb_host-master/core_usb_host-master/src_v/usbh_crc16.v:37]
+INFO: [Synth 8-6157] synthesizing module 'usbh_crc5' [C:/Users/Hatsu/Downloads/core_usb_host-master/core_usb_host-master/src_v/usbh_crc5.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'usbh_crc5' (0#1) [C:/Users/Hatsu/Downloads/core_usb_host-master/core_usb_host-master/src_v/usbh_crc5.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'usbh_sie' (0#1) [C:/Users/Hatsu/Downloads/core_usb_host-master/core_usb_host-master/src_v/usbh_sie.v:35]
+INFO: [Synth 8-6157] synthesizing module 'usbh_fifo' [C:/Users/Hatsu/Downloads/core_usb_host-master/core_usb_host-master/src_v/usbh_fifo.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'usbh_fifo' (0#1) [C:/Users/Hatsu/Downloads/core_usb_host-master/core_usb_host-master/src_v/usbh_fifo.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'usbh_host' (0#1) [C:/Users/Hatsu/Downloads/core_usb_host-master/core_usb_host-master/src_v/usbh_host.v:40]
+WARNING: [Synth 8-7137] Register ram_reg in module usbh_fifo has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code 
+WARNING: [Synth 8-4767] Trying to implement RAM 'ram_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: RAM is sensitive to asynchronous reset signal. this RTL style is not supported. 
+RAM "ram_reg" dissolved into registers
+WARNING: [Synth 8-6014] Unused sequential element usb_status_wr_q_reg was removed.  [C:/Users/Hatsu/Downloads/core_usb_host-master/core_usb_host-master/src_v/usbh_host.v:261]
+WARNING: [Synth 8-6014] Unused sequential element usb_irq_ack_wr_q_reg was removed.  [C:/Users/Hatsu/Downloads/core_usb_host-master/core_usb_host-master/src_v/usbh_host.v:277]
+WARNING: [Synth 8-6014] Unused sequential element usb_irq_sts_wr_q_reg was removed.  [C:/Users/Hatsu/Downloads/core_usb_host-master/core_usb_host-master/src_v/usbh_host.v:346]
+WARNING: [Synth 8-6014] Unused sequential element usb_irq_mask_wr_q_reg was removed.  [C:/Users/Hatsu/Downloads/core_usb_host-master/core_usb_host-master/src_v/usbh_host.v:363]
+WARNING: [Synth 8-6014] Unused sequential element usb_xfer_data_wr_q_reg was removed.  [C:/Users/Hatsu/Downloads/core_usb_host-master/core_usb_host-master/src_v/usbh_host.v:424]
+WARNING: [Synth 8-6014] Unused sequential element usb_xfer_token_wr_q_reg was removed.  [C:/Users/Hatsu/Downloads/core_usb_host-master/core_usb_host-master/src_v/usbh_host.v:449]
+WARNING: [Synth 8-6014] Unused sequential element usb_rx_stat_wr_q_reg was removed.  [C:/Users/Hatsu/Downloads/core_usb_host-master/core_usb_host-master/src_v/usbh_host.v:550]
+WARNING: [Synth 8-6014] Unused sequential element usb_rd_data_wr_q_reg was removed.  [C:/Users/Hatsu/Downloads/core_usb_host-master/core_usb_host-master/src_v/usbh_host.v:586]
+WARNING: [Synth 8-3917] design usbh_host has port cfg_bresp_o[1] driven by constant 0
+WARNING: [Synth 8-3917] design usbh_host has port cfg_bresp_o[0] driven by constant 0
+WARNING: [Synth 8-3917] design usbh_host has port cfg_rresp_o[1] driven by constant 0
+WARNING: [Synth 8-3917] design usbh_host has port cfg_rresp_o[0] driven by constant 0
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[31] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[30] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[29] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[28] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[27] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[26] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[25] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[24] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[23] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[22] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[21] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[20] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[19] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[18] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[17] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[16] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[15] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[14] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[13] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[12] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[11] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[10] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[9] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[8] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_wstrb_i[3] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_wstrb_i[2] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_wstrb_i[1] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_wstrb_i[0] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[31] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[30] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[29] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[28] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[27] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[26] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[25] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[24] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[23] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[22] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[21] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[20] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[19] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[18] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[17] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[16] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[15] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[14] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[13] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[12] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[11] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[10] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[9] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[8] in module usbh_host is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1053.109 ; gain = 566.281
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1053.109 ; gain = 566.281
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1053.109 ; gain = 566.281
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-802] inferred FSM for state register 'state_q_reg' in module 'usbh_sie'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              STATE_IDLE |                             0110 |                             0000
+         STATE_TX_TOKEN1 |                             1010 |                             0110
+         STATE_TX_TOKEN2 |                             1011 |                             0111
+         STATE_TX_TOKEN3 |                             1100 |                             1000
+            STATE_TX_IFS |                             0111 |                             1100
+            STATE_TX_PID |                             0011 |                             0010
+           STATE_TX_DATA |                             0000 |                             0011
+           STATE_TX_CRC1 |                             0001 |                             0100
+           STATE_TX_CRC2 |                             0010 |                             0101
+           STATE_RX_WAIT |                             0100 |                             1011
+           STATE_RX_DATA |                             0101 |                             0001
+           STATE_TX_WAIT |                             1000 |                             1010
+         STATE_TX_ACKNAK |                             1001 |                             1001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_q_reg' using encoding 'sequential' in module 'usbh_sie'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1053.109 ; gain = 566.281
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   16 Bit       Adders := 1     
+	   2 Input   11 Bit       Adders := 1     
+	   2 Input    9 Bit       Adders := 1     
+	   2 Input    7 Bit       Adders := 4     
+	   2 Input    6 Bit       Adders := 4     
+	   2 Input    4 Bit       Adders := 1     
++---XORs : 
+	   2 Input      8 Bit         XORs := 2     
+	   2 Input      5 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 11    
+	   4 Input      1 Bit         XORs := 9     
+	   3 Input      1 Bit         XORs := 3     
+	   5 Input      1 Bit         XORs := 1     
+	   6 Input      1 Bit         XORs := 3     
+	   7 Input      1 Bit         XORs := 1     
+	   8 Input      1 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 3     
+	               16 Bit    Registers := 4     
+	               11 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 131   
+	                7 Bit    Registers := 3     
+	                6 Bit    Registers := 4     
+	                4 Bit    Registers := 4     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 48    
++---Muxes : 
+	   9 Input   32 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 4     
+	   6 Input   16 Bit        Muxes := 1     
+	   2 Input    9 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 4     
+	   9 Input    8 Bit        Muxes := 1     
+	   5 Input    8 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 5     
+	   2 Input    6 Bit        Muxes := 4     
+	   2 Input    4 Bit        Muxes := 60    
+	   4 Input    4 Bit        Muxes := 6     
+	   3 Input    4 Bit        Muxes := 3     
+	  13 Input    4 Bit        Muxes := 5     
+	   2 Input    2 Bit        Muxes := 3     
+	   2 Input    1 Bit        Muxes := 161   
+	   9 Input    1 Bit        Muxes := 1     
+	   5 Input    1 Bit        Muxes := 7     
+	   6 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3917] design usbh_host has port cfg_bresp_o[1] driven by constant 0
+WARNING: [Synth 8-3917] design usbh_host has port cfg_bresp_o[0] driven by constant 0
+WARNING: [Synth 8-3917] design usbh_host has port cfg_rresp_o[1] driven by constant 0
+WARNING: [Synth 8-3917] design usbh_host has port cfg_rresp_o[0] driven by constant 0
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[31] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[30] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[29] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[28] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[27] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[26] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[25] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[24] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[23] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[22] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[21] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[20] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[19] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[18] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[17] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[16] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[15] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[14] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[13] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[12] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[11] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[10] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[9] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_awaddr_i[8] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_wstrb_i[3] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_wstrb_i[2] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_wstrb_i[1] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_wstrb_i[0] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[31] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[30] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[29] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[28] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[27] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[26] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[25] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[24] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[23] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[22] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[21] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[20] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[19] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[18] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[17] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[16] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[15] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[14] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[13] in module usbh_host is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cfg_araddr_i[12] in module usbh_host is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 1309.953 ; gain = 823.125
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 1318.758 ; gain = 831.930
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 1318.758 ; gain = 831.930
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 1318.777 ; gain = 831.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 1318.777 ; gain = 831.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 1318.777 ; gain = 831.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 1318.777 ; gain = 831.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 1318.777 ; gain = 831.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 1318.777 ; gain = 831.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+----------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                   | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+----------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|usbh_host   | u_sie/data_buffer_q_reg[7] | 4      | 8     | YES          | NO                 | YES               | 8      | 0       | 
++------------+----------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     8|
+|3     |LUT1   |     4|
+|4     |LUT2   |   104|
+|5     |LUT3   |    55|
+|6     |LUT4   |    83|
+|7     |LUT5   |   113|
+|8     |LUT6   |   585|
+|9     |MUXF7  |    33|
+|10    |MUXF8  |    15|
+|11    |SRL16E |     8|
+|12    |FDCE   |   278|
+|13    |FDPE   |    18|
+|14    |FDRE   |  1032|
+|15    |IBUF   |    65|
+|16    |OBUF   |    58|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------+------------+------+
+|      |Instance    |Module      |Cells |
++------+------------+------------+------+
+|1     |top         |            |  2460|
+|2     |  u_fifo_rx |usbh_fifo   |   832|
+|3     |  u_fifo_tx |usbh_fifo_0 |   817|
+|4     |  u_sie     |usbh_sie    |   480|
++------+------------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 1318.777 ; gain = 831.949
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 123 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 1318.777 ; gain = 831.949
+Synthesis Optimization Complete : Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 1318.777 ; gain = 831.949
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1330.809 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 56 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1374.684 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: c60a667b
+INFO: [Common 17-83] Releasing license: Synthesis
+30 Infos, 119 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:20 . Memory (MB): peak = 1374.684 ; gain = 890.832
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1374.684 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/CelestiCall/Hardwares/IPModules/USB 1.1/USB 1.1.runs/synth_1/usbh_host.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file usbh_host_utilization_synth.rpt -pb usbh_host_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Jul 26 12:39:23 2024...

@@ -1,0 +1,18 @@
+7/16/2024:
+The schematic and PCB have been updated and will be kept up to date in this folder. 
+
+Changes for schematic involve removals of all former peripheral chips due to space constraints, low energy budget, and generally low utilities. 
+
+Changes for PCB include 10% smaller sizes, more efficient/shorter traces, and new chip placements. 
+
+
+7/28/2024:
+Changed the SIM socket to a smaller one and fixed its direction
+
+Add another PMOD plug and change both to SMD instead of through hole to allow for more space on the bottom side of PCB
+
+Add more connection to the external MCU to allow usage of more types of MCU like ESP32s3 XIAO. 
+
+Note: I've tried to explore some more external interfaces like a Mini PCIE on the side and M.2 slots. There are chances that I might try these ideas in the future. 
+By the look of the direction of the project, I'm expecting the phone to be at least somewhat similar in performance to an iPhone 4G. The reason for this expectation
+is due to both running the same CPU except the slower speed on my device. 

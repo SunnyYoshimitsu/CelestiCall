@@ -1,0 +1,14 @@
+vhdl xil_defaultlib  \
+"../../../bd/CPU_system/ip/CPU_system_rst_ps7_0_100M_2/sim/CPU_system_rst_ps7_0_100M_2.vhd" \
+"../../../bd/CPU_system/ip/CPU_system_v_tc_0_2/sim/CPU_system_v_tc_0_2.vhd" \
+"../../../../Proto_Star.gen/sources_1/bd/CPU_system/ipshared/d57c/src/ClockGen.vhd" \
+"../../../../Proto_Star.gen/sources_1/bd/CPU_system/ipshared/d57c/src/SyncAsync.vhd" \
+"../../../../Proto_Star.gen/sources_1/bd/CPU_system/ipshared/d57c/src/SyncAsyncReset.vhd" \
+"../../../../Proto_Star.gen/sources_1/bd/CPU_system/ipshared/d57c/src/DVI_Constants.vhd" \
+"../../../../Proto_Star.gen/sources_1/bd/CPU_system/ipshared/d57c/src/OutputSERDES.vhd" \
+"../../../../Proto_Star.gen/sources_1/bd/CPU_system/ipshared/d57c/src/TMDS_Encoder.vhd" \
+"../../../../Proto_Star.gen/sources_1/bd/CPU_system/ipshared/d57c/src/rgb2dvi.vhd" \
+"../../../bd/CPU_system/ip/CPU_system_rgb2dvi_0_2/sim/CPU_system_rgb2dvi_0_2.vhd" \
+
+# Do not sort compile order
+nosort

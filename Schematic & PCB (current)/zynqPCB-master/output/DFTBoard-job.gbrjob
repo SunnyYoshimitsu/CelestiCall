@@ -1,0 +1,204 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "7.0.1"
+    },
+    "CreationDate": "2024-07-28T16:45:10-07:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "DFTBoard",
+      "GUID": "44465442-6f61-4726-942e-6b696361645f",
+      "Revision": "rev?"
+    },
+    "Size": {
+      "X": 55.955,
+      "Y": 99.78
+    },
+    "LayerNumber": 6,
+    "BoardThickness": 1.6,
+    "Finish": "None"
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.102,
+      "PadToTrack": 0.102,
+      "TrackToTrack": 0.102,
+      "MinLineWidth": 0.102,
+      "TrackToRegion": 0.102,
+      "RegionToRegion": 0.102
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.102,
+      "MinLineWidth": 0.102,
+      "TrackToRegion": 0.102,
+      "RegionToRegion": 0.102
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "DFTBoard-TOP_GND.gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DFTBoard-GND0.gbr",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DFTBoard-SIGNAL1.gbr",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DFTBoard-GND1.gbr",
+      "FileFunction": "Copper,L4,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DFTBoard-SIGNAL2.gbr",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DFTBoard-BOTTOM.gbr",
+      "FileFunction": "Copper,L6,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DFTBoard-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DFTBoard-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DFTBoard-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DFTBoard-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DFTBoard-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "DFTBoard-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "DFTBoard-Edge_Cuts.gbr",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "TOP_GND"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "Name": "TOP_GND/GND0",
+      "Notes": "Type: dielectric layer 1 (from TOP_GND to GND0)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "GND0"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.535,
+      "Material": "FR4",
+      "Name": "GND0/SIGNAL1",
+      "Notes": "Type: dielectric layer 2 (from GND0 to SIGNAL1)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "SIGNAL1"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "Name": "SIGNAL1/GND1",
+      "Notes": "Type: dielectric layer 3 (from SIGNAL1 to GND1)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "GND1"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.535,
+      "Material": "FR4",
+      "Name": "GND1/SIGNAL2",
+      "Notes": "Type: dielectric layer 4 (from GND1 to SIGNAL2)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "SIGNAL2"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "Name": "SIGNAL2/BOTTOM",
+      "Notes": "Type: dielectric layer 5 (from SIGNAL2 to BOTTOM)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "BOTTOM"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}

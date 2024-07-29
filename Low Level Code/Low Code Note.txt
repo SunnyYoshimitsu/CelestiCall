@@ -1,1 +1,0 @@
-This folder will be for lower-level codes and developments like VHDL and Embedded C for smaller MCUs. Anything that is conventionally regarded as "hardware" or "Embedded programming" will be here. 

@@ -1,0 +1,121 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 2a809615-894b-4170-bc90-f967ef99fa61)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "DT01 v3" (at 134.62 39.37 0)
+    (effects (font (size 5.0038 5.0038) (thickness 1.0008) bold) (justify left bottom))
+    (uuid 04befc1e-371c-4842-8229-24597102132f)
+  )
+
+  (sheet (at 137.16 52.07) (size 27.94 26.67) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000058508414)
+    (property "Sheetname" "Power" (at 137.16 51.2314 0)
+      (effects (font (size 1.524 1.524)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 137.16 79.4262 0)
+      (effects (font (size 1.524 1.524)) (justify left top))
+    )
+    (instances
+      (project "DFTBoard"
+        (path "/2a809615-894b-4170-bc90-f967ef99fa61" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 184.15 93.98) (size 26.67 25.4) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000058508444)
+    (property "Sheetname" "Audio" (at 184.15 93.1414 0)
+      (effects (font (size 1.524 1.524)) (justify left bottom))
+    )
+    (property "Sheetfile" "Audio.kicad_sch" (at 184.15 120.0662 0)
+      (effects (font (size 1.524 1.524)) (justify left top))
+    )
+    (instances
+      (project "DFTBoard"
+        (path "/2a809615-894b-4170-bc90-f967ef99fa61" (page "8"))
+      )
+    )
+  )
+
+  (sheet (at 90.17 93.98) (size 27.94 25.4) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005852a88e)
+    (property "Sheetname" "USB" (at 90.17 93.1541 0)
+      (effects (font (size 1.4986 1.4986)) (justify left bottom))
+    )
+    (property "Sheetfile" "USB.kicad_sch" (at 90.17 120.0662 0)
+      (effects (font (size 1.524 1.524)) (justify left top))
+    )
+    (instances
+      (project "DFTBoard"
+        (path "/2a809615-894b-4170-bc90-f967ef99fa61" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 137.16 93.98) (size 27.94 25.4) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000058818a06)
+    (property "Sheetname" "DDR3" (at 137.16 93.1414 0)
+      (effects (font (size 1.524 1.524)) (justify left bottom))
+    )
+    (property "Sheetfile" "DDR3.kicad_sch" (at 137.16 120.0662 0)
+      (effects (font (size 1.524 1.524)) (justify left top))
+    )
+    (instances
+      (project "DFTBoard"
+        (path "/2a809615-894b-4170-bc90-f967ef99fa61" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 184.15 52.07) (size 26.67 26.67) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005c7c62ae)
+    (property "Sheetname" "LCD50" (at 184.15 51.2314 0)
+      (effects (font (size 1.524 1.524)) (justify left bottom))
+    )
+    (property "Sheetfile" "LCD50.kicad_sch" (at 184.15 79.4262 0)
+      (effects (font (size 1.524 1.524)) (justify left top))
+    )
+    (instances
+      (project "DFTBoard"
+        (path "/2a809615-894b-4170-bc90-f967ef99fa61" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 137.16 134.62) (size 27.94 25.4) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005ca1abae)
+    (property "Sheetname" "Storage" (at 137.16 133.7814 0)
+      (effects (font (size 1.524 1.524)) (justify left bottom))
+    )
+    (property "Sheetfile" "Storage.kicad_sch" (at 137.16 160.7062 0)
+      (effects (font (size 1.524 1.524)) (justify left top))
+    )
+    (instances
+      (project "DFTBoard"
+        (path "/2a809615-894b-4170-bc90-f967ef99fa61" (page "6"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Jul 26 12:39:31 2024
+# Process ID: 16100
+# Current directory: D:/CelestiCall/Hardwares/IPModules/USB 1.1/USB 1.1.runs/impl_1
+# Command line: vivado.exe -log usbh_host.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source usbh_host.tcl -notrace
+# Log file: D:/CelestiCall/Hardwares/IPModules/USB 1.1/USB 1.1.runs/impl_1/usbh_host.vdi
+# Journal file: D:/CelestiCall/Hardwares/IPModules/USB 1.1/USB 1.1.runs/impl_1\vivado.jou
+# Running On: DESKTOP-I4589KT, OS: Windows, CPU Frequency: 3693 MHz, CPU Physical cores: 12, Host memory: 34246 MB
+#-----------------------------------------------------------
+source usbh_host.tcl -notrace

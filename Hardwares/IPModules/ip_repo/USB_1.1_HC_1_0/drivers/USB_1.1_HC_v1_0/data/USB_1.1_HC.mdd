@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER USB_1.1_HC
+	OPTION supported_peripherals = (USB_1.1_HC);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = USB_1.1_HC;
+END DRIVER
