@@ -1,3 +1,0 @@
-D:/CelestiCall/Hardwares/IPModules/HDMI_Test/platform/zynq_fsbl/build/CMakeFiles/fsbl.elf.dir
-D:/CelestiCall/Hardwares/IPModules/HDMI_Test/platform/zynq_fsbl/build/CMakeFiles/edit_cache.dir
-D:/CelestiCall/Hardwares/IPModules/HDMI_Test/platform/zynq_fsbl/build/CMakeFiles/rebuild_cache.dir

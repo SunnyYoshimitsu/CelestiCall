@@ -1,129 +1,32 @@
 #-----------------------------------------------------------
-# Vivado v2023.2 (64-bit)
-# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
-# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
-# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Sat Jun 29 18:08:39 2024
-# Process ID: 33964
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu Aug 22 11:11:46 2024
+# Process ID: 30280
 # Current directory: D:/CelestiCall/Hardwares/IPModules/Proto_Star
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23000 D:\CelestiCall\Hardwares\IPModules\Proto_Star\Proto_Star.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1936 D:\CelestiCall\Hardwares\IPModules\Proto_Star\Proto_Star.xpr
 # Log file: D:/CelestiCall/Hardwares/IPModules/Proto_Star/vivado.log
 # Journal file: D:/CelestiCall/Hardwares/IPModules/Proto_Star\vivado.jou
-# Running On: DESKTOP-I4589KT, OS: Windows, CPU Frequency: 3693 MHz, CPU Physical cores: 12, Host memory: 34246 MB
+# Running On        :DESKTOP-I4589KT
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :AMD Ryzen 5 5600X 6-Core Processor             
+# CPU Frequency     :3693 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :34246 MB
+# Swap memory       :2147 MB
+# Total Virtual     :36394 MB
+# Available Virtual :18424 MB
 #-----------------------------------------------------------
 start_gui
 open_project D:/CelestiCall/Hardwares/IPModules/Proto_Star/Proto_Star.xpr
 update_compile_order -fileset sources_1
 export_ip_user_files -of_objects  [get_files D:/CelestiCall/Hardwares/IPModules/Proto_Star/Proto_Star.gen/sources_1/bd/CPU_system/hdl/CPU_system_wrapper.v] -no_script -reset -force -quiet
 remove_files  D:/CelestiCall/Hardwares/IPModules/Proto_Star/Proto_Star.gen/sources_1/bd/CPU_system/hdl/CPU_system_wrapper.v
-open_bd_design {D:/CelestiCall/Hardwares/IPModules/Proto_Star/Proto_Star.srcs/sources_1/bd/CPU_system/CPU_system.bd}
-startgroup
-delete_bd_objs [get_bd_intf_nets v_tpg_0_m_axis_video] [get_bd_intf_nets v_tc_0_vtiming_out] [get_bd_intf_nets v_axi4s_vid_out_0_vid_io_out] [get_bd_intf_nets processing_system7_0_M_AXI_GP0] [get_bd_intf_nets processing_system7_0_FIXED_IO] [get_bd_intf_nets ps7_0_axi_periph_M00_AXI] [get_bd_intf_nets processing_system7_0_DDR]
-delete_bd_objs [get_bd_nets rgb2dvi_0_TMDS_Clk_p] [get_bd_nets processing_system7_0_FCLK_RESET0_N] [get_bd_nets rst_ps7_0_100M_peripheral_aresetn] [get_bd_nets rgb2dvi_0_TMDS_Data_n] [get_bd_nets processing_system7_0_FCLK_CLK0] [get_bd_nets processing_system7_0_FCLK_CLK1] [get_bd_nets rgb2dvi_0_TMDS_Data_p] [get_bd_nets v_axi4s_vid_out_0_vtg_ce] [get_bd_nets rgb2dvi_0_TMDS_Clk_n]
-delete_bd_objs [get_bd_cells ps7_0_axi_periph]
-delete_bd_objs [get_bd_intf_ports DDR] [get_bd_intf_ports FIXED_IO]
-delete_bd_objs [get_bd_cells v_tpg_0] [get_bd_cells processing_system7_0] [get_bd_cells rgb2dvi_0] [get_bd_cells rst_ps7_0_100M] [get_bd_cells v_axi4s_vid_out_0] [get_bd_cells v_tc_0]
-delete_bd_objs [get_bd_ports TMDS_Clk_n_0] [get_bd_ports TMDS_Clk_p_0] [get_bd_ports TMDS_Data_n_0] [get_bd_ports TMDS_Data_p_0]
-endgroup
-startgroup
-create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.5 processing_system7_0
-endgroup
-undo
-undo
-save_bd_design
-reset_run synth_1
-launch_runs synth_1 -jobs 12
-wait_on_run synth_1
-startgroup
-delete_bd_objs [get_bd_intf_nets v_tpg_0_m_axis_video] [get_bd_intf_nets v_tc_0_vtiming_out] [get_bd_intf_nets v_axi4s_vid_out_0_vid_io_out] [get_bd_intf_nets processing_system7_0_M_AXI_GP0] [get_bd_intf_nets processing_system7_0_FIXED_IO] [get_bd_intf_nets ps7_0_axi_periph_M00_AXI] [get_bd_intf_nets processing_system7_0_DDR]
-delete_bd_objs [get_bd_nets rgb2dvi_0_TMDS_Clk_p] [get_bd_nets processing_system7_0_FCLK_RESET0_N] [get_bd_nets rst_ps7_0_100M_peripheral_aresetn] [get_bd_nets rgb2dvi_0_TMDS_Data_n] [get_bd_nets processing_system7_0_FCLK_CLK0] [get_bd_nets processing_system7_0_FCLK_CLK1] [get_bd_nets rgb2dvi_0_TMDS_Data_p] [get_bd_nets v_axi4s_vid_out_0_vtg_ce] [get_bd_nets rgb2dvi_0_TMDS_Clk_n]
-delete_bd_objs [get_bd_cells ps7_0_axi_periph]
-delete_bd_objs [get_bd_intf_ports DDR] [get_bd_intf_ports FIXED_IO]
-delete_bd_objs [get_bd_cells v_tpg_0] [get_bd_cells processing_system7_0] [get_bd_cells rgb2dvi_0] [get_bd_cells rst_ps7_0_100M] [get_bd_cells v_axi4s_vid_out_0] [get_bd_cells v_tc_0]
-delete_bd_objs [get_bd_ports TMDS_Clk_n_0] [get_bd_ports TMDS_Clk_p_0] [get_bd_ports TMDS_Data_n_0] [get_bd_ports TMDS_Data_p_0]
-endgroup
-startgroup
-create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.5 processing_system7_0
-endgroup
-set_property -dict [list \
-  CONFIG.PCW_EN_CLK1_PORT {1} \
-  CONFIG.PCW_FPGA1_PERIPHERAL_FREQMHZ {40} \
-] [get_bd_cells processing_system7_0]
-apply_bd_automation -rule xilinx.com:bd_rule:processing_system7 -config {make_external "FIXED_IO, DDR" apply_board_preset "1" Master "Disable" Slave "Disable" }  [get_bd_cells processing_system7_0]
-startgroup
-create_bd_cell -type ip -vlnv xilinx.com:ip:v_tpg:8.2 v_tpg_0
-endgroup
-set_property location {2 504 -68} [get_bd_cells v_tpg_0]
-apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {Auto} Clk_slave {Auto} Clk_xbar {Auto} Master {/processing_system7_0/M_AXI_GP0} Slave {/v_tpg_0/s_axi_CTRL} ddr_seg {Auto} intc_ip {New AXI Interconnect} master_apm {0}}  [get_bd_intf_pins v_tpg_0/s_axi_CTRL]
-startgroup
-set_property -dict [list \
-  CONFIG.PCW_EN_CLK1_PORT {1} \
-  CONFIG.PCW_FPGA1_PERIPHERAL_FREQMHZ {40} \
-  CONFIG.PCW_QSPI_GRP_SINGLE_SS_ENABLE {1} \
-] [get_bd_cells processing_system7_0]
-endgroup
-startgroup
-create_bd_cell -type ip -vlnv xilinx.com:ip:v_tc:6.2 v_tc_0
-endgroup
-set_property location {2 440 209} [get_bd_cells v_tc_0]
-set_property -dict [list \
-  CONFIG.HAS_AXI4_LITE {false} \
-  CONFIG.enable_detection {false} \
-] [get_bd_cells v_tc_0]
-set_property CONFIG.VIDEO_MODE {480p} [get_bd_cells v_tc_0]
-connect_bd_net [get_bd_pins v_tc_0/clk] [get_bd_pins processing_system7_0/FCLK_CLK1]
-startgroup
-create_bd_cell -type ip -vlnv xilinx.com:ip:v_axi4s_vid_out:4.0 v_axi4s_vid_out_0
-endgroup
-set_property location {3 943 209} [get_bd_cells v_axi4s_vid_out_0]
-set_property CONFIG.C_HAS_ASYNC_CLK {1} [get_bd_cells v_axi4s_vid_out_0]
-connect_bd_intf_net [get_bd_intf_pins *tpg*/m_axis_video] [get_bd_intf_pins *axi4s_vid_out_*/video_in]
-connect_bd_intf_net [get_bd_intf_pins *axi4s_vid_out*/vtiming_in] [get_bd_intf_pins v_tc*/vtiming_out]
-connect_bd_net [get_bd_pins v_axi4s_vid_out*/aclk] [get_bd_pins processing_system7_*/FCLK_CLK0]
-connect_bd_net [get_bd_pins v_tpg*/ap_rst_n] [get_bd_pins *axi4s_vid_out_*/aresetn]
-connect_bd_net [get_bd_pins v_axi4s_vid_out*/vtg_ce] [get_bd_pins v_tc*/gen_clken]
-connect_bd_net [get_bd_pins v_axi4s_vid_out*/vid_io_out_clk] [get_bd_pins processing_system7_*/FCLK_CLK1]
-startgroup
-create_bd_cell -type ip -vlnv digilentinc.com:ip:rgb2dvi:1.4 rgb2dvi_0
-endgroup
-set_property location {4 1303 210} [get_bd_cells rgb2dvi_0]
-set_property CONFIG.kClkRange {3} [get_bd_cells rgb2dvi_0]
-connect_bd_intf_net [get_bd_intf_pins v_axi4s_vid_out_0/vid_io_out] [get_bd_intf_pins rgb2dvi_0/RGB]
-connect_bd_net [get_bd_pins rgb2dvi_0/PixelClk] [get_bd_pins processing_system7_0/FCLK_CLK1]
-startgroup
-make_bd_pins_external  [get_bd_pins rgb2dvi_0/TMDS_Clk_p]
-endgroup
-startgroup
-make_bd_pins_external  [get_bd_pins rgb2dvi_0/TMDS_Clk_n]
-endgroup
-startgroup
-make_bd_pins_external  [get_bd_pins rgb2dvi_0/TMDS_Data_p]
-endgroup
-startgroup
-make_bd_pins_external  [get_bd_pins rgb2dvi_0/TMDS_Data_n]
-endgroup
-validate_bd_design
-generate_target all [get_files  D:/CelestiCall/Hardwares/IPModules/Proto_Star/Proto_Star.srcs/sources_1/bd/CPU_system/CPU_system.bd]
-catch { config_ip_cache -export [get_ips -all CPU_system_v_tpg_0_1] }
-catch { config_ip_cache -export [get_ips -all CPU_system_auto_pc_1] }
-catch { config_ip_cache -export [get_ips -all CPU_system_rst_ps7_0_100M_2] }
-catch { config_ip_cache -export [get_ips -all CPU_system_v_tc_0_2] }
-catch { config_ip_cache -export [get_ips -all CPU_system_v_axi4s_vid_out_0_2] }
-catch { config_ip_cache -export [get_ips -all CPU_system_rgb2dvi_0_2] }
-export_ip_user_files -of_objects [get_files D:/CelestiCall/Hardwares/IPModules/Proto_Star/Proto_Star.srcs/sources_1/bd/CPU_system/CPU_system.bd] -no_script -sync -force -quiet
-create_ip_run [get_files -of_objects [get_fileset sources_1] D:/CelestiCall/Hardwares/IPModules/Proto_Star/Proto_Star.srcs/sources_1/bd/CPU_system/CPU_system.bd]
-launch_runs CPU_system_processing_system7_0_3_synth_1 CPU_system_v_tc_0_2_synth_1 -jobs 12
-wait_on_run CPU_system_processing_system7_0_3_synth_1
-wait_on_run CPU_system_v_tc_0_2_synth_1
-export_simulation -of_objects [get_files D:/CelestiCall/Hardwares/IPModules/Proto_Star/Proto_Star.srcs/sources_1/bd/CPU_system/CPU_system.bd] -directory D:/CelestiCall/Hardwares/IPModules/Proto_Star/Proto_Star.ip_user_files/sim_scripts -ip_user_files_dir D:/CelestiCall/Hardwares/IPModules/Proto_Star/Proto_Star.ip_user_files -ipstatic_source_dir D:/CelestiCall/Hardwares/IPModules/Proto_Star/Proto_Star.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/CelestiCall/Hardwares/IPModules/Proto_Star/Proto_Star.cache/compile_simlib/modelsim} {questa=D:/CelestiCall/Hardwares/IPModules/Proto_Star/Proto_Star.cache/compile_simlib/questa} {riviera=D:/CelestiCall/Hardwares/IPModules/Proto_Star/Proto_Star.cache/compile_simlib/riviera} {activehdl=D:/CelestiCall/Hardwares/IPModules/Proto_Star/Proto_Star.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
-make_wrapper -files [get_files D:/CelestiCall/Hardwares/IPModules/Proto_Star/Proto_Star.srcs/sources_1/bd/CPU_system/CPU_system.bd] -top
-add_files -norecurse d:/CelestiCall/Hardwares/IPModules/Proto_Star/Proto_Star.gen/sources_1/bd/CPU_system/hdl/CPU_system_wrapper.v
-make_wrapper -files [get_files D:/CelestiCall/Hardwares/IPModules/Proto_Star/Proto_Star.srcs/sources_1/bd/CPU_system/CPU_system.bd] -top
-reset_run synth_1
-launch_runs synth_1 -jobs 12
-wait_on_run synth_1
-launch_runs impl_1 -jobs 12
-wait_on_run impl_1
-launch_runs impl_1 -to_step write_bitstream -jobs 12
-wait_on_run impl_1
-write_hw_platform -fixed -include_bit -force -file D:/CelestiCall/Hardwares/IPModules/Proto_Star/CPU_system_wrapper.xsa
+export_ip_user_files -of_objects  [get_files D:/CelestiCall/Hardwares/IPModules/Proto_Star/Proto_Star.srcs/sources_1/bd/CPU_system/CPU_system.bd] -no_script -reset -force -quiet
+remove_files  D:/CelestiCall/Hardwares/IPModules/Proto_Star/Proto_Star.srcs/sources_1/bd/CPU_system/CPU_system.bd
+file delete -force D:/CelestiCall/Hardwares/IPModules/Proto_Star/Proto_Star.srcs/sources_1/bd/CPU_system
+file delete -force d:/CelestiCall/Hardwares/IPModules/Proto_Star/Proto_Star.gen/sources_1/bd/CPU_system

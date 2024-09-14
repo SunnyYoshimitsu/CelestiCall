@@ -1,0 +1,1148 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sat Aug 17 20:14:42 2024
+# Process ID: 30328
+# Current directory: D:/CelestiCall/Hardwares/IPModules/VGA-GPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent32940 D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.xpr
+# Log file: D:/CelestiCall/Hardwares/IPModules/VGA-GPU/vivado.log
+# Journal file: D:/CelestiCall/Hardwares/IPModules/VGA-GPU\vivado.jou
+# Running On        :DESKTOP-I4589KT
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :AMD Ryzen 5 5600X 6-Core Processor             
+# CPU Frequency     :3693 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :34246 MB
+# Swap memory       :2147 MB
+# Total Virtual     :36394 MB
+# Available Virtual :13996 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU' since last save.
+WARNING: [Project 1-312] File not found as 'D:/CelestiCall/Hardwares/IPModules/Nexys-A7-100T-Master.xdc'; using path 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/Nexys-A7-100T-Master.xdc' instead.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'clkgem.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+clkgem_clk_wiz_0_0
+
+INFO: [Project 1-230] Project 'VGA-GPU.xpr' upgraded for this version of Vivado.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1632.840 ; gain = 337.848
+update_compile_order -fileset sources_1
+WARNING: [Vivado 12-4173] The following IPs are not generated and locked, no out-of-context (OOC) run will be created. Please select 'Report IP Status' from 'Tools/Report' or run Tcl command 'report_ip_status' for more information.
+D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/bd/clkgem/clkgem.bd
+
+synth_design -top VGA_Phy -part xc7a100tcsg324-1 -lint 
+Command: synth_design -top VGA_Phy -part xc7a100tcsg324-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 15524
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 2095.055 ; gain = 411.848
+---------------------------------------------------------------------------------
+Clean up Linter database...
+WARNING: [Synth 8-11121] redeclaration of ANSI port 'hsync' is not allowed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:36]
+WARNING: [Synth 8-11121] redeclaration of ANSI port 'vsync' is not allowed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:36]
+INFO: [Synth 8-6157] synthesizing module 'VGA_Phy' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clkgem_wrapper' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.gen/sources_1/bd/clkgem/hdl/clkgem_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'clkgem' [d:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.gen/sources_1/bd/clkgem/synth/clkgem.v:13]
+INFO: [Synth 8-6157] synthesizing module 'clkgem_clk_wiz_0_0' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/.Xil/Vivado-30328-DESKTOP-I4589KT/realtime/clkgem_clk_wiz_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'clkgem_clk_wiz_0_0' (1#1) [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/.Xil/Vivado-30328-DESKTOP-I4589KT/realtime/clkgem_clk_wiz_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'locked' of module 'clkgem_clk_wiz_0_0' is unconnected for instance 'clk_wiz_0' [d:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.gen/sources_1/bd/clkgem/synth/clkgem.v:25]
+WARNING: [Synth 8-7023] instance 'clk_wiz_0' of module 'clkgem_clk_wiz_0_0' has 4 connections declared, but only 3 given [d:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.gen/sources_1/bd/clkgem/synth/clkgem.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'clkgem' (2#1) [d:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.gen/sources_1/bd/clkgem/synth/clkgem.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'clkgem_wrapper' (3#1) [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.gen/sources_1/bd/clkgem/hdl/clkgem_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'frame_counter' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:35]
+ERROR: [Synth 8-434] mixed level sensitive and edge triggered event controls are not supported for synthesis [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:42]
+ERROR: [Synth 8-6156] failed synthesizing module 'frame_counter' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:35]
+ERROR: [Synth 8-6156] failed synthesizing module 'VGA_Phy' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:23]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 2210.633 ; gain = 527.426
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+13 Infos, 4 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 2210.633 ; gain = 527.426
+ERROR: [Common 17-39] 'synth_design' failed due to earlier errors.
+WARNING: [Vivado 12-4173] The following IPs are not generated and locked, no out-of-context (OOC) run will be created. Please select 'Report IP Status' from 'Tools/Report' or run Tcl command 'report_ip_status' for more information.
+D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/bd/clkgem/clkgem.bd
+
+synth_design -top VGA_Phy -part xc7a100tcsg324-1 -lint 
+Command: synth_design -top VGA_Phy -part xc7a100tcsg324-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2210.633 ; gain = 0.000
+---------------------------------------------------------------------------------
+Clean up Linter database...
+WARNING: [Synth 8-11121] redeclaration of ANSI port 'hsync' is not allowed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:36]
+WARNING: [Synth 8-11121] redeclaration of ANSI port 'vsync' is not allowed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:36]
+INFO: [Synth 8-6157] synthesizing module 'VGA_Phy' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clkgem_wrapper' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.gen/sources_1/bd/clkgem/hdl/clkgem_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'clkgem' [d:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.gen/sources_1/bd/clkgem/synth/clkgem.v:13]
+INFO: [Synth 8-6157] synthesizing module 'clkgem_clk_wiz_0_0' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/.Xil/Vivado-30328-DESKTOP-I4589KT/realtime/clkgem_clk_wiz_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'clkgem_clk_wiz_0_0' (1#1) [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/.Xil/Vivado-30328-DESKTOP-I4589KT/realtime/clkgem_clk_wiz_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'locked' of module 'clkgem_clk_wiz_0_0' is unconnected for instance 'clk_wiz_0' [d:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.gen/sources_1/bd/clkgem/synth/clkgem.v:25]
+WARNING: [Synth 8-7023] instance 'clk_wiz_0' of module 'clkgem_clk_wiz_0_0' has 4 connections declared, but only 3 given [d:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.gen/sources_1/bd/clkgem/synth/clkgem.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'clkgem' (2#1) [d:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.gen/sources_1/bd/clkgem/synth/clkgem.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'clkgem_wrapper' (3#1) [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.gen/sources_1/bd/clkgem/hdl/clkgem_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'frame_counter' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:35]
+ERROR: [Synth 8-434] mixed level sensitive and edge triggered event controls are not supported for synthesis [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:42]
+ERROR: [Synth 8-6156] failed synthesizing module 'frame_counter' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:35]
+ERROR: [Synth 8-6156] failed synthesizing module 'VGA_Phy' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:23]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 2227.863 ; gain = 17.230
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+11 Infos, 4 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 2227.863 ; gain = 17.230
+ERROR: [Common 17-39] 'synth_design' failed due to earlier errors.
+WARNING: [Vivado 12-4173] The following IPs are not generated and locked, no out-of-context (OOC) run will be created. Please select 'Report IP Status' from 'Tools/Report' or run Tcl command 'report_ip_status' for more information.
+D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/bd/clkgem/clkgem.bd
+
+synth_design -top VGA_Phy -part xc7a100tcsg324-1 -lint 
+Command: synth_design -top VGA_Phy -part xc7a100tcsg324-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2243.207 ; gain = 15.344
+---------------------------------------------------------------------------------
+Clean up Linter database...
+WARNING: [Synth 8-11121] redeclaration of ANSI port 'hsync' is not allowed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:36]
+WARNING: [Synth 8-11121] redeclaration of ANSI port 'vsync' is not allowed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:36]
+INFO: [Synth 8-6157] synthesizing module 'VGA_Phy' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clkgem_wrapper' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.gen/sources_1/bd/clkgem/hdl/clkgem_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'clkgem' [d:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.gen/sources_1/bd/clkgem/synth/clkgem.v:13]
+INFO: [Synth 8-6157] synthesizing module 'clkgem_clk_wiz_0_0' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/.Xil/Vivado-30328-DESKTOP-I4589KT/realtime/clkgem_clk_wiz_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'clkgem_clk_wiz_0_0' (1#1) [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/.Xil/Vivado-30328-DESKTOP-I4589KT/realtime/clkgem_clk_wiz_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'locked' of module 'clkgem_clk_wiz_0_0' is unconnected for instance 'clk_wiz_0' [d:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.gen/sources_1/bd/clkgem/synth/clkgem.v:25]
+WARNING: [Synth 8-7023] instance 'clk_wiz_0' of module 'clkgem_clk_wiz_0_0' has 4 connections declared, but only 3 given [d:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.gen/sources_1/bd/clkgem/synth/clkgem.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'clkgem' (2#1) [d:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.gen/sources_1/bd/clkgem/synth/clkgem.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'clkgem_wrapper' (3#1) [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.gen/sources_1/bd/clkgem/hdl/clkgem_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'frame_counter' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:35]
+WARNING: [Synth 8-6090] variable 'hsync' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:51]
+WARNING: [Synth 8-6090] variable 'vsync' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:52]
+WARNING: [Synth 8-6090] variable 'hor' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:53]
+WARNING: [Synth 8-6090] variable 'vert' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:54]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:62]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:74]
+INFO: [Synth 8-6155] done synthesizing module 'frame_counter' (4#1) [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:35]
+WARNING: [Synth 8-3848] Net RGB in module/entity VGA_Phy does not have driver. [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'VGA_Phy' (5#1) [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:23]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2258.234 ; gain = 30.371
+---------------------------------------------------------------------------------
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sat Aug 17 21:14:24 2024
+| Host         : DESKTOP-I4589KT running 64-bit major release  (build 9200)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+
+1. Summary
+----------
+
++-----------+----------+--------------+----------+
+| Rule ID   | Severity | # Violations | # Waived |
++-----------+----------+--------------+----------+
+| ASSIGN-6  | WARNING  | 1            | 0        |
+| ASSIGN-9  | WARNING  | 1            | 0        |
+| ASSIGN-10 | WARNING  | 3            | 0        |
+| ASSIGN-11 | WARNING  | 4            | 0        |
++-----------+----------+--------------+----------+
+
+
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'blank' was assigned but not read. 
+RTL Name 'blank', Hierarchy 'VGA_Phy', File 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v', Line 25.
+WARNING: [Synth 37-126] [ASSIGN-9]Some bits in IO 'RGB' are not set. First unset bit index is 0. 
+RTL Name 'RGB', Hierarchy 'VGA_Phy', File 'VGA Phy.v', Line 23.
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'B' are not read. First unread bit index is 0. 
+RTL Name 'B', Hierarchy 'VGA_Phy', File 'VGA Phy.v', Line 23.
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'G' are not read. First unread bit index is 0. 
+RTL Name 'G', Hierarchy 'VGA_Phy', File 'VGA Phy.v', Line 23.
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'R' are not read. First unread bit index is 0. 
+RTL Name 'R', Hierarchy 'VGA_Phy', File 'VGA Phy.v', Line 23.
+WARNING: [Synth 37-118] [ASSIGN-11]Mixed blocking and non-blocking assign on 'hor'. 
+Hierarchy 'frame_counter', File 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v', Line 53.
+WARNING: [Synth 37-118] [ASSIGN-11]Mixed blocking and non-blocking assign on 'hsync'. 
+Hierarchy 'frame_counter', File 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v', Line 51.
+WARNING: [Synth 37-118] [ASSIGN-11]Mixed blocking and non-blocking assign on 'vert'. 
+Hierarchy 'frame_counter', File 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v', Line 54.
+WARNING: [Synth 37-118] [ASSIGN-11]Mixed blocking and non-blocking assign on 'vsync'. 
+Hierarchy 'frame_counter', File 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v', Line 52.
+INFO: [Synth 37-85] Total of 9 linter message(s) generated.
+INFO: [Synth 37-45] Linter Run Finished!
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2258.234 ; gain = 30.371
+INFO: [Common 17-83] Releasing license: Synthesis
+17 Infos, 18 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2258.234 ; gain = 30.371
+update_compile_order -fileset sim_1
+WARNING: [Vivado 12-4173] The following IPs are not generated and locked, no out-of-context (OOC) run will be created. Please select 'Report IP Status' from 'Tools/Report' or run Tcl command 'report_ip_status' for more information.
+D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/bd/clkgem/clkgem.bd
+
+synth_design -top VGA_Phy -part xc7a100tcsg324-1 -lint 
+Command: synth_design -top VGA_Phy -part xc7a100tcsg324-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2258.234 ; gain = 0.000
+---------------------------------------------------------------------------------
+Clean up Linter database...
+WARNING: [Synth 8-11121] redeclaration of ANSI port 'hsync' is not allowed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:36]
+WARNING: [Synth 8-11121] redeclaration of ANSI port 'vsync' is not allowed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:36]
+WARNING: [Synth 8-11121] redeclaration of ANSI port 'hor' is not allowed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:37]
+WARNING: [Synth 8-11121] redeclaration of ANSI port 'next_hor' is not allowed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:37]
+WARNING: [Synth 8-11121] redeclaration of ANSI port 'vert' is not allowed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:38]
+WARNING: [Synth 8-11121] redeclaration of ANSI port 'next_vert' is not allowed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:38]
+INFO: [Synth 8-6157] synthesizing module 'VGA_Phy' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clkgem_wrapper' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.gen/sources_1/bd/clkgem/hdl/clkgem_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'clkgem' [d:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.gen/sources_1/bd/clkgem/synth/clkgem.v:13]
+INFO: [Synth 8-6157] synthesizing module 'clkgem_clk_wiz_0_0' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/.Xil/Vivado-30328-DESKTOP-I4589KT/realtime/clkgem_clk_wiz_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'clkgem_clk_wiz_0_0' (1#1) [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/.Xil/Vivado-30328-DESKTOP-I4589KT/realtime/clkgem_clk_wiz_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'locked' of module 'clkgem_clk_wiz_0_0' is unconnected for instance 'clk_wiz_0' [d:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.gen/sources_1/bd/clkgem/synth/clkgem.v:25]
+WARNING: [Synth 8-7023] instance 'clk_wiz_0' of module 'clkgem_clk_wiz_0_0' has 4 connections declared, but only 3 given [d:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.gen/sources_1/bd/clkgem/synth/clkgem.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'clkgem' (2#1) [d:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.gen/sources_1/bd/clkgem/synth/clkgem.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'clkgem_wrapper' (3#1) [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.gen/sources_1/bd/clkgem/hdl/clkgem_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'sync' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:35]
+WARNING: [Synth 8-6090] variable 'hsync' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:52]
+WARNING: [Synth 8-6090] variable 'vsync' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:53]
+WARNING: [Synth 8-6090] variable 'hor' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:54]
+WARNING: [Synth 8-6090] variable 'vert' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:55]
+WARNING: [Synth 8-151] case item 32'b00000000000000000000010000100000 is unreachable [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:70]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:63]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:75]
+WARNING: [Synth 8-3848] Net next_vert in module/entity sync does not have driver. [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'sync' (4#1) [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:35]
+WARNING: [Synth 8-7071] port 'hor' of module 'sync' is unconnected for instance 'synk' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:29]
+WARNING: [Synth 8-7071] port 'next_hor' of module 'sync' is unconnected for instance 'synk' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:29]
+WARNING: [Synth 8-7071] port 'vert' of module 'sync' is unconnected for instance 'synk' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:29]
+WARNING: [Synth 8-7071] port 'next_vert' of module 'sync' is unconnected for instance 'synk' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:29]
+WARNING: [Synth 8-7023] instance 'synk' of module 'sync' has 9 connections declared, but only 5 given [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:29]
+WARNING: [Synth 8-3848] Net RGB in module/entity VGA_Phy does not have driver. [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'VGA_Phy' (5#1) [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:23]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2258.234 ; gain = 0.000
+---------------------------------------------------------------------------------
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sat Aug 17 21:20:14 2024
+| Host         : DESKTOP-I4589KT running 64-bit major release  (build 9200)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+
+1. Summary
+----------
+
++-----------+----------+--------------+----------+
+| Rule ID   | Severity | # Violations | # Waived |
++-----------+----------+--------------+----------+
+| ASSIGN-6  | WARNING  | 1            | 0        |
+| ASSIGN-9  | WARNING  | 3            | 0        |
+| ASSIGN-10 | WARNING  | 3            | 0        |
+| ASSIGN-11 | WARNING  | 4            | 0        |
++-----------+----------+--------------+----------+
+
+
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'blank' was assigned but not read. 
+RTL Name 'blank', Hierarchy 'VGA_Phy', File 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v', Line 25.
+WARNING: [Synth 37-126] [ASSIGN-9]Some bits in IO 'RGB' are not set. First unset bit index is 0. 
+RTL Name 'RGB', Hierarchy 'VGA_Phy', File 'VGA Phy.v', Line 23.
+WARNING: [Synth 37-126] [ASSIGN-9]Some bits in IO 'next_vert' are not set. First unset bit index is 0. 
+RTL Name 'next_vert', Hierarchy 'sync', File 'VGA Phy.v', Line 35.
+WARNING: [Synth 37-126] [ASSIGN-9]Some bits in IO 'vert' are not set. First unset bit index is 0. 
+RTL Name 'vert', Hierarchy 'sync', File 'VGA Phy.v', Line 35.
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'B' are not read. First unread bit index is 0. 
+RTL Name 'B', Hierarchy 'VGA_Phy', File 'VGA Phy.v', Line 23.
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'G' are not read. First unread bit index is 0. 
+RTL Name 'G', Hierarchy 'VGA_Phy', File 'VGA Phy.v', Line 23.
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'R' are not read. First unread bit index is 0. 
+RTL Name 'R', Hierarchy 'VGA_Phy', File 'VGA Phy.v', Line 23.
+WARNING: [Synth 37-118] [ASSIGN-11]Mixed blocking and non-blocking assign on 'hor'. 
+Hierarchy 'sync', File 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v', Line 54.
+WARNING: [Synth 37-118] [ASSIGN-11]Mixed blocking and non-blocking assign on 'hsync'. 
+Hierarchy 'sync', File 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v', Line 52.
+WARNING: [Synth 37-118] [ASSIGN-11]Mixed blocking and non-blocking assign on 'vert'. 
+Hierarchy 'sync', File 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v', Line 55.
+WARNING: [Synth 37-118] [ASSIGN-11]Mixed blocking and non-blocking assign on 'vsync'. 
+Hierarchy 'sync', File 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v', Line 53.
+INFO: [Synth 37-85] Total of 11 linter message(s) generated.
+INFO: [Synth 37-45] Linter Run Finished!
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2258.234 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Synthesis
+17 Infos, 31 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2258.234 ; gain = 0.000
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sim_1/new/synctest.v w ]
+add_files -fileset sim_1 D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sim_1/new/synctest.v
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'VGA_Phy'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2024.1/data/xsim/xsim.ini' copied to run dir:'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'VGA_Phy' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj VGA_Phy_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.ip_user_files/bd/clkgem/ip/clkgem_clk_wiz_0_0/clkgem_clk_wiz_0_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clkgem_clk_wiz_0_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.ip_user_files/bd/clkgem/ip/clkgem_clk_wiz_0_0/clkgem_clk_wiz_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clkgem_clk_wiz_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.ip_user_files/bd/clkgem/sim/clkgem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clkgem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.gen/sources_1/bd/clkgem/hdl/clkgem_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clkgem_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VGA_Phy
+INFO: [VRFC 10-311] analyzing module sync
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'hsync' is not allowed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:36]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'hor' is not allowed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:37]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'vert' is not allowed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:38]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot VGA_Phy_behav xil_defaultlib.VGA_Phy xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot VGA_Phy_behav xil_defaultlib.VGA_Phy xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.PLLE2_ADV(CLKFBOUT_MULT=42,CLKIN...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clkgem_clk_wiz_0_0_clk_wiz
+Compiling module xil_defaultlib.clkgem_clk_wiz_0_0
+Compiling module xil_defaultlib.clkgem
+Compiling module xil_defaultlib.clkgem_wrapper
+Compiling module xil_defaultlib.sync
+Compiling module xil_defaultlib.VGA_Phy
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot VGA_Phy_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "VGA_Phy_behav -key {Behavioral:sim_1:Functional:VGA_Phy} -tclbatch {VGA_Phy.tcl} -protoinst "protoinst_files/clkgem.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/clkgem.protoinst
+Time resolution is 1 ps
+source VGA_Phy.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 2282.949 ; gain = 24.715
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'VGA_Phy_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 2282.949 ; gain = 24.715
+add_force {/VGA_Phy/synk/clk} -radix bin {1 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/VGA_Phy/clk1/clkgem_i/clk_wiz_0/clk_in1} -radix bin {1 0ns} {0 50000ps} -repeat_every 100000ps
+export_ip_user_files -of_objects  [get_files D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sim_1/new/synctest.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sim_1/new/synctest.v
+file delete -force D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sim_1/new/synctest.v
+move_files -fileset sim_1 [get_files  {{D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v}}]
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sim_1/new/synctest.v w ]
+add_files -fileset sim_1 D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sim_1/new/synctest.v
+update_compile_order -fileset sim_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sim_1\new\synctest.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA Phy.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sim_1\new\synctest.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sim_1\new\synctest.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sim_1\new\synctest.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA Phy.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sim_1\new\synctest.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sim_1\new\synctest.v:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'VGA_Phy'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2024.1/data/xsim/xsim.ini' copied to run dir:'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'VGA_Phy' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.sim/sim_1/behav/xsim'
+ERROR: [Common 17-180] Spawn failed: No error
+"xvlog --incr --relax -prj VGA_Phy_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.ip_user_files/bd/clkgem/ip/clkgem_clk_wiz_0_0/clkgem_clk_wiz_0_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clkgem_clk_wiz_0_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.ip_user_files/bd/clkgem/ip/clkgem_clk_wiz_0_0/clkgem_clk_wiz_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clkgem_clk_wiz_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.ip_user_files/bd/clkgem/sim/clkgem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clkgem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.gen/sources_1/bd/clkgem/hdl/clkgem_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clkgem_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VGA_Phy
+INFO: [VRFC 10-311] analyzing module sync
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'hsync' is not allowed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v:36]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.sim/sim_1/behav/xsim/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'VGA_Phy'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2024.1/data/xsim/xsim.ini' copied to run dir:'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'VGA_Phy' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj VGA_Phy_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot VGA_Phy_behav xil_defaultlib.VGA_Phy xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot VGA_Phy_behav xil_defaultlib.VGA_Phy xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.PLLE2_ADV(CLKFBOUT_MULT=42,CLKIN...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clkgem_clk_wiz_0_0_clk_wiz
+Compiling module xil_defaultlib.clkgem_clk_wiz_0_0
+Compiling module xil_defaultlib.clkgem
+Compiling module xil_defaultlib.clkgem_wrapper
+Compiling module xil_defaultlib.sync
+Compiling module xil_defaultlib.VGA_Phy
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot VGA_Phy_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "VGA_Phy_behav -key {Behavioral:sim_1:Functional:VGA_Phy} -tclbatch {VGA_Phy.tcl} -protoinst "protoinst_files/clkgem.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/clkgem.protoinst
+Time resolution is 1 ps
+source VGA_Phy.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 2293.281 ; gain = 2.566
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'VGA_Phy_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 2293.281 ; gain = 2.566
+export_ip_user_files -of_objects  [get_files D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/frame_counter.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/frame_counter.v
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sim_1\new\synctest.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA Phy.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sim_1\new\synctest.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sim_1\new\synctest.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+move_files [get_files  {{D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v}}]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sim_1\new\synctest.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA Phy.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sim_1\new\synctest.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sim_1\new\synctest.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sim_1\new\synctest.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA Phy.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sim_1\new\synctest.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sim_1\new\synctest.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sim_1\new\synctest.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA Phy.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sim_1\new\synctest.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sim_1\new\synctest.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v}}] -no_script -reset -force -quiet
+remove_files  {{D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v}}
+file delete -force {D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA Phy.v}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+close [ open D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v w ]
+add_files D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v] -no_script -reset -force -quiet
+remove_files  D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v
+file delete -force D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v
+close [ open D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v w ]
+add_files D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sim_1\new\synctest.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA Phy.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sim_1\new\synctest.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA Phy.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sim_1\new\synctest.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA Phy.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+set_property is_enabled false [get_files  D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v]
+update_compile_order -fileset sim_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'VGA_Phy'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2024.1/data/xsim/xsim.ini' copied to run dir:'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'VGA_Phy' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj VGA_Phy_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sim_1/new/synctest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module synctest
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot VGA_Phy_behav xil_defaultlib.VGA_Phy xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot VGA_Phy_behav xil_defaultlib.VGA_Phy xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "VGA_Phy_behav -key {Behavioral:sim_1:Functional:VGA_Phy} -tclbatch {VGA_Phy.tcl} -protoinst "protoinst_files/clkgem.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/clkgem.protoinst
+Time resolution is 1 ps
+source VGA_Phy.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 2295.965 ; gain = 2.684
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'VGA_Phy_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:31 . Memory (MB): peak = 2295.965 ; gain = 2.684
+update_compile_order -fileset sim_1
+set_property is_enabled true [get_files  D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sim_1\new\synctest.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA Phy.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sim_1\new\synctest.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA Phy.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+update_compile_order -fileset sources_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sim_1\new\synctest.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA Phy.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'VGA_Phy'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2024.1/data/xsim/xsim.ini' copied to run dir:'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'VGA_Phy' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.sim/sim_1/behav/xsim'
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+"xvlog --incr --relax -prj VGA_Phy_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VGA_Phy
+INFO: [VRFC 10-311] analyzing module sync
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'hsync' is not allowed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:58]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.sim/sim_1/behav/xsim/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+set_property top sync [current_fileset]
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'VGA_Phy'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2024.1/data/xsim/xsim.ini' copied to run dir:'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'VGA_Phy' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj VGA_Phy_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot VGA_Phy_behav xil_defaultlib.VGA_Phy xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot VGA_Phy_behav xil_defaultlib.VGA_Phy xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.PLLE2_ADV(CLKFBOUT_MULT=42,CLKIN...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clkgem_clk_wiz_0_0_clk_wiz
+Compiling module xil_defaultlib.clkgem_clk_wiz_0_0
+Compiling module xil_defaultlib.clkgem
+Compiling module xil_defaultlib.clkgem_wrapper
+Compiling module xil_defaultlib.sync
+Compiling module xil_defaultlib.VGA_Phy
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot VGA_Phy_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "VGA_Phy_behav -key {Behavioral:sim_1:Functional:VGA_Phy} -tclbatch {VGA_Phy.tcl} -protoinst "protoinst_files/clkgem.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/clkgem.protoinst
+Time resolution is 1 ps
+source VGA_Phy.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'VGA_Phy_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 2296.102 ; gain = 0.137
+add_force {/VGA_Phy/synk/clk} -radix bin {1 0ns} {0 50000ps} -repeat_every 100000ps
+set_property top VGA_Phy [current_fileset]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sim_1\new\synctest.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA Phy.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sim_1\new\synctest.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA Phy.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+export_ip_user_files -of_objects  [get_files D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.gen/sources_1/bd/clkgem/hdl/clkgem_wrapper.v] -no_script -reset -force -quiet
+remove_files  D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.gen/sources_1/bd/clkgem/hdl/clkgem_wrapper.v
+file delete -force D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.gen/sources_1/bd/clkgem/hdl/clkgem_wrapper.v
+update_compile_order -fileset sources_1
+synth_design -top VGA_Phy -part xc7a100tcsg324-1 -lint 
+Command: synth_design -top VGA_Phy -part xc7a100tcsg324-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2296.273 ; gain = 0.000
+---------------------------------------------------------------------------------
+Clean up Linter database...
+WARNING: [Synth 8-11121] redeclaration of ANSI port 'hsync' is not allowed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:63]
+WARNING: [Synth 8-11121] redeclaration of ANSI port 'vsync' is not allowed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:63]
+INFO: [Synth 8-11241] undeclared symbol 'y', assumed default net type 'wire' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:133]
+INFO: [Synth 8-6157] synthesizing module 'VGA_Phy' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:45]
+INFO: [Synth 8-6157] synthesizing module 'clock_divider' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:138]
+INFO: [Synth 8-6155] done synthesizing module 'clock_divider' (1#1) [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:138]
+INFO: [Synth 8-6157] synthesizing module 'sync' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:62]
+WARNING: [Synth 8-6090] variable 'hsync' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:81]
+WARNING: [Synth 8-6090] variable 'vsync' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:82]
+WARNING: [Synth 8-6090] variable 'hor' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:83]
+WARNING: [Synth 8-6090] variable 'vert' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:84]
+WARNING: [Synth 8-6090] variable 'hblank' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:85]
+WARNING: [Synth 8-6090] variable 'vblank' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:86]
+WARNING: [Synth 8-151] case item 32'b00000000000000000000010000100000 is unreachable [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:99]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:92]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:104]
+WARNING: [Synth 8-3848] Net next_vert in module/entity sync does not have driver. [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'sync' (2#1) [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:62]
+ERROR: [Synth 8-685] variable 'vert' should not be used in output port connection [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:54]
+ERROR: [Synth 8-6156] failed synthesizing module 'VGA_Phy' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:45]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 2296.273 ; gain = 0.000
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+11 Infos, 10 Warnings, 0 Critical Warnings and 2 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 2296.273 ; gain = 0.000
+ERROR: [Common 17-39] 'synth_design' failed due to earlier errors.
+export_ip_user_files -of_objects  [get_files D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/bd/clkgem/clkgem.bd] -no_script -reset -force -quiet
+remove_files  D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/bd/clkgem/clkgem.bd
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.runs/clkgem_clk_wiz_0_0_synth_1
+
+file delete -force D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/bd/clkgem
+file delete -force d:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.gen/sources_1/bd/clkgem
+synth_design -top VGA_Phy -part xc7a100tcsg324-1 -lint 
+Command: synth_design -top VGA_Phy -part xc7a100tcsg324-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2325.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+Clean up Linter database...
+WARNING: [Synth 8-11121] redeclaration of ANSI port 'hsync' is not allowed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:63]
+WARNING: [Synth 8-11121] redeclaration of ANSI port 'vsync' is not allowed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:63]
+INFO: [Synth 8-11241] undeclared symbol 'y', assumed default net type 'wire' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:133]
+INFO: [Synth 8-6157] synthesizing module 'VGA_Phy' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:45]
+INFO: [Synth 8-6157] synthesizing module 'clock_divider' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:138]
+INFO: [Synth 8-6155] done synthesizing module 'clock_divider' (1#1) [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:138]
+INFO: [Synth 8-6157] synthesizing module 'sync' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:62]
+WARNING: [Synth 8-6090] variable 'hsync' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:81]
+WARNING: [Synth 8-6090] variable 'vsync' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:82]
+WARNING: [Synth 8-6090] variable 'hor' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:83]
+WARNING: [Synth 8-6090] variable 'vert' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:84]
+WARNING: [Synth 8-6090] variable 'hblank' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:85]
+WARNING: [Synth 8-6090] variable 'vblank' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:86]
+WARNING: [Synth 8-151] case item 32'b00000000000000000000010000100000 is unreachable [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:99]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:92]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:104]
+WARNING: [Synth 8-3848] Net next_vert in module/entity sync does not have driver. [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'sync' (2#1) [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:62]
+ERROR: [Synth 8-685] variable 'vert' should not be used in output port connection [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:54]
+ERROR: [Synth 8-6156] failed synthesizing module 'VGA_Phy' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:45]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2325.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+11 Infos, 10 Warnings, 0 Critical Warnings and 2 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2325.988 ; gain = 0.000
+ERROR: [Common 17-39] 'synth_design' failed due to earlier errors.
+launch_runs synth_1 -jobs 12
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Sat Aug 17 22:42:17 2024] Launched synth_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.runs/synth_1/runme.log
+synth_design -top VGA_Phy -part xc7a100tcsg324-1 -lint 
+Command: synth_design -top VGA_Phy -part xc7a100tcsg324-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 2325.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+Clean up Linter database...
+WARNING: [Synth 8-11121] redeclaration of ANSI port 'hsync' is not allowed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:63]
+WARNING: [Synth 8-11121] redeclaration of ANSI port 'vsync' is not allowed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:63]
+INFO: [Synth 8-11241] undeclared symbol 'y', assumed default net type 'wire' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:133]
+INFO: [Synth 8-6157] synthesizing module 'VGA_Phy' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:45]
+INFO: [Synth 8-6157] synthesizing module 'clock_divider' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:138]
+INFO: [Synth 8-6155] done synthesizing module 'clock_divider' (1#1) [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:138]
+INFO: [Synth 8-6157] synthesizing module 'sync' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:62]
+WARNING: [Synth 8-6090] variable 'hsync' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:81]
+WARNING: [Synth 8-6090] variable 'vsync' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:82]
+WARNING: [Synth 8-6090] variable 'hor' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:83]
+WARNING: [Synth 8-6090] variable 'vert' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:84]
+WARNING: [Synth 8-6090] variable 'hblank' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:85]
+WARNING: [Synth 8-6090] variable 'vblank' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:86]
+WARNING: [Synth 8-151] case item 32'b00000000000000000000010000100000 is unreachable [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:99]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:92]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:104]
+WARNING: [Synth 8-3848] Net next_vert in module/entity sync does not have driver. [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'sync' (2#1) [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:62]
+ERROR: [Synth 8-685] variable 'vert' should not be used in output port connection [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:54]
+ERROR: [Synth 8-6156] failed synthesizing module 'VGA_Phy' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:45]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 2325.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+11 Infos, 10 Warnings, 0 Critical Warnings and 2 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 2325.988 ; gain = 0.000
+ERROR: [Common 17-39] 'synth_design' failed due to earlier errors.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Sat Aug 17 22:44:21 2024] Launched synth_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.runs/synth_1/runme.log
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: VGA_Phy
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Device 21-9227] Part: xc7a100tcsg324-1 does not have CEAM library.
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 2621.297 ; gain = 123.195
+---------------------------------------------------------------------------------
+Clean up Linter database...
+WARNING: [Synth 8-11121] redeclaration of ANSI port 'hsync' is not allowed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:63]
+WARNING: [Synth 8-11121] redeclaration of ANSI port 'vsync' is not allowed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:63]
+INFO: [Synth 8-11241] undeclared symbol 'y', assumed default net type 'wire' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:133]
+INFO: [Synth 8-6157] synthesizing module 'VGA_Phy' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:45]
+INFO: [Synth 8-6157] synthesizing module 'clock_divider' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:138]
+INFO: [Synth 8-6155] done synthesizing module 'clock_divider' (1#1) [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:138]
+INFO: [Synth 8-6157] synthesizing module 'sync' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:62]
+WARNING: [Synth 8-6090] variable 'hsync' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:81]
+WARNING: [Synth 8-6090] variable 'vsync' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:82]
+WARNING: [Synth 8-6090] variable 'hor' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:83]
+WARNING: [Synth 8-6090] variable 'vert' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:84]
+WARNING: [Synth 8-6090] variable 'hblank' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:85]
+WARNING: [Synth 8-6090] variable 'vblank' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:86]
+WARNING: [Synth 8-151] case item 32'b00000000000000000000010000100000 is unreachable [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:99]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:92]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:104]
+WARNING: [Synth 8-3848] Net next_vert in module/entity sync does not have driver. [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'sync' (2#1) [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:62]
+INFO: [Synth 8-6157] synthesizing module 'mux2to1' [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:120]
+WARNING: [Synth 8-3848] Net RGB in module/entity mux2to1 does not have driver. [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:126]
+INFO: [Synth 8-6155] done synthesizing module 'mux2to1' (3#1) [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:120]
+INFO: [Synth 8-6155] done synthesizing module 'VGA_Phy' (4#1) [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v:45]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 2700.383 ; gain = 202.281
+---------------------------------------------------------------------------------
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sat Aug 17 22:45:34 2024
+| Host         : DESKTOP-I4589KT running 64-bit major release  (build 9200)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+
+1. Summary
+----------
+
++-----------+----------+--------------+----------+
+| Rule ID   | Severity | # Violations | # Waived |
++-----------+----------+--------------+----------+
+| ASSIGN-5  | WARNING  | 1            | 0        |
+| ASSIGN-6  | WARNING  | 4            | 0        |
+| ASSIGN-9  | WARNING  | 3            | 0        |
+| ASSIGN-10 | WARNING  | 1            | 0        |
+| ASSIGN-11 | WARNING  | 6            | 0        |
+| INFER-1   | WARNING  | 4            | 0        |
+| INFER-2   | WARNING  | 2            | 0        |
++-----------+----------+--------------+----------+
+
+
+WARNING: [Synth 37-124] [ASSIGN-5]Some bits in 'next_vert' are not set. First unset bit index is 0. 
+RTL Name 'next_vert', Hierarchy 'sync', File 'VGA_GPU.v', Line 65.
+WARNING: [Synth 37-123] [ASSIGN-6]Some bits in 'a' are not read. First unread bit index is 1. 
+RTL Name 'a', Hierarchy 'mux2to1', File 'VGA_GPU.v', Line 128.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'hor' was assigned but not read. 
+RTL Name 'hor', Hierarchy 'VGA_Phy', File 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v', Line 49.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'vert' was assigned but not read. 
+RTL Name 'vert', Hierarchy 'VGA_Phy', File 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v', Line 50.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'y' was assigned but not read. 
+RTL Name 'y', Hierarchy 'mux2to1', File 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v', Line 133.
+WARNING: [Synth 37-126] [ASSIGN-9]Some bits in IO 'RGB' are not set. First unset bit index is 0. 
+RTL Name 'RGB', Hierarchy 'mux2to1', File 'VGA_GPU.v', Line 126.
+WARNING: [Synth 37-126] [ASSIGN-9]Some bits in IO 'RGB' are not set. First unset bit index is 0. 
+RTL Name 'RGB', Hierarchy 'VGA_Phy', File 'VGA_GPU.v', Line 45.
+WARNING: [Synth 37-126] [ASSIGN-9]Some bits in IO 'vert' are not set. First unset bit index is 0. 
+RTL Name 'vert', Hierarchy 'sync', File 'VGA_GPU.v', Line 62.
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'b' are not read. First unread bit index is 1. 
+RTL Name 'b', Hierarchy 'mux2to1', File 'VGA_GPU.v', Line 124.
+WARNING: [Synth 37-118] [ASSIGN-11]Mixed blocking and non-blocking assign on 'hblank'. 
+Hierarchy 'sync', File 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v', Line 85.
+WARNING: [Synth 37-118] [ASSIGN-11]Mixed blocking and non-blocking assign on 'hor'. 
+Hierarchy 'sync', File 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v', Line 83.
+WARNING: [Synth 37-118] [ASSIGN-11]Mixed blocking and non-blocking assign on 'hsync'. 
+Hierarchy 'sync', File 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v', Line 81.
+WARNING: [Synth 37-118] [ASSIGN-11]Mixed blocking and non-blocking assign on 'vblank'. 
+Hierarchy 'sync', File 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v', Line 86.
+WARNING: [Synth 37-118] [ASSIGN-11]Mixed blocking and non-blocking assign on 'vert'. 
+Hierarchy 'sync', File 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v', Line 84.
+WARNING: [Synth 37-118] [ASSIGN-11]Mixed blocking and non-blocking assign on 'vsync'. 
+Hierarchy 'sync', File 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v', Line 82.
+WARNING: [Synth 37-88] [INFER-1]Inferred latch found for next_hblank_reg. 
+RTL Name 'next_hblank_reg', Hierarchy 'sync', File 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v', Line 94.
+WARNING: [Synth 37-88] [INFER-1]Inferred latch found for next_hsync_reg. 
+RTL Name 'next_hsync_reg', Hierarchy 'sync', File 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v', Line 96.
+WARNING: [Synth 37-88] [INFER-1]Inferred latch found for next_vblank_reg. 
+RTL Name 'next_vblank_reg', Hierarchy 'sync', File 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v', Line 106.
+WARNING: [Synth 37-88] [INFER-1]Inferred latch found for next_vsync_reg. 
+RTL Name 'next_vsync_reg', Hierarchy 'sync', File 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v', Line 108.
+WARNING: [Synth 37-75] [INFER-2]Case statement items not fully specified and does not have a default item. 
+Hierarchy 'sync', File 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v', Line 92.
+WARNING: [Synth 37-75] [INFER-2]Case statement items not fully specified and does not have a default item. 
+Hierarchy 'sync', File 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/sources_1/new/VGA_GPU.v', Line 104.
+INFO: [Synth 37-85] Total of 21 linter message(s) generated.
+INFO: [Synth 37-45] Linter Run Finished!
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2718.266 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/Nexys-A7-100T-Master.xdc]
+Finished Parsing XDC File [D:/CelestiCall/Hardwares/IPModules/VGA-GPU/Nexys-A7-100T-Master.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2813.266 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 2834.645 ; gain = 336.543
+18 Infos, 32 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 2834.645 ; gain = 508.656
+reset_run synth_1
+INFO: [Project 1-1160] Copying file D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.runs/synth_1/VGA_Phy.dcp to D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+launch_runs synth_1 -jobs 12
+[Sat Aug 17 22:49:32 2024] Launched synth_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 12
+[Sat Aug 17 22:51:00 2024] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Sat Aug 17 22:55:45 2024] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.runs/impl_1/runme.log
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2888.602 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2893.164 ; gain = 0.000
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Read Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3425.625 ; gain = 0.000
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 3425.625 ; gain = 0.000
+Read PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 3425.625 ; gain = 0.000
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3425.625 ; gain = 0.000
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 3425.625 ; gain = 0.000
+Read Physdb Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 3425.625 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 3425.625 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3425.625 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 3497.227 ; gain = 608.625
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/utils_1/imports/synth_1/VGA_Phy.dcp with file D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.runs/synth_1/VGA_Phy.dcp
+launch_runs synth_1 -jobs 12
+[Sat Aug 17 22:57:16 2024] Launched synth_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 12
+[Sat Aug 17 22:58:15 2024] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Sat Aug 17 22:59:26 2024] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2024.1.0
+  **** Build date : Mar  6 2024 at 20:50:54
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2024.1.0
+  ****** Build date   : Mar 08 2024-16:00:37
+    **** Build number : 2024.1.1709942437
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:25 . Memory (MB): peak = 3543.973 ; gain = 14.238
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B9CED2A
+set_property PROGRAM.FILE {D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.runs/impl_1/VGA_Phy.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.runs/impl_1/VGA_Phy.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.srcs/utils_1/imports/synth_1/VGA_Phy.dcp with file D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.runs/synth_1/VGA_Phy.dcp
+launch_runs synth_1 -jobs 12
+[Sat Aug 17 23:03:56 2024] Launched synth_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 12
+[Sat Aug 17 23:05:00 2024] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Sat Aug 17 23:06:13 2024] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/CelestiCall/Hardwares/IPModules/VGA-GPU/VGA-GPU.runs/impl_1/VGA_Phy.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Aug 17 23:10:15 2024...

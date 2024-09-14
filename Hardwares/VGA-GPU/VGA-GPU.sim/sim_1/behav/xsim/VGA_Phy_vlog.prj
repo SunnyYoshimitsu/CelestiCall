@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../VGA-GPU.gen/sources_1/bd/clkgem/ipshared/c2c6" \
+"../../../../VGA-GPU.ip_user_files/bd/clkgem/ip/clkgem_clk_wiz_0_0/clkgem_clk_wiz_0_0_clk_wiz.v" \
+"../../../../VGA-GPU.ip_user_files/bd/clkgem/ip/clkgem_clk_wiz_0_0/clkgem_clk_wiz_0_0.v" \
+"../../../../VGA-GPU.ip_user_files/bd/clkgem/sim/clkgem.v" \
+"../../../../VGA-GPU.gen/sources_1/bd/clkgem/hdl/clkgem_wrapper.v" \
+"../../../../VGA-GPU.srcs/sources_1/new/VGA_GPU.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

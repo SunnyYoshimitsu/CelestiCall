@@ -1,0 +1,1230 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon Aug 19 18:37:58 2024
+# Process ID: 33096
+# Current directory: D:/CelestiCall/Hardwares/VGA-GPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19336 D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.xpr
+# Log file: D:/CelestiCall/Hardwares/VGA-GPU/vivado.log
+# Journal file: D:/CelestiCall/Hardwares/VGA-GPU\vivado.jou
+# Running On        :DESKTOP-I4589KT
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :AMD Ryzen 5 5600X 6-Core Processor             
+# CPU Frequency     :3693 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :34246 MB
+# Swap memory       :2147 MB
+# Total Virtual     :36394 MB
+# Available Virtual :18516 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'D:/CelestiCall/Hardwares/IPModules/VGA-GPU' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1638.430 ; gain = 430.066
+update_compile_order -fileset sources_1
+close [ open D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/sources_1/new/line_buffer.sv w ]
+add_files D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/sources_1/new/line_buffer.sv
+update_compile_order -fileset sources_1
+add_files -fileset constrs_1 -norecurse D:/CelestiCall/Hardwares/VGA-GPU/pynq-z2.xdc
+set_property  ip_repo_paths  D:/CelestiCall/Hardwares/Library_vivado [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/CelestiCall/Hardwares/Library_vivado'.
+update_ip_catalog: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1760.281 ; gain = 0.000
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\line_buffer.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+create_ip -name rgb2dvi -vendor digilentinc.com -library ip -version 1.4 -module_name rgb2dvi_0
+set_property CONFIG.kClkRange {3} [get_ips rgb2dvi_0]
+generate_target {instantiation_template} [get_files d:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'rgb2dvi_0'...
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\line_buffer.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\line_buffer.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+generate_target all [get_files  d:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'rgb2dvi_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'rgb2dvi_0'...
+catch { config_ip_cache -export [get_ips -all rgb2dvi_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: rgb2dvi_0
+export_ip_user_files -of_objects [get_files d:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0.xci] -no_script -sync -force -quiet
+INFO: [Vivado 12-23855] The given sub-design is auto disabled, no action will be taken: 'd:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0.xci'
+export_simulation -of_objects [get_files d:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0.xci] -directory D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.ip_user_files/sim_scripts -ip_user_files_dir D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.ip_user_files -ipstatic_source_dir D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.cache/compile_simlib/modelsim} {questa=D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.cache/compile_simlib/questa} {riviera=D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.cache/compile_simlib/riviera} {activehdl=D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target all [get_files  d:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0.xci]
+catch { config_ip_cache -export [get_ips -all rgb2dvi_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: rgb2dvi_0
+export_ip_user_files -of_objects [get_files d:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0.xci] -no_script -sync -force -quiet
+INFO: [Vivado 12-23855] The given sub-design is auto disabled, no action will be taken: 'd:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0.xci'
+export_simulation -of_objects [get_files d:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0.xci] -directory D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.ip_user_files/sim_scripts -ip_user_files_dir D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.ip_user_files -ipstatic_source_dir D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.cache/compile_simlib/modelsim} {questa=D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.cache/compile_simlib/questa} {riviera=D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.cache/compile_simlib/riviera} {activehdl=D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target all [get_files  d:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0.xci]
+catch { config_ip_cache -export [get_ips -all rgb2dvi_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: rgb2dvi_0
+export_ip_user_files -of_objects [get_files d:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0.xci] -no_script -sync -force -quiet
+INFO: [Vivado 12-23855] The given sub-design is auto disabled, no action will be taken: 'd:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0.xci'
+export_simulation -of_objects [get_files d:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0.xci] -directory D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.ip_user_files/sim_scripts -ip_user_files_dir D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.ip_user_files -ipstatic_source_dir D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.cache/compile_simlib/modelsim} {questa=D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.cache/compile_simlib/questa} {riviera=D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.cache/compile_simlib/riviera} {activehdl=D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+set_property is_enabled false [get_files  D:/CelestiCall/Hardwares/VGA-GPU/pynq-z2.xdc]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\line_buffer.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+set_property is_enabled false [get_files  d:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0.xci]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\line_buffer.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+set_property is_enabled false [get_files  D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/sources_1/new/line_buffer.sv]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/utils_1/imports/synth_1/VGA_Phy.dcp with file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/vga_demo.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Aug 19 19:14:31 2024] Launched synth_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/runme.log
+[Mon Aug 19 19:14:31 2024] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/impl_1/runme.log
+reset_run synth_1
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/sources_1/new/rgb2gray.sv]
+set_property is_enabled false [get_files  D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/sources_1/new/bar_demo.sv]
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Aug 19 19:19:25 2024] Launched synth_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/runme.log
+[Mon Aug 19 19:19:25 2024] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2024.1.0
+  **** Build date : Mar  6 2024 at 20:50:54
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2024.1.0
+  ****** Build date   : Mar 08 2024-16:00:37
+    **** Build number : 2024.1.1709942437
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1789.551 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B9CED2A
+set_property PROGRAM.FILE {D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/impl_1/vga_demo.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/impl_1/vga_demo.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292B9CED2A
+set_property top vga_sync_demo [current_fileset]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+set_property is_enabled false [get_files  D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/sources_1/new/vga_demo.sv]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/utils_1/imports/synth_1/VGA_Phy.dcp with file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/vga_demo.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Aug 19 19:27:58 2024] Launched synth_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/runme.log
+[Mon Aug 19 19:27:58 2024] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/impl_1/runme.log
+set_property is_enabled true [get_files  D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/sources_1/new/vga_demo.sv]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+set_property is_enabled true [get_files  d:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0.xci]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+reset_run synth_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+INFO: [Project 1-1161] Replacing file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/utils_1/imports/synth_1/VGA_Phy.dcp with file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/VGA_GPU.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: rgb2dvi_0
+[Mon Aug 19 19:49:26 2024] Launched rgb2dvi_0_synth_1, synth_1...
+Run output will be captured here:
+rgb2dvi_0_synth_1: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/rgb2dvi_0_synth_1/runme.log
+synth_1: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/runme.log
+[Mon Aug 19 19:49:26 2024] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+reset_run impl_1
+launch_runs impl_1 -jobs 12
+[Mon Aug 19 19:53:21 2024] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/impl_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Device 21-9227] Part: xc7a100tcsg324-1 does not have CEAM library.
+INFO: [Project 1-454] Reading design checkpoint 'd:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.gen/sources_1/ip/rgb2dvi_0/rgb2dvi_0.dcp' for cell 'dvi'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2290.812 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.gen/sources_1/ip/rgb2dvi_0/src/rgb2dvi.xdc] for cell 'dvi/U0'
+Finished Parsing XDC File [d:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.gen/sources_1/ip/rgb2dvi_0/src/rgb2dvi.xdc] for cell 'dvi/U0'
+Parsing XDC File [D:/CelestiCall/Hardwares/VGA-GPU/Nexys-A7-100T-Master.xdc]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Terminal vidN[1] cannot be placed on J15 (IOB_X0Y101) because the pad is already occupied by terminal sw[0] possibly due to user constraint [D:/CelestiCall/Hardwares/VGA-GPU/Nexys-A7-100T-Master.xdc:34]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, the positive port (P-side) 'vidP[2]' of a differential pair cannot be placed on a negative package pin 'J13' (IOBS). [D:/CelestiCall/Hardwares/VGA-GPU/Nexys-A7-100T-Master.xdc:35]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, the negative port (N-side) 'vidN[0]' of a differential pair cannot be placed on a positive package pin 'N14' (IOBM). [D:/CelestiCall/Hardwares/VGA-GPU/Nexys-A7-100T-Master.xdc:36]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, the negative port (N-side) 'vidN[1]' of a differential pair cannot be placed on a positive package pin 'R18' (IOBM). [D:/CelestiCall/Hardwares/VGA-GPU/Nexys-A7-100T-Master.xdc:37]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Terminal clkN cannot be placed on U18 (IOB_X0Y65) because the pad is already occupied by terminal sw[6] possibly due to user constraint [D:/CelestiCall/Hardwares/VGA-GPU/Nexys-A7-100T-Master.xdc:39]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, the negative port (N-side) 'clkN' of a differential pair cannot be placed on a positive package pin 'U16' (IOBM). [D:/CelestiCall/Hardwares/VGA-GPU/Nexys-A7-100T-Master.xdc:40]
+Finished Parsing XDC File [D:/CelestiCall/Hardwares/VGA-GPU/Nexys-A7-100T-Master.xdc]
+Parsing XDC File [d:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.gen/sources_1/ip/rgb2dvi_0/src/rgb2dvi_clocks.xdc] for cell 'dvi/U0'
+Finished Parsing XDC File [d:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.gen/sources_1/ip/rgb2dvi_0/src/rgb2dvi_clocks.xdc] for cell 'dvi/U0'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2379.465 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 2515.973 ; gain = 642.930
+set_param messaging.defaultLimit 100000
+100000
+opt_design -verbose
+Command: opt_design -verbose
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.653 . Memory (MB): peak = 3011.711 ; gain = 20.219
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 273adb85d
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.080 . Memory (MB): peak = 3097.480 ; gain = 85.770
+
+Starting Logic Optimization Task
+
+Phase 1 Initialization
+
+Phase 1.1 Core Generation And Design Setup
+Phase 1.1 Core Generation And Design Setup | Checksum: 273adb85d
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3447.547 ; gain = 0.000
+
+Phase 1.2 Setup Constraints And Sort Netlist
+Phase 1.2 Setup Constraints And Sort Netlist | Checksum: 273adb85d
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 3447.547 ; gain = 0.000
+Phase 1 Initialization | Checksum: 273adb85d
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 3447.547 ; gain = 0.000
+
+Phase 2 Timer Update And Timing Data Collection
+
+Phase 2.1 Timer Update
+Phase 2.1 Timer Update | Checksum: 273adb85d
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 3447.547 ; gain = 0.000
+
+Phase 2.2 Timing Data Collection
+Phase 2.2 Timing Data Collection | Checksum: 273adb85d
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 3447.547 ; gain = 0.000
+Phase 2 Timer Update And Timing Data Collection | Checksum: 273adb85d
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 3447.547 ; gain = 0.000
+
+Phase 3 Retarget
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[1] is driving LUT input pin I0 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[0]_i_2
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[3] is driving LUT input pin I1 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[0]_i_2
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[2] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[0]_i_2
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[0].DataEncoder/vid_pData[6] is driving LUT input pin I0 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[0].DataEncoder/n1d_1[2]_i_2
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[0].DataEncoder/vid_pData[5] is driving LUT input pin I1 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[0].DataEncoder/n1d_1[2]_i_2
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[0].DataEncoder/vid_pData[4] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[0].DataEncoder/n1d_1[2]_i_2
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[6] is driving LUT input pin I0 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[2]_i_2
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[5] is driving LUT input pin I1 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[2]_i_2
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[4] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[2]_i_2
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[3] is driving LUT input pin I0 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[3]_i_4
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[2] is driving LUT input pin I1 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[3]_i_4
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[1] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[3]_i_4
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[0].DataEncoder/vid_pData[7] is driving LUT input pin I1 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[0].DataEncoder/n1d_1[3]_i_3
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[0] is driving LUT input pin I0 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[3]_i_3
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[7] is driving LUT input pin I1 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[3]_i_3
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[2] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[3]_i_3
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[3] is driving LUT input pin I3 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[3]_i_3
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[1] is driving LUT input pin I4 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[3]_i_3
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[0].DataEncoder/vid_pData[7] is driving LUT input pin I0 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[0].DataEncoder/n1d_1[0]_i_1
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[0].DataEncoder/vid_pData[5] is driving LUT input pin I3 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[0].DataEncoder/n1d_1[0]_i_1
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[0].DataEncoder/vid_pData[6] is driving LUT input pin I4 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[0].DataEncoder/n1d_1[0]_i_1
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[0].DataEncoder/vid_pData[4] is driving LUT input pin I5 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[0].DataEncoder/n1d_1[0]_i_1
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[0].DataEncoder/vid_pData[4] is driving LUT input pin I0 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[0].DataEncoder/n1d_1[1]_i_2
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[0].DataEncoder/vid_pData[5] is driving LUT input pin I1 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[0].DataEncoder/n1d_1[1]_i_2
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[0].DataEncoder/vid_pData[6] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[0].DataEncoder/n1d_1[1]_i_2
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[0].DataEncoder/vid_pData[4] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[0].DataEncoder/n1d_1[3]_i_1
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[0].DataEncoder/vid_pData[5] is driving LUT input pin I3 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[0].DataEncoder/n1d_1[3]_i_1
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[0].DataEncoder/vid_pData[6] is driving LUT input pin I4 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[0].DataEncoder/n1d_1[3]_i_1
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[0].DataEncoder/vid_pData[5] is driving LUT input pin I0 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[0].DataEncoder/n1d_1[3]_i_2
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[0].DataEncoder/vid_pData[6] is driving LUT input pin I1 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[0].DataEncoder/n1d_1[3]_i_2
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[0].DataEncoder/vid_pData[4] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[0].DataEncoder/n1d_1[3]_i_2
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[0].DataEncoder/vid_pData[7] is driving LUT input pin I3 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[0].DataEncoder/n1d_1[3]_i_2
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[7] is driving LUT input pin I0 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[0]_i_1
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[0] is driving LUT input pin I1 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[0]_i_1
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[5] is driving LUT input pin I3 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[0]_i_1
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[6] is driving LUT input pin I4 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[0]_i_1
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[4] is driving LUT input pin I5 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[0]_i_1
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[4] is driving LUT input pin I0 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[1]_i_2
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[5] is driving LUT input pin I1 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[1]_i_2
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[6] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[1]_i_2
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[1] is driving LUT input pin I3 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[1]_i_2
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[2] is driving LUT input pin I4 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[1]_i_2
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[3] is driving LUT input pin I5 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[1]_i_2
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[3] is driving LUT input pin I3 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[2]_i_1
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[2] is driving LUT input pin I4 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[2]_i_1
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[1] is driving LUT input pin I5 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[2]_i_1
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[4] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[3]_i_1
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[5] is driving LUT input pin I3 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[3]_i_1
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[6] is driving LUT input pin I4 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[3]_i_1
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[5] is driving LUT input pin I0 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[3]_i_2
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[6] is driving LUT input pin I1 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[3]_i_2
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[4] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[3]_i_2
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[7] is driving LUT input pin I3 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[3]_i_2
+WARNING: [Opt 31-155] Driverless net dvi/U0/DataEncoders[2].DataEncoder/vid_pData[0] is driving LUT input pin I4 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[3]_i_2
+INFO: [Opt 31-1834] Total Chains To Be Transformed Were: 0 AND Number of Transformed insts Created are: 0
+INFO: [Opt 31-442] LUT Reduction optimized 0 LUTs
+INFO: [Opt 31-47] Cell absorbed into downstream logic: LUT1 cell dvi/U0/DataEncoders[1].DataEncoder/pDataOutRaw[9]_i_1 driving pin dvi/U0/DataEncoders[1].DataEncoder/pDataOutRaw[9]_i_2__0/O of dvi/U0/DataEncoders[1].DataEncoder/pDataOutRaw[9]_i_2__0.
+INFO: [Opt 31-1287] Pulled Inverter dvi/U0/DataEncoders[1].DataEncoder/pDataOutRaw[9]_i_1 into driver instance dvi/U0/DataEncoders[1].DataEncoder/pDataOutRaw[9]_i_2__0, which resulted in an inversion of 9 pins
+INFO: [Opt 31-47] Cell absorbed into downstream logic: LUT1 cell dvi/U0/DataEncoders[2].DataEncoder/pDataOutRaw[9]_i_1__0 driving pin dvi/U0/DataEncoders[2].DataEncoder/pDataOutRaw[9]_i_2__1/O of dvi/U0/DataEncoders[2].DataEncoder/pDataOutRaw[9]_i_2__1.
+INFO: [Opt 31-1287] Pulled Inverter dvi/U0/DataEncoders[2].DataEncoder/pDataOutRaw[9]_i_1__0 into driver instance dvi/U0/DataEncoders[2].DataEncoder/pDataOutRaw[9]_i_2__1, which resulted in an inversion of 9 pins
+INFO: [Opt 31-47] Cell absorbed into downstream logic: LUT1 cell dvi/U0/DataEncoders[2].DataEncoder/q_m_2[7]_i_1 driving pin dvi/U0/DataEncoders[2].DataEncoder/q_m_2[7]_i_2__1/O of dvi/U0/DataEncoders[2].DataEncoder/q_m_2[7]_i_2__1.
+INFO: [Opt 31-1287] Pulled Inverter dvi/U0/DataEncoders[2].DataEncoder/q_m_2[7]_i_1 into driver instance dvi/U0/DataEncoders[2].DataEncoder/q_m_2[7]_i_2__1, which resulted in an inversion of 8 pins
+INFO: [Opt 31-1566] Pulled 3 inverters resulting in an inversion of 26 pins
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:dvi/U0/DataEncoders[0].DataEncoder/pDataOut_1_reg[4]
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:dvi/U0/DataEncoders[0].DataEncoder/pDataOut_1_reg[5]
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:dvi/U0/DataEncoders[0].DataEncoder/pDataOut_1_reg[6]
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:dvi/U0/DataEncoders[0].DataEncoder/pDataOut_1_reg[7]
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:dvi/U0/DataEncoders[2].DataEncoder/pDataOut_1_reg[0]
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:dvi/U0/DataEncoders[2].DataEncoder/pDataOut_1_reg[1]
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:dvi/U0/DataEncoders[2].DataEncoder/pDataOut_1_reg[2]
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:dvi/U0/DataEncoders[2].DataEncoder/pDataOut_1_reg[3]
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:dvi/U0/DataEncoders[2].DataEncoder/pDataOut_1_reg[4]
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:dvi/U0/DataEncoders[2].DataEncoder/pDataOut_1_reg[5]
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:dvi/U0/DataEncoders[2].DataEncoder/pDataOut_1_reg[6]
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:dvi/U0/DataEncoders[2].DataEncoder/pDataOut_1_reg[7]
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 3 Retarget | Checksum: 22c031377
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 3447.547 ; gain = 0.000
+Retarget | Checksum: 22c031377
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 3 cells
+
+Phase 4 Constant propagation
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:dvi/U0/DataEncoders[0].DataEncoder/pDataOut_1_reg[4]
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:dvi/U0/DataEncoders[0].DataEncoder/pDataOut_1_reg[5]
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:dvi/U0/DataEncoders[0].DataEncoder/pDataOut_1_reg[6]
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:dvi/U0/DataEncoders[0].DataEncoder/pDataOut_1_reg[7]
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:dvi/U0/DataEncoders[2].DataEncoder/pDataOut_1_reg[0]
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:dvi/U0/DataEncoders[2].DataEncoder/pDataOut_1_reg[1]
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:dvi/U0/DataEncoders[2].DataEncoder/pDataOut_1_reg[2]
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:dvi/U0/DataEncoders[2].DataEncoder/pDataOut_1_reg[3]
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:dvi/U0/DataEncoders[2].DataEncoder/pDataOut_1_reg[4]
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:dvi/U0/DataEncoders[2].DataEncoder/pDataOut_1_reg[5]
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:dvi/U0/DataEncoders[2].DataEncoder/pDataOut_1_reg[6]
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:dvi/U0/DataEncoders[2].DataEncoder/pDataOut_1_reg[7]
+INFO: [Opt 31-442] LUT Reduction optimized 0 LUTs
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 4 Constant propagation | Checksum: 22c031377
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 3447.547 ; gain = 0.000
+Constant propagation | Checksum: 22c031377
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 5 Sweep
+INFO: [Opt 31-131] Removed net: dvi/U0/DataEncoders[0].DataEncoder/vid_pData[7]
+INFO: [Opt 31-131] Removed net: dvi/U0/DataEncoders[0].DataEncoder/vid_pData[6]
+INFO: [Opt 31-131] Removed net: dvi/U0/DataEncoders[0].DataEncoder/vid_pData[5]
+INFO: [Opt 31-131] Removed net: dvi/U0/DataEncoders[0].DataEncoder/vid_pData[4]
+INFO: [Opt 31-131] Removed net: dvi/U0/DataEncoders[2].DataEncoder/vid_pData[0]
+INFO: [Opt 31-131] Removed net: dvi/U0/DataEncoders[2].DataEncoder/vid_pData[1]
+INFO: [Opt 31-131] Removed net: dvi/U0/DataEncoders[2].DataEncoder/vid_pData[2]
+INFO: [Opt 31-131] Removed net: dvi/U0/DataEncoders[2].DataEncoder/vid_pData[3]
+INFO: [Opt 31-131] Removed net: dvi/U0/DataEncoders[2].DataEncoder/vid_pData[4]
+INFO: [Opt 31-131] Removed net: dvi/U0/DataEncoders[2].DataEncoder/vid_pData[5]
+INFO: [Opt 31-131] Removed net: dvi/U0/DataEncoders[2].DataEncoder/vid_pData[6]
+INFO: [Opt 31-131] Removed net: dvi/U0/DataEncoders[2].DataEncoder/vid_pData[7]
+INFO: [Opt 31-131] Removed net: dvi/U0/vid_pData[23]
+INFO: [Opt 31-131] Removed net: dvi/U0/vid_pData[22]
+INFO: [Opt 31-131] Removed net: dvi/U0/vid_pData[21]
+INFO: [Opt 31-131] Removed net: dvi/U0/vid_pData[20]
+INFO: [Opt 31-131] Removed net: dvi/U0/vid_pData[19]
+INFO: [Opt 31-131] Removed net: dvi/U0/vid_pData[18]
+INFO: [Opt 31-131] Removed net: dvi/U0/vid_pData[17]
+INFO: [Opt 31-131] Removed net: dvi/U0/vid_pData[16]
+INFO: [Opt 31-131] Removed net: dvi/U0/vid_pData[15]
+INFO: [Opt 31-131] Removed net: dvi/U0/vid_pData[14]
+INFO: [Opt 31-131] Removed net: dvi/U0/vid_pData[13]
+INFO: [Opt 31-131] Removed net: dvi/U0/vid_pData[12]
+INFO: [Opt 31-131] Removed net: dvi/vid_pData[23]
+INFO: [Opt 31-131] Removed net: dvi/vid_pData[22]
+INFO: [Opt 31-131] Removed net: dvi/vid_pData[21]
+INFO: [Opt 31-131] Removed net: dvi/vid_pData[20]
+INFO: [Opt 31-131] Removed net: dvi/vid_pData[19]
+INFO: [Opt 31-131] Removed net: dvi/vid_pData[18]
+INFO: [Opt 31-131] Removed net: dvi/vid_pData[17]
+INFO: [Opt 31-131] Removed net: dvi/vid_pData[16]
+INFO: [Opt 31-131] Removed net: dvi/vid_pData[15]
+INFO: [Opt 31-131] Removed net: dvi/vid_pData[14]
+INFO: [Opt 31-131] Removed net: dvi/vid_pData[13]
+INFO: [Opt 31-131] Removed net: dvi/vid_pData[12]
+Phase 5 Sweep | Checksum: 1c26a73e6
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.037 . Memory (MB): peak = 3447.547 ; gain = 0.000
+Sweep | Checksum: 1c26a73e6
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 6 BUFG optimization
+INFO: [Opt 31-194] Inserted BUFG dvi/U0/ClockGenInternal.ClockGenX/PixelClk_BUFG_inst to drive 8 load(s) on clock net dvi/U0/ClockGenInternal.ClockGenX/PixelClk_BUFG
+INFO: [Opt 31-194] Inserted BUFG dvi/U0/ClockGenInternal.ClockGenX/SerialClk_BUFG_inst to drive 8 load(s) on clock net dvi/U0/ClockGenInternal.ClockGenX/SerialClk_BUFG
+INFO: [Opt 31-194] Inserted BUFG sync_unit/frame_unit/q_reg_reg[0]_BUFG_inst to drive 154 load(s) on clock net sync_unit/frame_unit/q_reg_reg[0]_BUFG
+INFO: [Opt 31-193] Inserted 3 BUFG(s) on clock nets
+Phase 6 BUFG optimization | Checksum: 1a55d53d8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.072 . Memory (MB): peak = 3447.547 ; gain = 0.000
+BUFG optimization | Checksum: 1a55d53d8
+INFO: [Opt 31-662] Phase BUFG optimization created 3 cells of which 3 are BUFGs and removed 0 cells.
+
+Phase 7 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 7 Shift Register Optimization | Checksum: 1a55d53d8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.073 . Memory (MB): peak = 3447.547 ; gain = 0.000
+Shift Register Optimization | Checksum: 1a55d53d8
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 8 Post Processing Netlist
+Phase 8 Post Processing Netlist | Checksum: 1a55d53d8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.074 . Memory (MB): peak = 3447.547 ; gain = 0.000
+Post Processing Netlist | Checksum: 1a55d53d8
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+
+Phase 9 Finalization
+
+Phase 9.1 Finalizing Design Cores and Updating Shapes
+Phase 9.1 Finalizing Design Cores and Updating Shapes | Checksum: 2735b8225
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.088 . Memory (MB): peak = 3447.547 ; gain = 0.000
+
+Phase 9.2 Verifying Netlist Connectivity
+
+Starting Connectivity Check Task
+ERROR: [Opt 31-67] Problem: A LUT3 cell in the design is missing a connection on input pin I0, which is used by the LUT equation. This pin has either been left unconnected in the design or the connection was removed due to the trimming of unused logic. The LUT cell name is: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[0]_i_2.
+Resolution: Please review the preceding OPT INFO messages that detail what has been trimmed in the design to determine if the removal of unused logic is causing this error. If opt_design is being specified directly, it will need to be rerun with opt_design -verbose to generate detailed INFO messages about trimming.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3447.547 ; gain = 0.000
+Phase 9.2 Verifying Netlist Connectivity | Checksum: 2735b8225
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.089 . Memory (MB): peak = 3447.547 ; gain = 0.000
+Phase 9 Finalization | Checksum: 2735b8225
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.089 . Memory (MB): peak = 3447.547 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+66 Infos, 54 Warnings, 24 Critical Warnings and 2 Errors encountered.
+opt_design failed
+ERROR: [Opt 31-67] Problem: A LUT3 cell in the design is missing a connection on input pin I0, which is used by the LUT equation. This pin has either been left unconnected in the design or the connection was removed due to the trimming of unused logic. The LUT cell name is: dvi/U0/DataEncoders[2].DataEncoder/n1d_1[0]_i_2.
+Resolution: Please review the preceding OPT INFO messages that detail what has been trimmed in the design to determine if the removal of unused logic is causing this error. If opt_design is being specified directly, it will need to be rerun with opt_design -verbose to generate detailed INFO messages about trimming.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/utils_1/imports/synth_1/VGA_Phy.dcp with file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/RGB_GPU.dcp
+launch_runs impl_1 -jobs 12
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Aug 19 20:02:58 2024] Launched synth_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/runme.log
+[Mon Aug 19 20:02:58 2024] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+refresh_design
+INFO: [Project 1-454] Reading design checkpoint 'd:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.gen/sources_1/ip/rgb2dvi_0/rgb2dvi_0.dcp' for cell 'dvi'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 3447.547 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.gen/sources_1/ip/rgb2dvi_0/src/rgb2dvi.xdc] for cell 'dvi/U0'
+Finished Parsing XDC File [d:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.gen/sources_1/ip/rgb2dvi_0/src/rgb2dvi.xdc] for cell 'dvi/U0'
+Parsing XDC File [D:/CelestiCall/Hardwares/VGA-GPU/Nexys-A7-100T-Master.xdc]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Terminal vidN[1] cannot be placed on J15 (IOB_X0Y101) because the pad is already occupied by terminal sw[0] possibly due to user constraint [D:/CelestiCall/Hardwares/VGA-GPU/Nexys-A7-100T-Master.xdc:34]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, the positive port (P-side) 'vidP[2]' of a differential pair cannot be placed on a negative package pin 'J13' (IOBS). [D:/CelestiCall/Hardwares/VGA-GPU/Nexys-A7-100T-Master.xdc:35]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, the negative port (N-side) 'vidN[0]' of a differential pair cannot be placed on a positive package pin 'N14' (IOBM). [D:/CelestiCall/Hardwares/VGA-GPU/Nexys-A7-100T-Master.xdc:36]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, the negative port (N-side) 'vidN[1]' of a differential pair cannot be placed on a positive package pin 'R18' (IOBM). [D:/CelestiCall/Hardwares/VGA-GPU/Nexys-A7-100T-Master.xdc:37]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Terminal clkN cannot be placed on U18 (IOB_X0Y65) because the pad is already occupied by terminal sw[6] possibly due to user constraint [D:/CelestiCall/Hardwares/VGA-GPU/Nexys-A7-100T-Master.xdc:39]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, the negative port (N-side) 'clkN' of a differential pair cannot be placed on a positive package pin 'U16' (IOBM). [D:/CelestiCall/Hardwares/VGA-GPU/Nexys-A7-100T-Master.xdc:40]
+Finished Parsing XDC File [D:/CelestiCall/Hardwares/VGA-GPU/Nexys-A7-100T-Master.xdc]
+Parsing XDC File [d:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.gen/sources_1/ip/rgb2dvi_0/src/rgb2dvi_clocks.xdc] for cell 'dvi/U0'
+Finished Parsing XDC File [d:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.gen/sources_1/ip/rgb2dvi_0/src/rgb2dvi_clocks.xdc] for cell 'dvi/U0'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/utils_1/imports/synth_1/VGA_Phy.dcp with file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/RGB_GPU.dcp
+launch_runs synth_1 -jobs 12
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+[Mon Aug 19 20:06:20 2024] Launched synth_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/runme.log
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/utils_1/imports/synth_1/VGA_Phy.dcp with file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/RGB_GPU.dcp
+launch_runs synth_1 -jobs 12
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+[Mon Aug 19 20:10:21 2024] Launched synth_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/runme.log
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+refresh_design
+INFO: [Project 1-454] Reading design checkpoint 'd:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.gen/sources_1/ip/rgb2dvi_0/rgb2dvi_0.dcp' for cell 'dvi'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 3447.547 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.gen/sources_1/ip/rgb2dvi_0/src/rgb2dvi.xdc] for cell 'dvi/U0'
+Finished Parsing XDC File [d:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.gen/sources_1/ip/rgb2dvi_0/src/rgb2dvi.xdc] for cell 'dvi/U0'
+Parsing XDC File [D:/CelestiCall/Hardwares/VGA-GPU/Nexys-A7-100T-Master.xdc]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Terminal vidN[1] cannot be placed on J15 (IOB_X0Y101) because the pad is already occupied by terminal sw[0] possibly due to user constraint [D:/CelestiCall/Hardwares/VGA-GPU/Nexys-A7-100T-Master.xdc:34]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, the positive port (P-side) 'vidP[2]' of a differential pair cannot be placed on a negative package pin 'J13' (IOBS). [D:/CelestiCall/Hardwares/VGA-GPU/Nexys-A7-100T-Master.xdc:35]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, the negative port (N-side) 'vidN[0]' of a differential pair cannot be placed on a positive package pin 'N14' (IOBM). [D:/CelestiCall/Hardwares/VGA-GPU/Nexys-A7-100T-Master.xdc:36]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, the negative port (N-side) 'vidN[1]' of a differential pair cannot be placed on a positive package pin 'R18' (IOBM). [D:/CelestiCall/Hardwares/VGA-GPU/Nexys-A7-100T-Master.xdc:37]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Terminal clkN cannot be placed on U18 (IOB_X0Y65) because the pad is already occupied by terminal sw[6] possibly due to user constraint [D:/CelestiCall/Hardwares/VGA-GPU/Nexys-A7-100T-Master.xdc:39]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, the negative port (N-side) 'clkN' of a differential pair cannot be placed on a positive package pin 'U16' (IOBM). [D:/CelestiCall/Hardwares/VGA-GPU/Nexys-A7-100T-Master.xdc:40]
+Finished Parsing XDC File [D:/CelestiCall/Hardwares/VGA-GPU/Nexys-A7-100T-Master.xdc]
+Parsing XDC File [d:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.gen/sources_1/ip/rgb2dvi_0/src/rgb2dvi_clocks.xdc] for cell 'dvi/U0'
+Finished Parsing XDC File [d:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.gen/sources_1/ip/rgb2dvi_0/src/rgb2dvi_clocks.xdc] for cell 'dvi/U0'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+refresh_design
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.gen/sources_1/ip/rgb2dvi_0/src/rgb2dvi.xdc] for cell 'dvi/U0'
+Finished Parsing XDC File [d:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.gen/sources_1/ip/rgb2dvi_0/src/rgb2dvi.xdc] for cell 'dvi/U0'
+Parsing XDC File [D:/CelestiCall/Hardwares/VGA-GPU/Nexys-A7-100T-Master.xdc]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Terminal vidN[1] cannot be placed on J15 (IOB_X0Y101) because the pad is already occupied by terminal sw[0] possibly due to user constraint [D:/CelestiCall/Hardwares/VGA-GPU/Nexys-A7-100T-Master.xdc:34]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, the positive port (P-side) 'vidP[2]' of a differential pair cannot be placed on a negative package pin 'J13' (IOBS). [D:/CelestiCall/Hardwares/VGA-GPU/Nexys-A7-100T-Master.xdc:35]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, the negative port (N-side) 'vidN[0]' of a differential pair cannot be placed on a positive package pin 'N14' (IOBM). [D:/CelestiCall/Hardwares/VGA-GPU/Nexys-A7-100T-Master.xdc:36]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, the negative port (N-side) 'vidN[1]' of a differential pair cannot be placed on a positive package pin 'R18' (IOBM). [D:/CelestiCall/Hardwares/VGA-GPU/Nexys-A7-100T-Master.xdc:37]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Terminal clkN cannot be placed on U18 (IOB_X0Y65) because the pad is already occupied by terminal sw[6] possibly due to user constraint [D:/CelestiCall/Hardwares/VGA-GPU/Nexys-A7-100T-Master.xdc:39]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, the negative port (N-side) 'clkN' of a differential pair cannot be placed on a positive package pin 'U16' (IOBM). [D:/CelestiCall/Hardwares/VGA-GPU/Nexys-A7-100T-Master.xdc:40]
+Finished Parsing XDC File [D:/CelestiCall/Hardwares/VGA-GPU/Nexys-A7-100T-Master.xdc]
+Parsing XDC File [d:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.gen/sources_1/ip/rgb2dvi_0/src/rgb2dvi_clocks.xdc] for cell 'dvi/U0'
+Finished Parsing XDC File [d:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.gen/sources_1/ip/rgb2dvi_0/src/rgb2dvi_clocks.xdc] for cell 'dvi/U0'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/utils_1/imports/synth_1/VGA_Phy.dcp with file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/RGB_GPU.dcp
+launch_runs synth_1 -jobs 12
+[Mon Aug 19 20:14:15 2024] Launched synth_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+launch_runs impl_1 -jobs 12
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Aug 19 20:15:09 2024] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/utils_1/imports/synth_1/VGA_Phy.dcp with file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/RGB_GPU.dcp
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-180] Spawn failed: No error
+reset_run impl_1
+launch_runs impl_1 -jobs 12
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Aug 19 20:17:46 2024] Launched synth_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/runme.log
+[Mon Aug 19 20:17:46 2024] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/utils_1/imports/synth_1/VGA_Phy.dcp with file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/RGB_GPU.dcp
+ERROR: [Common 17-180] Spawn failed: No error
+reset_run impl_1
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-39] 'reset_runs' failed due to earlier errors.
+launch_runs impl_1 -jobs 12
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Aug 19 20:22:16 2024] Launched synth_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/runme.log
+[Mon Aug 19 20:22:16 2024] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Aug 19 20:24:15 2024] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B9CED2A
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Aug 19 20:25:55 2024] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/impl_1/RGB_GPU.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/utils_1/imports/synth_1/VGA_Phy.dcp with file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/RGB_GPU.dcp
+launch_runs synth_1 -jobs 12
+[Mon Aug 19 20:29:56 2024] Launched synth_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\src\TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+launch_runs impl_1 -jobs 12
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Aug 19 20:31:30 2024] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/utils_1/imports/synth_1/VGA_Phy.dcp with file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/RGB_GPU.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Aug 19 20:38:50 2024] Launched synth_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/runme.log
+[Mon Aug 19 20:38:50 2024] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292B9CED2A
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/utils_1/imports/synth_1/VGA_Phy.dcp with file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/RGB_GPU.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Aug 19 20:43:45 2024] Launched synth_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/runme.log
+[Mon Aug 19 20:43:45 2024] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/utils_1/imports/synth_1/VGA_Phy.dcp with file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/RGB_GPU.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Aug 19 20:46:32 2024] Launched synth_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/runme.log
+[Mon Aug 19 20:46:32 2024] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/utils_1/imports/synth_1/VGA_Phy.dcp with file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/RGB_GPU.dcp
+reset_run impl_1
+launch_runs impl_1 -jobs 12
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Aug 19 20:49:54 2024] Launched synth_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/runme.log
+[Mon Aug 19 20:49:54 2024] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/utils_1/imports/synth_1/VGA_Phy.dcp with file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/RGB_GPU.dcp
+reset_run impl_1
+launch_runs impl_1 -jobs 12
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Aug 19 20:53:25 2024] Launched synth_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/runme.log
+[Mon Aug 19 20:53:25 2024] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1
+
+launch_runs impl_1 -jobs 12
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Aug 19 20:54:00 2024] Launched synth_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/runme.log
+[Mon Aug 19 20:54:00 2024] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Aug 19 20:56:23 2024] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/utils_1/imports/synth_1/VGA_Phy.dcp with file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/RGB_GPU.dcp
+reset_run impl_1
+launch_runs impl_1 -jobs 12
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Aug 19 20:58:58 2024] Launched synth_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/runme.log
+[Mon Aug 19 20:58:58 2024] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/utils_1/imports/synth_1/VGA_Phy.dcp with file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/RGB_GPU.dcp
+reset_run impl_1
+launch_runs impl_1 -jobs 12
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Aug 19 21:03:55 2024] Launched synth_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/runme.log
+[Mon Aug 19 21:03:55 2024] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.srcs/utils_1/imports/synth_1/VGA_Phy.dcp with file D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/RGB_GPU.dcp
+reset_run impl_1
+launch_runs impl_1 -jobs 12
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Aug 19 21:05:58 2024] Launched synth_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/synth_1/runme.log
+[Mon Aug 19 21:05:58 2024] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Aug 19 21:07:48 2024] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B9CED2A
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/CelestiCall/Hardwares/VGA-GPU/VGA-GPU.runs/impl_1/RGB_GPU.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\vga_demo.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.srcs\sources_1\new\VGA_GPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [d:\CelestiCall\Hardwares\VGA-GPU\VGA-GPU.gen\sources_1\ip\rgb2dvi_0\synth\rgb2dvi_0.vhd:]
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292B9CED2A
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Aug 19 21:15:11 2024...
