@@ -8,13 +8,6 @@
   <File Type="RDS-DCP" Name="CPU_system_wrapper.dcp"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PSRCDIR/sources_1/bd/CPU_system/CPU_system.bd">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
     <File Path="$PGENDIR/sources_1/bd/CPU_system/hdl/CPU_system_wrapper.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
