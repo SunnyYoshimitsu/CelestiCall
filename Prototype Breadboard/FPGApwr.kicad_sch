@@ -5797,12 +5797,6 @@
 		(uuid "06b74597-dc01-4698-ad7b-ea66d467a549")
 	)
 	(junction
-		(at 257.81 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11b6ce23-8dd8-4d7d-8ed4-9c9956c1fd2d")
-	)
-	(junction
 		(at 201.93 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6286,7 +6280,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 27.94) (xy 261.62 27.94)
+			(xy 250.19 27.94) (xy 261.62 27.94)
 		)
 		(stroke
 			(width 0)
@@ -6466,16 +6460,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 27.94) (xy 257.81 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f684401e-f5b1-4ac5-b9b9-c2c46f226a35")
-	)
-	(wire
-		(pts
 			(xy 173.99 88.9) (xy 177.8 88.9)
 		)
 		(stroke
@@ -6546,7 +6530,7 @@
 			)
 		)
 	)
-	(global_label "GPIO12"
+	(global_label "GPIO14"
 		(shape bidirectional)
 		(at 35.052 43.18 180)
 		(fields_autoplaced yes)
@@ -6556,7 +6540,7 @@
 			)
 			(justify right)
 		)
-		(uuid "5c55bbb3-48da-4e0a-bda0-8ef2f6d4a293")
+		(uuid "60a4c64d-5ddd-4587-84e5-be2266a5cfb1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 24.0612 43.18 0)
 			(effects
@@ -6568,7 +6552,7 @@
 			)
 		)
 	)
-	(global_label "GPIO14"
+	(global_label "GPIO12"
 		(shape bidirectional)
 		(at 35.052 40.64 180)
 		(fields_autoplaced yes)
@@ -6578,7 +6562,7 @@
 			)
 			(justify right)
 		)
-		(uuid "9050a461-fd6f-4c89-a153-72220149cc36")
+		(uuid "742bd3dd-c583-4051-9c6d-2222e6da5b4f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 24.0612 40.64 0)
 			(effects
@@ -9101,7 +9085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 41.91 29.21 0)
 			(effects
 				(font
@@ -9502,85 +9486,6 @@
 			(project "SYNC-VT"
 				(path "/8b98976c-b0e2-4979-aa9a-b6389ce6c189/e0fdbcfa-176a-4d8c-897b-d3b34c4c4b6c"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 257.81 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b435482f-732f-4efe-9d92-2e4f3e8498cd")
-		(property "Reference" "C23"
-			(at 261.62 30.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 258.572 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 258.7752 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 257.81 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 257.81 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 257.81 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "029ba0ca-e2d7-4817-8406-98d93b44b14d")
-		)
-		(pin "1"
-			(uuid "0f0dfa0a-5995-4c88-83ee-07cbf1a647ca")
-		)
-		(instances
-			(project "SYNC-VT"
-				(path "/8b98976c-b0e2-4979-aa9a-b6389ce6c189/e0fdbcfa-176a-4d8c-897b-d3b34c4c4b6c"
-					(reference "C23")
 					(unit 1)
 				)
 			)

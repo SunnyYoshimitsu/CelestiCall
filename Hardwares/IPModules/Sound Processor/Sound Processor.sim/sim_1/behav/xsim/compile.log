@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CelestiCall/Hardwares/IPModules/Sound Processor/Sound Processor.srcs/sources_1/new/Sound_Output.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sound_Output
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CelestiCall/Hardwares/IPModules/Sound Processor/Sound Processor.srcs/sources_1/new/dsm_module.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dsm_module
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CelestiCall/Hardwares/IPModules/Sound Processor/Sound Processor.srcs/sim_1/new/tb_Sound_Output.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_Sound_Output
