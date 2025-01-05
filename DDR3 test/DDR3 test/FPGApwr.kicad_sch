@@ -6272,7 +6272,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 111.76 36.322 90)
 			(effects
 				(font
@@ -7410,7 +7410,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sync_VT extras:225-LFBGA"
+		(property "Footprint" "Sync_VT extras:BGA225C80P15X15_1300X1300X150N"
 			(at 179.07 45.72 0)
 			(effects
 				(font
@@ -8660,7 +8660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 111.76 38.862 90)
 			(effects
 				(font
@@ -9396,7 +9396,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 31.75 49.022 90)
 			(effects
 				(font
@@ -9967,7 +9967,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sync_VT extras:225-LFBGA"
+		(property "Footprint" "Sync_VT extras:BGA225C80P15X15_1300X1300X150N"
 			(at 77.47 48.26 0)
 			(effects
 				(font
