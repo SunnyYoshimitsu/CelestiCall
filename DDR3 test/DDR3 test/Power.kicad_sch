@@ -2316,7 +2316,7 @@
 			(uuid "5e43285e-349d-42d1-bfba-d600220d3541")
 		)
 		(instances
-			(project ""
+			(project "SYNC-VT"
 				(path "/8b98976c-b0e2-4979-aa9a-b6389ce6c189/4c2e96e4-9fb1-4733-be3e-8bfc128702ff"
 					(reference "U1")
 					(unit 1)
@@ -4246,7 +4246,7 @@
 			(uuid "99fe38a3-4c53-4420-ad42-f0f78144e0b8")
 		)
 		(instances
-			(project ""
+			(project "SYNC-VT"
 				(path "/8b98976c-b0e2-4979-aa9a-b6389ce6c189/4c2e96e4-9fb1-4733-be3e-8bfc128702ff"
 					(reference "#PWR022")
 					(unit 1)
@@ -5328,7 +5328,7 @@
 			(uuid "89115a63-1ab9-4886-acdf-99b9a24dfbf4")
 		)
 		(instances
-			(project ""
+			(project "SYNC-VT"
 				(path "/8b98976c-b0e2-4979-aa9a-b6389ce6c189/4c2e96e4-9fb1-4733-be3e-8bfc128702ff"
 					(reference "U4")
 					(unit 1)
@@ -5395,7 +5395,7 @@
 			(uuid "5fb46d1c-ab94-465b-8ab0-02d65d1d0ad2")
 		)
 		(instances
-			(project ""
+			(project "SYNC-VT"
 				(path "/8b98976c-b0e2-4979-aa9a-b6389ce6c189/4c2e96e4-9fb1-4733-be3e-8bfc128702ff"
 					(reference "#PWR011")
 					(unit 1)
