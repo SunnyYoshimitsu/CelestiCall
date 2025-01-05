@@ -1,4 +1,4 @@
-23348455066075242
+23348455204337575
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -89284,6 +89284,62 @@ Logo WEEE
 0
 0
 0
+Sync_VT extras
+BGA225C80P15X15_1300X1300X150N
+
+
+0
+225
+225
+Sync_VT extras
+CONN12_47309-2651_MOL
+
+473092651 
+0
+12
+12
+Sync_VT extras
+DBV6
+
+TPS3106K33DBVR 
+0
+6
+6
+Sync_VT extras
+DBV6-L
+
+TPS3106K33DBVR 
+0
+6
+6
+Sync_VT extras
+DBV6-M
+
+TPS3106K33DBVR 
+0
+6
+6
+Sync_VT extras
+ECLGA-14_MPM3834C_MNP
+
+MPM3834CGPA-Z 
+0
+14
+14
+Sync_VT extras
+FBGA96_8X14_MRN
+
+MT41K256M16TW-107:P 
+0
+97
+97
+Sync_VT extras
+PG-BGA-24-801
+
+S80KS5123GABHA020 
+0
+24
+24
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -95339,59 +95395,3 @@ Varistor VF
 0
 2
 2
-footprint
-BGA225C80P15X15_1300X1300X150N
-
-
-0
-225
-225
-footprint
-CONN12_47309-2651_MOL
-
-473092651 
-0
-12
-12
-footprint
-DBV6
-
-TPS3106K33DBVR 
-0
-6
-6
-footprint
-DBV6-L
-
-TPS3106K33DBVR 
-0
-6
-6
-footprint
-DBV6-M
-
-TPS3106K33DBVR 
-0
-6
-6
-footprint
-ECLGA-14_MPM3834C_MNP
-
-MPM3834CGPA-Z 
-0
-14
-14
-footprint
-FBGA96_8X14_MRN
-
-MT41K256M16TW-107:P 
-0
-97
-97
-footprint
-PG-BGA-24-801
-
-S80KS5123GABHA020 
-0
-24
-24

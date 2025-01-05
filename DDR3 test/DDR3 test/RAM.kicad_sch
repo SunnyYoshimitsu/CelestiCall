@@ -1907,7 +1907,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FBGA96_8X14_MRN"
+		(property "Footprint" "Sync_VT extras:FBGA96_8X14_MRN"
 			(at 29.21 35.56 0)
 			(effects
 				(font

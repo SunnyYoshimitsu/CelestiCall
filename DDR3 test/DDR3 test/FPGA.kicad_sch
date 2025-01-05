@@ -4374,7 +4374,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sync_VT extras:225-LFBGA"
+		(property "Footprint" "Sync_VT extras:BGA225C80P15X15_1300X1300X150N"
 			(at 60.96 62.23 0)
 			(effects
 				(font
@@ -5283,7 +5283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Sync_VT extras:225-LFBGA"
+		(property "Footprint" "Sync_VT extras:BGA225C80P15X15_1300X1300X150N"
 			(at 62.23 135.89 0)
 			(effects
 				(font
@@ -6190,7 +6190,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sync_VT extras:225-LFBGA"
+		(property "Footprint" "Sync_VT extras:BGA225C80P15X15_1300X1300X150N"
 			(at 237.49 77.47 0)
 			(effects
 				(font
