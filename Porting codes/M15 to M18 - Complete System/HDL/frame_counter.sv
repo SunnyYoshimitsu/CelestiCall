@@ -1,5 +1,5 @@
 module frame_counter
-   #(parameter HMAX = 640,  // max horizontal count
+   #(parameter HMAX = 800,  // max horizontal count
                VMAX = 480    // max vertical count
    )       
    (

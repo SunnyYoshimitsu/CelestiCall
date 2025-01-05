@@ -6,4 +6,4 @@ D:/CelestiCall/Hardwares/IPModules/Sound Processor/Sound Processor.gen/sources_1
 D:/CelestiCall/Hardwares/IPModules/Sound Processor/Sound Processor.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,uvm,,,,,,
 D:/CelestiCall/Hardwares/IPModules/Sound Processor/Sound Processor.srcs/sim_1/new/tb_Sound_Output.sv,1735962255,systemVerilog,,,,tb_Sound_Output,,uvm,,,,,,
 D:/CelestiCall/Hardwares/IPModules/Sound Processor/Sound Processor.srcs/sources_1/new/Sound_Output.sv,1735964001,systemVerilog,,D:/CelestiCall/Hardwares/IPModules/Sound Processor/Sound Processor.srcs/sources_1/new/dsm_module.sv,,Sound_Output,,uvm,,,,,,
-D:/CelestiCall/Hardwares/IPModules/Sound Processor/Sound Processor.srcs/sources_1/new/dsm_module.sv,1735963932,systemVerilog,,D:/CelestiCall/Hardwares/IPModules/Sound Processor/Sound Processor.srcs/sim_1/new/tb_Sound_Output.sv,,dsm_module,,uvm,,,,,,
+D:/CelestiCall/Hardwares/IPModules/Sound Processor/Sound Processor.srcs/sources_1/new/dsm_module.sv,1736019444,systemVerilog,,D:/CelestiCall/Hardwares/IPModules/Sound Processor/Sound Processor.srcs/sim_1/new/tb_Sound_Output.sv,,dsm_module,,uvm,,,,,,
