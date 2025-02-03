@@ -1,4 +1,4 @@
-23348455204337575
+23350193190905368
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -89333,6 +89333,13 @@ MT41K256M16TW-107:P
 0
 97
 97
+Sync_VT extras
+IC_MT41K512M16VRP-107_IT_P_TR
+
+
+0
+96
+96
 Sync_VT extras
 PG-BGA-24-801
 
