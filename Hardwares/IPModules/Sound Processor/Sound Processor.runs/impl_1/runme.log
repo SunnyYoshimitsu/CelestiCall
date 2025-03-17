@@ -1,0 +1,307 @@
+
+*** Running vivado
+    with args -log I2S_Mic_Wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source I2S_Mic_Wrapper.tcl -notrace
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source I2S_Mic_Wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 472.855 ; gain = 183.211
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/CelestiCall/Hardwares/IPModules/ip_repo/Test_GPI_1_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is D:/CelestiCall/Hardwares/IPModules/Sound Processor/Sound Processor.runs/impl_1/{D:/CelestiCall/Hardwares/IPModules/Sound Processor/Sound Processor.cache/ip} 
+Command: link_design -top I2S_Mic_Wrapper -part xc7z010clg225-3
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7z010clg225-3
+INFO: [Project 1-454] Reading design checkpoint 'd:/CelestiCall/Hardwares/IPModules/Sound Processor/Sound Processor.gen/sources_1/ip/fifo_generator_0/fifo_generator_0.dcp' for cell 'sound_output/your_instance_name'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 909.320 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/CelestiCall/Hardwares/IPModules/Sound Processor/Sound Processor.gen/sources_1/ip/fifo_generator_0/fifo_generator_0.xdc] for cell 'sound_output/your_instance_name/U0'
+Finished Parsing XDC File [d:/CelestiCall/Hardwares/IPModules/Sound Processor/Sound Processor.gen/sources_1/ip/fifo_generator_0/fifo_generator_0.xdc] for cell 'sound_output/your_instance_name/U0'
+Parsing XDC File [D:/CelestiCall/Hardwares/IPModules/Sound Processor/Sound Processor.srcs/constrs_1/new/xdcfix.xdc]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Site location is not valid [D:/CelestiCall/Hardwares/IPModules/Sound Processor/Sound Processor.srcs/constrs_1/new/xdcfix.xdc:7]
+CRITICAL WARNING: [Common 17-69] Command failed: 'C17' is not a valid site or package pin name. [D:/CelestiCall/Hardwares/IPModules/Sound Processor/Sound Processor.srcs/constrs_1/new/xdcfix.xdc:95]
+CRITICAL WARNING: [Common 17-69] Command failed: 'D18' is not a valid site or package pin name. [D:/CelestiCall/Hardwares/IPModules/Sound Processor/Sound Processor.srcs/constrs_1/new/xdcfix.xdc:96]
+WARNING: [Vivado 12-584] No ports matched '1'. [D:/CelestiCall/Hardwares/IPModules/Sound Processor/Sound Processor.srcs/constrs_1/new/xdcfix.xdc:97]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/CelestiCall/Hardwares/IPModules/Sound Processor/Sound Processor.srcs/constrs_1/new/xdcfix.xdc:97]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-69] Command failed: 'A11' is not a valid site or package pin name. [D:/CelestiCall/Hardwares/IPModules/Sound Processor/Sound Processor.srcs/constrs_1/new/xdcfix.xdc:212]
+WARNING: [Vivado 12-584] No ports matched '1'. [D:/CelestiCall/Hardwares/IPModules/Sound Processor/Sound Processor.srcs/constrs_1/new/xdcfix.xdc:213]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/CelestiCall/Hardwares/IPModules/Sound Processor/Sound Processor.srcs/constrs_1/new/xdcfix.xdc:213]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/CelestiCall/Hardwares/IPModules/Sound Processor/Sound Processor.srcs/constrs_1/new/xdcfix.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1029.242 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Access is denied.
+11 Infos, 3 Warnings, 6 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1029.242 ; gain = 539.938
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.789 . Memory (MB): peak = 1051.234 ; gain = 21.992
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 238c904b2
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1573.938 ; gain = 522.703
+
+Starting Logic Optimization Task
+
+Phase 1 Initialization
+
+Phase 1.1 Core Generation And Design Setup
+Phase 1.1 Core Generation And Design Setup | Checksum: 238c904b2
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1947.262 ; gain = 0.000
+
+Phase 1.2 Setup Constraints And Sort Netlist
+Phase 1.2 Setup Constraints And Sort Netlist | Checksum: 238c904b2
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1947.262 ; gain = 0.000
+Phase 1 Initialization | Checksum: 238c904b2
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1947.262 ; gain = 0.000
+
+Phase 2 Timer Update And Timing Data Collection
+
+Phase 2.1 Timer Update
+Phase 2.1 Timer Update | Checksum: 238c904b2
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1947.262 ; gain = 0.000
+
+Phase 2.2 Timing Data Collection
+Phase 2.2 Timing Data Collection | Checksum: 238c904b2
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1947.262 ; gain = 0.000
+Phase 2 Timer Update And Timing Data Collection | Checksum: 238c904b2
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1947.262 ; gain = 0.000
+
+Phase 3 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 3 Retarget | Checksum: 23e0a1b80
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1947.262 ; gain = 0.000
+Retarget | Checksum: 23e0a1b80
+INFO: [Opt 31-389] Phase Retarget created 2 cells and removed 3 cells
+INFO: [Opt 31-1021] In phase Retarget, 3 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 4 Constant propagation | Checksum: 23e0a1b80
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1947.262 ; gain = 0.000
+Constant propagation | Checksum: 23e0a1b80
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 3 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 5 Sweep
+Phase 5 Sweep | Checksum: 26b098dd8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 1947.262 ; gain = 0.000
+Sweep | Checksum: 26b098dd8
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 3 cells
+INFO: [Opt 31-1021] In phase Sweep, 10 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 6 BUFG optimization
+Phase 6 BUFG optimization | Checksum: 26b098dd8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.055 . Memory (MB): peak = 1947.262 ; gain = 0.000
+BUFG optimization | Checksum: 26b098dd8
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 7 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 7 Shift Register Optimization | Checksum: 26b098dd8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.056 . Memory (MB): peak = 1947.262 ; gain = 0.000
+Shift Register Optimization | Checksum: 26b098dd8
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 8 Post Processing Netlist
+Phase 8 Post Processing Netlist | Checksum: 26b098dd8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.057 . Memory (MB): peak = 1947.262 ; gain = 0.000
+Post Processing Netlist | Checksum: 26b098dd8
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 5 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 9 Finalization
+
+Phase 9.1 Finalizing Design Cores and Updating Shapes
+Phase 9.1 Finalizing Design Cores and Updating Shapes | Checksum: 27bf3f8c9
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.063 . Memory (MB): peak = 1947.262 ; gain = 0.000
+
+Phase 9.2 Verifying Netlist Connectivity
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1947.262 ; gain = 0.000
+Phase 9.2 Verifying Netlist Connectivity | Checksum: 27bf3f8c9
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.064 . Memory (MB): peak = 1947.262 ; gain = 0.000
+Phase 9 Finalization | Checksum: 27bf3f8c9
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.065 . Memory (MB): peak = 1947.262 ; gain = 0.000
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               2  |               3  |                                              3  |
+|  Constant propagation         |               0  |               0  |                                              3  |
+|  Sweep                        |               0  |               3  |                                             10  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              5  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Ending Logic Optimization Task | Checksum: 27bf3f8c9
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.066 . Memory (MB): peak = 1947.262 ; gain = 0.000
+INFO: [Constraints 18-11670] Building netlist checker database with flags, 0x8
+Done building netlist checker database: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1947.262 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 1 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 0 Total Ports: 2
+Ending PowerOpt Patch Enables Task | Checksum: 27bf3f8c9
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2015.297 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 27bf3f8c9
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.374 . Memory (MB): peak = 2015.297 ; gain = 68.035
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 27bf3f8c9
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2015.297 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2015.297 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 27bf3f8c9
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2015.297 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+38 Infos, 3 Warnings, 6 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 2015.297 ; gain = 986.055
+INFO: [runtcl-4] Executing : report_drc -file I2S_Mic_Wrapper_drc_opted.rpt -pb I2S_Mic_Wrapper_drc_opted.pb -rpx I2S_Mic_Wrapper_drc_opted.rpx
+Command: report_drc -file I2S_Mic_Wrapper_drc_opted.rpt -pb I2S_Mic_Wrapper_drc_opted.pb -rpx I2S_Mic_Wrapper_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file D:/CelestiCall/Hardwares/IPModules/Sound Processor/Sound Processor.runs/impl_1/I2S_Mic_Wrapper_drc_opted.rpt.
+report_drc completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2015.297 ; gain = 0.000
+Wrote PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2015.297 ; gain = 0.000
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2015.297 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 2015.297 ; gain = 0.000
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2015.297 ; gain = 0.000
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 2015.297 ; gain = 0.000
+Write Physdb Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 2015.297 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/CelestiCall/Hardwares/IPModules/Sound Processor/Sound Processor.runs/impl_1/I2S_Mic_Wrapper_opt.dcp' has been generated.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-83] Releasing license: Implementation
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 1 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Starting Placer Task
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2015.297 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 1aa57dc79
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2015.297 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2015.297 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+ERROR: [Place 30-57] IO placement is illegal: 
+Terminal clk and reset have incompatible I/O standards in the same bank. The placement generated by the tools could not converge to a legal solution. The following table lists the illegal portions of the last known placement generated by the tools. Please analyze any user constraints (i.e., PACKAGE_PIN, LOC, IOSTANDARD ) which may cause a feasible placement to be impossible.
+ The following table uses the following notations:
+ c1 - is IOStandard compatible with bank? 1 - compatible, 0 is not
+ c2 - is IO VREF compatible with INTERNAL_VREF bank? 1 - compatible, 0 is not
+ c3 - is IO with DriveStrength compatible with bank? 1 - compatible, 0 is not
++--------+------------+----+----+----+-----------------------------------------------------+
+| BankId | IOStandard | c1 | c2 | c3 | Terminal Name                                       |
++--------+------------+----+----+----+-----------------------------------------------------+
+|   35   |LVCMOS18    |  1 |  1 |  1 |   data_o                                            |
+|   35   |LVCMOS18    |  1 |  1 |  1 |   i2s_data                                          |
+|   35   |LVCMOS18    |  1 |  1 |  1 |   mclk                                              |
++--------+------------+----+----+----+-----------------------------------------------------+
+|   34   |LVCMOS18    |  1 |  1 |  1 |   clk                                               |
+|   34   |LVCMOS33    |  1 |  1 |  1 |   reset                                             |
++--------+------------+----+----+----+-----------------------------------------------------+
+
+ERROR: [Place 30-743] IO/clock placer failed to collectively place all IOs and clock instances. This is likely due to design requirements or user constraints specified in the constraint file such as IO standards, bank/voltage/DCI/VREF specifications, together with the part and package being used for the implementation. Please check the above for any possible conflicts.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 115ec95c3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.101 . Memory (MB): peak = 2015.297 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 115ec95c3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.101 . Memory (MB): peak = 2015.297 ; gain = 0.000
+ERROR: [Place 30-99] Placer failed with error: 'IO Clock Placer failed'
+Please review all ERROR, CRITICAL WARNING, and WARNING messages during placement to understand the cause for failure.
+Ending Placer Task | Checksum: 115ec95c3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.102 . Memory (MB): peak = 2015.297 ; gain = 0.000
+54 Infos, 3 Warnings, 6 Critical Warnings and 4 Errors encountered.
+place_design failed
+ERROR: [Common 17-69] Command failed: Placer could not place all instances
+INFO: [Common 17-206] Exiting Vivado at Thu Jan  9 14:35:18 2025...

@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z010clg225-3" LaunchTime="1735962180" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/PDM_Gen.dcp">
-  <File Type="PA-TCL" Name="Sound_Output.tcl"/>
-  <File Type="REPORTS-TCL" Name="Sound_Output_reports.tcl"/>
-  <File Type="RDS-RDS" Name="Sound_Output.vds"/>
-  <File Type="RDS-UTIL" Name="Sound_Output_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="Sound_Output_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="Sound_Output.dcp"/>
+<GenRun Id="synth_1" LaunchPart="xc7z010clg225-3" LaunchTime="1736462050" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/PDM_Gen.dcp">
+  <File Type="PA-TCL" Name="I2S_Mic_Wrapper.tcl"/>
+  <File Type="REPORTS-TCL" Name="I2S_Mic_Wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="I2S_Mic_Wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="I2S_Mic_Wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="I2S_Mic_Wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="I2S_Mic_Wrapper.dcp"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Sound_Output.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/dsm_module.sv">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -15,7 +22,7 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/Sound_Output.sv">
+    <File Path="$PSRCDIR/sources_1/new/I2S_Mic_Wrapper.sv">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -24,12 +31,20 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="Sound_Output"/>
+      <Option Name="TopModule" Val="I2S_Mic_Wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
     <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/xdcfix.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
     <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/xdcfix.xdc"/>
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>
   </FileSet>

@@ -70,14 +70,18 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
+set_param chipscope.maxJobs 3
+set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a100tcsg324-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
+set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
 set_property webtalk.parent_dir {D:/CelestiCall/Hardwares/IPModules/HyperNovae GPU/HyperNovae GPU.cache/wt} [current_project]
 set_property parent.project_path {D:/CelestiCall/Hardwares/IPModules/HyperNovae GPU/HyperNovae GPU.xpr} [current_project]
+set_property XPM_LIBRARIES XPM_CDC [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property board_part_repo_paths {C:/Users/Hatsu/AppData/Roaming/Xilinx/Vivado/2023.2/xhub/board_store/xilinx_board_store} [current_project]
@@ -87,12 +91,23 @@ set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib -sv {
-  {D:/CelestiCall/Porting codes/M14 - Basic Video Controller/bar_demo.sv}
+  {D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/bram_fifo_fpro.sv}
+  {D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/chu_frame_buffer_core.sv}
   {D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/frame_counter.sv}
-  {D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/rgb2gray.sv}
-  {D:/CelestiCall/Porting codes/M14 - Basic Video Controller/vga_sync_demo.sv}
+  {D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/frame_palette.sv}
+  {D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/frame_src.sv}
+  {D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/line_buffer.sv}
+  {D:/CelestiCall/Hardwares/IPModules/HyperNovae GPU/HyperNovae GPU.srcs/sources_1/new/sync_rw_port_ram.sv}
+  {D:/CelestiCall/Hardwares/IPModules/HyperNovae GPU/HyperNovae GPU.srcs/sources_1/new/vga_ram.sv}
+  {D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/vga_sync.sv}
+  {D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/video_sys_daisy.sv}
   {D:/CelestiCall/Porting codes/M14 - Basic Video Controller/vga_demo.sv}
 }
+read_ip -quiet {{D:/CelestiCall/Hardwares/IPModules/HyperNovae GPU/HyperNovae GPU.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci}}
+set_property used_in_implementation false [get_files -all {{d:/CelestiCall/Hardwares/IPModules/HyperNovae GPU/HyperNovae GPU.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc}}]
+set_property used_in_implementation false [get_files -all {{d:/CelestiCall/Hardwares/IPModules/HyperNovae GPU/HyperNovae GPU.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc}}]
+set_property used_in_implementation false [get_files -all {{d:/CelestiCall/Hardwares/IPModules/HyperNovae GPU/HyperNovae GPU.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_ooc.xdc}}]
+
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -106,6 +121,8 @@ read_xdc {{D:/CelestiCall/Porting codes/M14 - Basic Video Controller/Nexys4DDR_V
 set_property used_in_implementation false [get_files {{D:/CelestiCall/Porting codes/M14 - Basic Video Controller/Nexys4DDR_VGA.xdc}}]
 
 set_param ips.enableIPCacheLiteLoad 1
+
+read_checkpoint -auto_incremental -incremental {D:/CelestiCall/Hardwares/IPModules/HyperNovae GPU/HyperNovae GPU.srcs/utils_1/imports/synth_1/vga_demo.dcp}
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

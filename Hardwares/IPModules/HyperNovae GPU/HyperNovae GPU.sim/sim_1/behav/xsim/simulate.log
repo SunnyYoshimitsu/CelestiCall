@@ -1,0 +1,9 @@
+Time resolution is 1 ps
+DRC Error : Reset is unsuccessful at time               100000.  RST must be held high for at least five RDCLK clock cycles, and RDEN must be low before RST becomes active high, and RDEN remains low during this reset cycle.
+$finish called at time : 100001 ps : File "C:/Xilinx/Vivado/2023.2/data/verilog/src/unisims/FIFO18E1.v" Line 1183
+DRC Error : Reset is unsuccessful at time               100001.  RST must be held high for at least five WRCLK clock cycles, and WREN must be low before RST becomes active high, and WREN remains low during this reset cycle.
+$finish called at time : 100002 ps : File "C:/Xilinx/Vivado/2023.2/data/verilog/src/unisims/FIFO18E1.v" Line 1192
+DRC Error : A RESET cycle must be observed before the first use of the FIFO instance vga_demo_tb1.uut.dut.v0_vga_sync_unit.line_unit.line_fifo_unit.bram_fifo_unit.\genblk5.fifo_18_bl.fifo_18_bl .INT_FIFO which occurs at time               110000.
+$finish called at time : 110001 ps : File "C:/Xilinx/Vivado/2023.2/data/verilog/src/unisims/FIFO18E1.v" Line 1290
+DRC Error : Reset is unsuccessful at time               150000.  WREN must be low for at least two WRCLK clock cycles after RST deasserted.
+$finish called at time : 150001 ps : File "C:/Xilinx/Vivado/2023.2/data/verilog/src/unisims/FIFO18E1.v" Line 1058

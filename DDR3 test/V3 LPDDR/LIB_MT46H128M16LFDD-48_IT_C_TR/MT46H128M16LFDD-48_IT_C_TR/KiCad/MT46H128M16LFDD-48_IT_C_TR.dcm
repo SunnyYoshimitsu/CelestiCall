@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MT46H128M16LFDD-48_IT_C_TR
+D DRAM MOBILE DDR 2G 128MX16 FBGA
+K
+F https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/mobile-dram/low-power-dram/lpddr/80-series/t89m_auto_lpddr.pdf?rev=f2b742cd54b841dd86c5e0c2a564daf7
+$ENDCMP
+#
+#End Doc Library

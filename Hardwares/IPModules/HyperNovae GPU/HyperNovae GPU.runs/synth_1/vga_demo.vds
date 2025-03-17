@@ -3,8 +3,8 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Sat Jan  4 12:07:28 2025
-# Process ID: 18344
+# Start of session at: Thu Jan  9 13:45:58 2025
+# Process ID: 37708
 # Current directory: D:/CelestiCall/Hardwares/IPModules/HyperNovae GPU/HyperNovae GPU.runs/synth_1
 # Command line: vivado.exe -log vga_demo.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source vga_demo.tcl
 # Log file: D:/CelestiCall/Hardwares/IPModules/HyperNovae GPU/HyperNovae GPU.runs/synth_1/vga_demo.vds
@@ -12,101 +12,217 @@
 # Running On: DESKTOP-I4589KT, OS: Windows, CPU Frequency: 3693 MHz, CPU Physical cores: 12, Host memory: 34246 MB
 #-----------------------------------------------------------
 source vga_demo.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental {D:/CelestiCall/Hardwares/IPModules/HyperNovae GPU/HyperNovae GPU.srcs/utils_1/imports/synth_1/vga_demo.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/CelestiCall/Hardwares/IPModules/HyperNovae GPU/HyperNovae GPU.srcs/utils_1/imports/synth_1/vga_demo.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
 Command: synth_design -top vga_demo -part xc7a100tcsg324-1
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 33768
+INFO: [Synth 8-7075] Helper process launched with PID 35152
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 1329.391 ; gain = 439.496
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1342.164 ; gain = 440.062
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-11241] undeclared symbol 'bypass_gray', assumed default net type 'wire' [D:/CelestiCall/Porting codes/M14 - Basic Video Controller/vga_demo.sv:20]
+INFO: [Synth 8-11241] undeclared symbol 'clk_25M', assumed default net type 'wire' [D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/video_sys_daisy.sv:92]
+INFO: [Synth 8-11241] undeclared symbol 'video_wr_data', assumed default net type 'wire' [D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/video_sys_daisy.sv:109]
 INFO: [Synth 8-6157] synthesizing module 'vga_demo' [D:/CelestiCall/Porting codes/M14 - Basic Video Controller/vga_demo.sv:1]
-INFO: [Synth 8-6157] synthesizing module 'bar_demo' [D:/CelestiCall/Porting codes/M14 - Basic Video Controller/bar_demo.sv:10]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [D:/CelestiCall/Porting codes/M14 - Basic Video Controller/bar_demo.sv:41]
-INFO: [Synth 8-6155] done synthesizing module 'bar_demo' (0#1) [D:/CelestiCall/Porting codes/M14 - Basic Video Controller/bar_demo.sv:10]
-INFO: [Synth 8-6157] synthesizing module 'rgb2gray' [D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/rgb2gray.sv:6]
-INFO: [Synth 8-6155] done synthesizing module 'rgb2gray' (0#1) [D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/rgb2gray.sv:6]
-INFO: [Synth 8-6157] synthesizing module 'vga_sync_demo' [D:/CelestiCall/Porting codes/M14 - Basic Video Controller/vga_sync_demo.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'video_sys_daisy' [D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/video_sys_daisy.sv:20]
 	Parameter CD bound to: 12 - type: integer 
+	Parameter VRAM_DATA_WIDTH bound to: 9 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [D:/CelestiCall/Hardwares/IPModules/HyperNovae GPU/HyperNovae GPU.runs/synth_1/.Xil/Vivado-37708-DESKTOP-I4589KT/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (0#1) [D:/CelestiCall/Hardwares/IPModules/HyperNovae GPU/HyperNovae GPU.runs/synth_1/.Xil/Vivado-37708-DESKTOP-I4589KT/realtime/clk_wiz_0_stub.v:6]
 INFO: [Synth 8-6157] synthesizing module 'frame_counter' [D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/frame_counter.sv:1]
+	Parameter HMAX bound to: 640 - type: integer 
+	Parameter VMAX bound to: 480 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'frame_counter' (0#1) [D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/frame_counter.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'chu_frame_buffer_core' [D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/chu_frame_buffer_core.sv:1]
+	Parameter CD bound to: 12 - type: integer 
+	Parameter DW bound to: 9 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'frame_src' [D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/frame_src.sv:1]
+	Parameter CD bound to: 12 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'vga_ram' [D:/CelestiCall/Hardwares/IPModules/HyperNovae GPU/HyperNovae GPU.srcs/sources_1/new/vga_ram.sv:8]
+	Parameter DW bound to: 9 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'sync_rw_port_ram' [D:/CelestiCall/Hardwares/IPModules/HyperNovae GPU/HyperNovae GPU.srcs/sources_1/new/sync_rw_port_ram.sv:2]
+	Parameter ADDR_WIDTH bound to: 18 - type: integer 
+	Parameter DATA_WIDTH bound to: 9 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'sync_rw_port_ram' (0#1) [D:/CelestiCall/Hardwares/IPModules/HyperNovae GPU/HyperNovae GPU.srcs/sources_1/new/sync_rw_port_ram.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'sync_rw_port_ram__parameterized0' [D:/CelestiCall/Hardwares/IPModules/HyperNovae GPU/HyperNovae GPU.srcs/sources_1/new/sync_rw_port_ram.sv:2]
+	Parameter ADDR_WIDTH bound to: 16 - type: integer 
+	Parameter DATA_WIDTH bound to: 9 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'sync_rw_port_ram__parameterized0' (0#1) [D:/CelestiCall/Hardwares/IPModules/HyperNovae GPU/HyperNovae GPU.srcs/sources_1/new/sync_rw_port_ram.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 'vga_ram' (0#1) [D:/CelestiCall/Hardwares/IPModules/HyperNovae GPU/HyperNovae GPU.srcs/sources_1/new/vga_ram.sv:8]
+INFO: [Synth 8-6157] synthesizing module 'frame_palette_9' [D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/frame_palette.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'frame_palette_9' (0#1) [D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/frame_palette.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'frame_src' (0#1) [D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/frame_src.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'chu_frame_buffer_core' (0#1) [D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/chu_frame_buffer_core.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'line_buffer' [D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/line_buffer.sv:11]
+	Parameter CD bound to: 12 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'bram_fifo_fpro' [D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/bram_fifo_fpro.sv:44]
+	Parameter DW bound to: 13 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'xil_internal_svlib_FIFO_DUALCLOCK_MACRO' [C:/Xilinx/Vivado/2023.2/data/verilog/src/unimacro/FIFO_DUALCLOCK_MACRO.v:25]
+	Parameter ALMOST_EMPTY_OFFSET bound to: 9'b010000000 
+	Parameter ALMOST_FULL_OFFSET bound to: 9'b010000000 
+	Parameter DATA_WIDTH bound to: 13 - type: integer 
+	Parameter DEVICE bound to: 7SERIES - type: string 
+	Parameter FIFO_SIZE bound to: 18Kb - type: string 
+	Parameter FIRST_WORD_FALL_THROUGH bound to: TRUE - type: string 
+INFO: [Synth 8-6157] synthesizing module 'FIFO18E1' [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41408]
+	Parameter ALMOST_EMPTY_OFFSET bound to: 9'b010000000 
+	Parameter ALMOST_FULL_OFFSET bound to: 9'b010000000 
+	Parameter DATA_WIDTH bound to: 18 - type: integer 
+	Parameter DO_REG bound to: 1 - type: integer 
+	Parameter EN_SYN bound to: FALSE - type: string 
+	Parameter FIFO_MODE bound to: FIFO18 - type: string 
+	Parameter FIRST_WORD_FALL_THROUGH bound to: TRUE - type: string 
+	Parameter INIT bound to: 36'b000000000000000000000000000000000000 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+	Parameter SRVAL bound to: 36'b000000000000000000000000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'FIFO18E1' (0#1) [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41408]
+INFO: [Synth 8-6155] done synthesizing module 'xil_internal_svlib_FIFO_DUALCLOCK_MACRO' (0#1) [C:/Xilinx/Vivado/2023.2/data/verilog/src/unimacro/FIFO_DUALCLOCK_MACRO.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'bram_fifo_fpro' (0#1) [D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/bram_fifo_fpro.sv:44]
+INFO: [Synth 8-6155] done synthesizing module 'line_buffer' (0#1) [D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/line_buffer.sv:11]
+INFO: [Synth 8-6157] synthesizing module 'vga_sync' [D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/vga_sync.sv:8]
+	Parameter CD bound to: 12 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'frame_counter__parameterized0' [D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/frame_counter.sv:1]
 	Parameter HMAX bound to: 800 - type: integer 
 	Parameter VMAX bound to: 525 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'frame_counter' (0#1) [D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/frame_counter.sv:1]
-INFO: [Synth 8-6155] done synthesizing module 'vga_sync_demo' (0#1) [D:/CelestiCall/Porting codes/M14 - Basic Video Controller/vga_sync_demo.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'frame_counter__parameterized0' (0#1) [D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/frame_counter.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'vga_sync' (0#1) [D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/vga_sync.sv:8]
+INFO: [Synth 8-6155] done synthesizing module 'video_sys_daisy' (0#1) [D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/video_sys_daisy.sv:20]
 INFO: [Synth 8-6155] done synthesizing module 'vga_demo' (0#1) [D:/CelestiCall/Porting codes/M14 - Basic Video Controller/vga_demo.sv:1]
-WARNING: [Synth 8-7129] Port x[10] in module bar_demo is either unconnected or has no load
-WARNING: [Synth 8-7129] Port x[2] in module bar_demo is either unconnected or has no load
-WARNING: [Synth 8-7129] Port x[1] in module bar_demo is either unconnected or has no load
-WARNING: [Synth 8-7129] Port x[0] in module bar_demo is either unconnected or has no load
+WARNING: [Synth 8-6014] Unused sequential element bypass_reg_reg was removed.  [D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/video_sys_daisy.sv:88]
+WARNING: [Synth 8-3848] Net frame_cs in module/entity video_sys_daisy does not have driver. [D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/video_sys_daisy.sv:37]
+WARNING: [Synth 8-3848] Net frame_wr in module/entity video_sys_daisy does not have driver. [D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/video_sys_daisy.sv:37]
+WARNING: [Synth 8-3848] Net frame_addr in module/entity video_sys_daisy does not have driver. [D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/video_sys_daisy.sv:38]
+WARNING: [Synth 8-3848] Net video_wr_data in module/entity video_sys_daisy does not have driver. [D:/CelestiCall/Porting codes/M15 to M18 - Complete System/HDL/video_sys_daisy.sv:109]
+WARNING: [Synth 8-7129] Port vga_si_valid in module vga_sync is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[10] in module frame_src is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[9] in module frame_src is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[31] in module chu_frame_buffer_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[30] in module chu_frame_buffer_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[29] in module chu_frame_buffer_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[28] in module chu_frame_buffer_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[27] in module chu_frame_buffer_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[26] in module chu_frame_buffer_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[25] in module chu_frame_buffer_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[24] in module chu_frame_buffer_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[23] in module chu_frame_buffer_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[22] in module chu_frame_buffer_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[21] in module chu_frame_buffer_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[20] in module chu_frame_buffer_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[19] in module chu_frame_buffer_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[18] in module chu_frame_buffer_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[17] in module chu_frame_buffer_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[16] in module chu_frame_buffer_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[15] in module chu_frame_buffer_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[14] in module chu_frame_buffer_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[13] in module chu_frame_buffer_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[12] in module chu_frame_buffer_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[11] in module chu_frame_buffer_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[10] in module chu_frame_buffer_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[9] in module chu_frame_buffer_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test[11] in module video_sys_daisy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test[10] in module video_sys_daisy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test[9] in module video_sys_daisy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test[8] in module video_sys_daisy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test[7] in module video_sys_daisy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test[6] in module video_sys_daisy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test[5] in module video_sys_daisy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test[4] in module video_sys_daisy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test[3] in module video_sys_daisy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test[2] in module video_sys_daisy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test[1] in module video_sys_daisy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control in module video_sys_daisy is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1436.598 ; gain = 546.703
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1467.406 ; gain = 565.305
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1436.598 ; gain = 546.703
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1467.406 ; gain = 565.305
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1436.598 ; gain = 546.703
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1467.406 ; gain = 565.305
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1436.598 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1467.406 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
+Parsing XDC File [d:/CelestiCall/Hardwares/IPModules/HyperNovae GPU/HyperNovae GPU.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'dut/clk_25MHz'
+Finished Parsing XDC File [d:/CelestiCall/Hardwares/IPModules/HyperNovae GPU/HyperNovae GPU.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'dut/clk_25MHz'
 Parsing XDC File [D:/CelestiCall/Porting codes/M14 - Basic Video Controller/Nexys4DDR_VGA.xdc]
 Finished Parsing XDC File [D:/CelestiCall/Porting codes/M14 - Basic Video Controller/Nexys4DDR_VGA.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/CelestiCall/Porting codes/M14 - Basic Video Controller/Nexys4DDR_VGA.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/vga_demo_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/vga_demo_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1523.309 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1473.980 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1523.309 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1473.980 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 1523.309 ; gain = 633.414
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 1473.980 ; gain = 571.879
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 1523.309 ; gain = 633.414
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 1473.980 ; gain = 571.879
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk. (constraint file  {d:/CelestiCall/Hardwares/IPModules/HyperNovae GPU/HyperNovae GPU.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc}, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk. (constraint file  {d:/CelestiCall/Hardwares/IPModules/HyperNovae GPU/HyperNovae GPU.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc}, line 4).
+Applied set_property KEEP_HIERARCHY = SOFT for dut/clk_25MHz. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 1523.309 ; gain = 633.414
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 1473.980 ; gain = 571.879
 ---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'vga_sync'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              frame_sync |                                0 | 00000000000000000000000000000000
+                  iSTATE |                                1 | 00000000000000000000000000000001
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'vga_sync'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 1523.309 ; gain = 633.414
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 1473.980 ; gain = 571.879
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input   11 Bit       Adders := 2     
-	   2 Input    2 Bit       Adders := 1     
+	   3 Input   19 Bit       Adders := 1     
+	   2 Input   11 Bit       Adders := 4     
 +---Registers : 
-	               12 Bit    Registers := 1     
-	               11 Bit    Registers := 2     
-	                2 Bit    Registers := 1     
-	                1 Bit    Registers := 2     
+	               12 Bit    Registers := 2     
+	               11 Bit    Registers := 4     
+	                9 Bit    Registers := 2     
+	                1 Bit    Registers := 7     
++---RAMs : 
+	            2304K Bit	(262144 X 9 bit)          RAMs := 1     
+	             576K Bit	(65536 X 9 bit)          RAMs := 1     
 +---Muxes : 
 	   2 Input   12 Bit        Muxes := 3     
-	   2 Input   11 Bit        Muxes := 4     
-	   2 Input    4 Bit        Muxes := 6     
-	   7 Input    4 Bit        Muxes := 3     
-	   2 Input    1 Bit        Muxes := 2     
+	   2 Input   11 Bit        Muxes := 8     
+	   2 Input    9 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 8     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -123,26 +239,78 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port sw[12] in module vga_demo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[11] in module vga_demo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[10] in module vga_demo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[9] in module vga_demo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[8] in module vga_demo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[7] in module vga_demo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[6] in module vga_demo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[5] in module vga_demo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[4] in module vga_demo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[3] in module vga_demo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[2] in module vga_demo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[1] in module vga_demo is either unconnected or has no load
+INFO: [Synth 8-5784] Optimized 8 bits of RAM "dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg" due to constant propagation. Old ram width 9 bits, new ram width 1 bits.
+INFO: [Synth 8-5784] Optimized 8 bits of RAM "dut/buf_unit/frame_src_unit/vram_unit/ram_64k_unit/ram_reg" due to constant propagation. Old ram width 9 bits, new ram width 1 bits.
+WARNING: [Synth 8-3332] Sequential element (dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_mux_sel_a_pos_1) is unused and will be removed from module vga_demo.
+WARNING: [Synth 8-3332] Sequential element (dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_mux_sel_a_pos_1__0) is unused and will be removed from module vga_demo.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:14 . Memory (MB): peak = 1523.309 ; gain = 633.414
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:15 . Memory (MB): peak = 1473.980 ; gain = 571.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping Report (see note below)
++------------+-------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object                                                  | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+-------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|vga_demo    | dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg | 256 K x 9(READ_FIRST)  | W |   | 256 K x 9(WRITE_FIRST) |   | R | Port A and B     | 0      | 8      | 
+|vga_demo    | dut/buf_unit/frame_src_unit/vram_unit/ram_64k_unit/ram_reg  | 64 K x 9(READ_FIRST)   | W |   | 64 K x 9(WRITE_FIRST)  |   | R | Port A and B     | 0      | 2      | 
++------------+-------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 1523.309 ; gain = 633.414
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:19 . Memory (MB): peak = 1473.980 ; gain = 571.879
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 1523.309 ; gain = 633.414
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:19 . Memory (MB): peak = 1473.980 ; gain = 571.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping Report
++------------+-------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object                                                  | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+-------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|vga_demo    | dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg | 256 K x 9(READ_FIRST)  | W |   | 256 K x 9(WRITE_FIRST) |   | R | Port A and B     | 0      | 8      | 
+|vga_demo    | dut/buf_unit/frame_src_unit/vram_unit/ram_64k_unit/ram_reg  | 64 K x 9(READ_FIRST)   | W |   | 64 K x 9(WRITE_FIRST)  |   | R | Port A and B     | 0      | 2      | 
++------------+-------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance dut/buf_unit/frame_src_unit/vram_unit/ram_64k_unit/ram_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 1523.309 ; gain = 633.414
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:19 . Memory (MB): peak = 1473.980 ; gain = 571.879
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -159,87 +327,94 @@ Start Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \dut/clk_25MHz  has unconnected pin reset
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 1523.309 ; gain = 633.414
+Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 1473.980 ; gain = 571.879
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 1523.309 ; gain = 633.414
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 1473.980 ; gain = 571.879
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 1523.309 ; gain = 633.414
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 1473.980 ; gain = 571.879
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 1523.309 ; gain = 633.414
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 1473.980 ; gain = 571.879
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 1523.309 ; gain = 633.414
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:23 . Memory (MB): peak = 1473.980 ; gain = 571.879
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 1523.309 ; gain = 633.414
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:11 ; elapsed = 00:00:23 . Memory (MB): peak = 1473.980 ; gain = 571.879
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
 ---------------------------------------------------------------------------------
 
 Report BlackBoxes: 
-+-+--------------+----------+
-| |BlackBox name |Instances |
-+-+--------------+----------+
-+-+--------------+----------+
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
++------+--------------+----------+
 
 Report Cell Usage: 
-+------+-------+------+
-|      |Cell   |Count |
-+------+-------+------+
-|1     |BUFG   |     1|
-|2     |CARRY4 |    10|
-|3     |LUT1   |     6|
-|4     |LUT2   |    17|
-|5     |LUT3   |    25|
-|6     |LUT4   |    30|
-|7     |LUT5   |    16|
-|8     |LUT6   |    27|
-|9     |FDRE   |    38|
-|10    |IBUF   |    15|
-|11    |OBUF   |    14|
-+------+-------+------+
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |clk_wiz  |     1|
+|2     |CARRY4   |     7|
+|3     |FIFO18E1 |     2|
+|4     |LUT1     |     5|
+|5     |LUT2     |    17|
+|6     |LUT3     |    30|
+|7     |LUT4     |    13|
+|8     |LUT5     |    19|
+|9     |LUT6     |    33|
+|10    |RAMB36E1 |    10|
+|12    |FDCE     |    45|
+|13    |FDRE     |    33|
+|14    |IBUF     |     2|
+|15    |OBUF     |    14|
++------+---------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 1523.309 ; gain = 633.414
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:23 . Memory (MB): peak = 1473.980 ; gain = 571.879
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:20 . Memory (MB): peak = 1523.309 ; gain = 546.703
-Synthesis Optimization Complete : Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 1523.309 ; gain = 633.414
+Synthesis finished with 0 errors, 1 critical warnings and 15 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:06 ; elapsed = 00:00:21 . Memory (MB): peak = 1473.980 ; gain = 565.305
+Synthesis Optimization Complete : Time (s): cpu = 00:00:11 ; elapsed = 00:00:23 . Memory (MB): peak = 1473.980 ; gain = 571.879
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1523.309 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1473.980 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 19 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1523.309 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1486.547 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete | Checksum: e8beeddb
+Synth Design complete | Checksum: efa99d73
 INFO: [Common 17-83] Releasing license: Synthesis
-27 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+67 Infos, 58 Warnings, 1 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:25 . Memory (MB): peak = 1523.309 ; gain = 1048.465
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1523.309 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:27 . Memory (MB): peak = 1486.547 ; gain = 995.191
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1486.547 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'D:/CelestiCall/Hardwares/IPModules/HyperNovae GPU/HyperNovae GPU.runs/synth_1/vga_demo.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file vga_demo_utilization_synth.rpt -pb vga_demo_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sat Jan  4 12:08:00 2025...
+INFO: [Common 17-206] Exiting Vivado at Thu Jan  9 13:46:33 2025...

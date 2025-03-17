@@ -1,0 +1,77 @@
+*PADS-LIBRARY-PART-TYPES-V9*
+
+MT46H128M16LFDD-48_IT_C_TR BGA60C80P9X10_800X900X100 I ANA 7 1 0 0 0
+TIMESTAMP 2025.02.26.04.06.25
+"Mouser Part Number" 340-242388-REEL
+"Mouser Price/Stock" https://www.mouser.co.uk/ProductDetail/Micron/MT46H128M16LFDD-48-ITC-TR?qs=taEdVNyAfdH9Uc4RiwxL6g%3D%3D
+"Manufacturer_Name" Micron
+"Manufacturer_Part_Number" MT46H128M16LFDD-48 IT:C TR
+"Description" DRAM MOBILE DDR 2G 128MX16 FBGA
+"Datasheet Link" https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/mobile-dram/low-power-dram/lpddr/80-series/t89m_auto_lpddr.pdf?rev=f2b742cd54b841dd86c5e0c2a564daf7
+"Geometry.Height" 1mm
+GATE 1 60 0
+MT46H128M16LFDD-48_IT_C_TR
+A1 0 U VSS_1
+A2 0 U DQ15
+A3 0 U VSSQ_1
+A7 0 U VDDQ_1
+A8 0 U DQ0
+A9 0 U VDD_1
+B1 0 U VDDQ_2
+B2 0 U DQ13
+B3 0 U DQ14
+B7 0 U DQ1
+B8 0 U DQ2
+B9 0 U VSSQ_2
+C1 0 U VSSQ_3
+C2 0 U DQ11
+C3 0 U DQ12
+C7 0 U DQ3
+C8 0 U DQ4
+C9 0 U VDDQ_3
+D1 0 U VDDQ_4
+D2 0 U DQ9
+D3 0 U DQ10
+D7 0 U DQ5
+D8 0 U DQ6
+D9 0 U TEST
+E1 0 U VSSQ_4
+E2 0 U UDQS
+E3 0 U DQ8
+E7 0 U DQ7
+E8 0 U LDQS
+E9 0 U VDDQ_5
+F1 0 U VSS_2
+F2 0 U UDM
+F3 0 U NC
+F7 0 U A13
+F8 0 U LDM
+F9 0 U VDD_2
+G1 0 U CKE
+G2 0 U CK
+G3 0 U CK#
+G7 0 U WE#
+G8 0 U CAS#
+G9 0 U RAS#
+H1 0 U A9
+H2 0 U A11
+H3 0 U A12
+H7 0 U CS#
+H8 0 U BA0
+H9 0 U BA1
+J1 0 U A6
+J2 0 U A7
+J3 0 U A8
+J7 0 U A10/AP
+J8 0 U A0
+J9 0 U A1
+K1 0 U VSS_3
+K2 0 U A4
+K3 0 U A5
+K7 0 U A2
+K8 0 U A3
+K9 0 U VDD_3
+
+*END*
+*REMARK* SamacSys ECAD Model
+1379896/1493345/2.50/60/3/Integrated Circuit

@@ -1,0 +1,454 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu Jan  9 14:50:48 2025
+# Process ID: 32480
+# Current directory: D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10860 D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.xpr
+# Log file: D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/vivado.log
+# Journal file: D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor\vivado.jou
+# Running On        :DESKTOP-I4589KT
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :AMD Ryzen 5 5600X 6-Core Processor             
+# CPU Frequency     :3693 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :34246 MB
+# Swap memory       :2147 MB
+# Total Virtual     :36394 MB
+# Available Virtual :12735 MB
+#-----------------------------------------------------------
+start_gui
+open_project {D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.xpr}
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'fifo_generator_0' is locked:
+* IP definition 'FIFO Generator (13.2)' for IP 'fifo_generator_0' (customized with software release 2023.2) has a different revision in the IP Catalog.
+open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1627.387 ; gain = 410.195
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1160] Copying file D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.runs/synth_1/I2S_Mic_Wrapper.dcp to D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Jan  9 14:51:48 2025] Launched synth_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.runs/synth_1/runme.log
+[Thu Jan  9 14:51:48 2025] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2024.1.0
+  **** Build date : Mar  6 2024 at 20:50:54
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2024.1.0
+  ****** Build date   : Mar 08 2024-16:00:37
+    **** Build number : 2024.1.1709942437
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1690.867 ; gain = 11.543
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B9CED2A
+set_property PROGRAM.FILE {D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.runs/impl_1/I2S_Mic_Wrapper.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.runs/impl_1/I2S_Mic_Wrapper.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.runs/impl_1/I2S_Mic_Wrapper.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.srcs/utils_1/imports/synth_1/I2S_Mic_Wrapper.dcp with file D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.runs/synth_1/I2S_Mic_Wrapper.dcp
+reset_run impl_1
+launch_runs impl_1 -jobs 12
+[Thu Jan  9 14:56:44 2025] Launched synth_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.runs/synth_1/runme.log
+[Thu Jan  9 14:56:44 2025] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.runs/impl_1/runme.log
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292B9CED2A
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Jan  9 14:58:54 2025] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B9CED2A
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.runs/impl_1/I2S_Mic_Wrapper.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.runs/impl_1/I2S_Mic_Wrapper.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.srcs/utils_1/imports/synth_1/I2S_Mic_Wrapper.dcp with file D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.runs/synth_1/I2S_Mic_Wrapper.dcp
+reset_run impl_1
+launch_runs impl_1 -jobs 12
+[Thu Jan  9 15:02:51 2025] Launched synth_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.runs/synth_1/runme.log
+[Thu Jan  9 15:02:51 2025] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Jan  9 15:05:00 2025] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.runs/impl_1/I2S_Mic_Wrapper.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close [ open {D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.srcs/sources_1/new/Mic_Demo.sv} w ]
+add_files {{D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.srcs/sources_1/new/Mic_Demo.sv}}
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+export_ip_user_files -of_objects  [get_files {{D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.srcs/sources_1/new/Mic_Demo.sv}}] -no_script -reset -force -quiet
+remove_files  {{D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.srcs/sources_1/new/Mic_Demo.sv}}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\dsm_module.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\Sound_Output.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\dsm_module.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\Sound_Output.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\dsm_module.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\dsm_module.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\dsm_module.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\Sound_Output.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\dsm_module.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\Sound_Output.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\dsm_module.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\Sound_Output.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\dsm_module.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\dsm_module.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\dsm_module.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\dsm_module.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\dsm_module.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\dsm_module.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\dsm_module.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\dsm_module.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\dsm_module.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+close [ open {D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.srcs/sources_1/new/sine_wave_gen.sv} w ]
+add_files {{D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.srcs/sources_1/new/sine_wave_gen.sv}}
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.srcs/utils_1/imports/synth_1/I2S_Mic_Wrapper.dcp with file D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.runs/synth_1/I2S_Mic_Wrapper.dcp
+launch_runs impl_1 -jobs 12
+[Thu Jan  9 15:33:11 2025] Launched synth_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.runs/synth_1/runme.log
+[Thu Jan  9 15:33:11 2025] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Jan  9 15:36:05 2025] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.runs/impl_1/runme.log
+set_property top dsm_test_circuit [current_fileset]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.srcs/utils_1/imports/synth_1/I2S_Mic_Wrapper.dcp with file D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.runs/synth_1/Sound_Output.dcp
+launch_runs impl_1 -jobs 12
+[Thu Jan  9 15:36:48 2025] Launched synth_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.runs/synth_1/runme.log
+[Thu Jan  9 15:36:48 2025] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Jan  9 15:39:36 2025] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.runs/impl_1/runme.log
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.runs/impl_1/dsm_test_circuit.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.runs/impl_1/dsm_test_circuit.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+set_property top dsm_test_with_inmp441 [current_fileset]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.srcs/utils_1/imports/synth_1/I2S_Mic_Wrapper.dcp with file D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.runs/synth_1/dsm_test_circuit.dcp
+launch_runs impl_1 -jobs 12
+[Thu Jan  9 15:49:28 2025] Launched synth_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.runs/synth_1/runme.log
+[Thu Jan  9 15:49:28 2025] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\verilog_shift_register_test_PISO.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\I2S_Mic_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CelestiCall\Hardwares\IPModules\Sound\Sound Processor\Sound Processor.srcs\sources_1\new\sine_wave_gen.sv:]
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Jan  9 15:51:21 2025] Launched impl_1...
+Run output will be captured here: D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/CelestiCall/Hardwares/IPModules/Sound/Sound Processor/Sound Processor.runs/impl_1/dsm_test_with_inmp441.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292B9CED2A
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jan  9 16:46:52 2025...

@@ -1,0 +1,9 @@
+Manufacturer=Micron
+PartNumber=MT46H128M16LFDD-48 IT:C TR
+PartCategory=Integrated Circuit
+PackageCategory=BGA
+PinCount=60
+Version=1.1
+Released=2023-04-26 04:57:11
+Downloaded=2025-02-26 04:06:25
+3D=Y

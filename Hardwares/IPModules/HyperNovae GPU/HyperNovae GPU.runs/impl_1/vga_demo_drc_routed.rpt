@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-| Date         : Sat Jan  4 12:08:54 2025
+| Date         : Thu Jan  9 13:47:34 2025
 | Host         : DESKTOP-I4589KT running 64-bit major release  (build 9200)
 | Command      : report_drc -file vga_demo_drc_routed.rpt -pb vga_demo_drc_routed.pb -rpx vga_demo_drc_routed.rpx
 | Design       : vga_demo
@@ -24,12 +24,15 @@ Table of Contents
       Design limits: <entire design considered>
            Ruledeck: default
              Max violations: <unlimited>
-             Violations found: 1
-+----------+----------+-----------------------------------------------------+------------+
-| Rule     | Severity | Description                                         | Violations |
-+----------+----------+-----------------------------------------------------+------------+
-| CFGBVS-1 | Warning  | Missing CFGBVS and CONFIG_VOLTAGE Design Properties | 1          |
-+----------+----------+-----------------------------------------------------+------------+
+             Violations found: 32
++-----------+----------+--------------------------------------------------------------+------------+
+| Rule      | Severity | Description                                                  | Violations |
++-----------+----------+--------------------------------------------------------------+------------+
+| CFGBVS-1  | Warning  | Missing CFGBVS and CONFIG_VOLTAGE Design Properties          | 1          |
+| CHECK-3   | Warning  | Report rule limit reached                                    | 1          |
+| PDCN-137  | Warning  | enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff | 10         |
+| REQP-1839 | Warning  | RAMB36 async control check                                   | 20         |
++-----------+----------+--------------------------------------------------------------+------------+
 
 2. REPORT DETAILS
 -----------------
@@ -44,6 +47,161 @@ Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_des
  #where value2 is the voltage provided to configuration bank 0
 
 Refer to the device configuration user guide for more information.
+Related violations: <none>
+
+CHECK-3#1 Warning
+Report rule limit reached  
+REQP-1839 rule limit reached: 20 violations have been found.
+Related violations: <none>
+
+PDCN-137#1 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X1Y22 has BlockRam (dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_2) with RAM_EXTENSION_A attribute set to LOWER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#2 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X1Y23 has BlockRam (dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_3) with RAM_EXTENSION_A attribute set to UPPER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#3 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X2Y20 has BlockRam (dut/buf_unit/frame_src_unit/vram_unit/ram_64k_unit/ram_reg_0) with RAM_EXTENSION_A attribute set to LOWER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#4 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X2Y21 has BlockRam (dut/buf_unit/frame_src_unit/vram_unit/ram_64k_unit/ram_reg_1) with RAM_EXTENSION_A attribute set to UPPER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#5 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X2Y22 has BlockRam (dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_4) with RAM_EXTENSION_A attribute set to LOWER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#6 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X2Y23 has BlockRam (dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_5) with RAM_EXTENSION_A attribute set to UPPER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#7 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X3Y20 has BlockRam (dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_6) with RAM_EXTENSION_A attribute set to LOWER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#8 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X3Y21 has BlockRam (dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_7) with RAM_EXTENSION_A attribute set to UPPER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#9 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X3Y22 has BlockRam (dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0) with RAM_EXTENSION_A attribute set to LOWER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#10 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X3Y23 has BlockRam (dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_1) with RAM_EXTENSION_A attribute set to UPPER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+REQP-1839#1 Warning
+RAMB36 async control check  
+The RAMB36E1 dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0 has an input control pin dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0/ADDRBWRADDR[14] (net: dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/O[0]) which is driven by a register (dut/frame_counter_unit/hc_reg_reg[10]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#2 Warning
+RAMB36 async control check  
+The RAMB36E1 dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0 has an input control pin dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0/ADDRBWRADDR[14] (net: dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/O[0]) which is driven by a register (dut/frame_counter_unit/hc_reg_reg[6]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#3 Warning
+RAMB36 async control check  
+The RAMB36E1 dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0 has an input control pin dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0/ADDRBWRADDR[14] (net: dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/O[0]) which is driven by a register (dut/frame_counter_unit/hc_reg_reg[7]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#4 Warning
+RAMB36 async control check  
+The RAMB36E1 dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0 has an input control pin dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0/ADDRBWRADDR[14] (net: dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/O[0]) which is driven by a register (dut/frame_counter_unit/hc_reg_reg[8]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#5 Warning
+RAMB36 async control check  
+The RAMB36E1 dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0 has an input control pin dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0/ADDRBWRADDR[14] (net: dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/O[0]) which is driven by a register (dut/frame_counter_unit/vc_reg_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#6 Warning
+RAMB36 async control check  
+The RAMB36E1 dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0 has an input control pin dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0/ADDRBWRADDR[14] (net: dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/O[0]) which is driven by a register (dut/frame_counter_unit/vc_reg_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#7 Warning
+RAMB36 async control check  
+The RAMB36E1 dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0 has an input control pin dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0/ADDRBWRADDR[15] (net: dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/O[1]) which is driven by a register (dut/frame_counter_unit/hc_reg_reg[10]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#8 Warning
+RAMB36 async control check  
+The RAMB36E1 dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0 has an input control pin dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0/ADDRBWRADDR[15] (net: dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/O[1]) which is driven by a register (dut/frame_counter_unit/hc_reg_reg[6]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#9 Warning
+RAMB36 async control check  
+The RAMB36E1 dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0 has an input control pin dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0/ADDRBWRADDR[15] (net: dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/O[1]) which is driven by a register (dut/frame_counter_unit/hc_reg_reg[7]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#10 Warning
+RAMB36 async control check  
+The RAMB36E1 dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0 has an input control pin dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0/ADDRBWRADDR[15] (net: dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/O[1]) which is driven by a register (dut/frame_counter_unit/hc_reg_reg[8]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#11 Warning
+RAMB36 async control check  
+The RAMB36E1 dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0 has an input control pin dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0/ADDRBWRADDR[15] (net: dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/O[1]) which is driven by a register (dut/frame_counter_unit/hc_reg_reg[9]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#12 Warning
+RAMB36 async control check  
+The RAMB36E1 dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0 has an input control pin dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0/ADDRBWRADDR[15] (net: dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/O[1]) which is driven by a register (dut/frame_counter_unit/vc_reg_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#13 Warning
+RAMB36 async control check  
+The RAMB36E1 dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0 has an input control pin dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0/ADDRBWRADDR[15] (net: dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/O[1]) which is driven by a register (dut/frame_counter_unit/vc_reg_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#14 Warning
+RAMB36 async control check  
+The RAMB36E1 dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0 has an input control pin dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0/ADDRBWRADDR[15] (net: dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/O[1]) which is driven by a register (dut/frame_counter_unit/vc_reg_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#15 Warning
+RAMB36 async control check  
+The RAMB36E1 dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0 has an input control pin dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0/ADDRBWRADDR[15] (net: dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/O[1]) which is driven by a register (dut/frame_counter_unit/vc_reg_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#16 Warning
+RAMB36 async control check  
+The RAMB36E1 dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0 has an input control pin dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0/ADDRBWRADDR[15] (net: dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/O[1]) which is driven by a register (dut/frame_counter_unit/vc_reg_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#17 Warning
+RAMB36 async control check  
+The RAMB36E1 dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0 has an input control pin dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0/ADDRBWRADDR[15] (net: dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/O[1]) which is driven by a register (dut/frame_counter_unit/vc_reg_reg[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#18 Warning
+RAMB36 async control check  
+The RAMB36E1 dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0 has an input control pin dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0/ADDRBWRADDR[15] (net: dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/O[1]) which is driven by a register (dut/frame_counter_unit/vc_reg_reg[6]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#19 Warning
+RAMB36 async control check  
+The RAMB36E1 dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0 has an input control pin dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0/ADDRBWRADDR[15] (net: dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/O[1]) which is driven by a register (dut/frame_counter_unit/vc_reg_reg[7]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#20 Warning
+RAMB36 async control check  
+The RAMB36E1 dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0 has an input control pin dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/ram_reg_0/ADDRBWRADDR[15] (net: dut/buf_unit/frame_src_unit/vram_unit/ram_256k_unit/O[1]) which is driven by a register (dut/frame_counter_unit/vc_reg_reg[8]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
 Related violations: <none>
 
 

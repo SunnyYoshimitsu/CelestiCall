@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MT46H128M16LFDD-48_IT_C_TR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-04-26-04:57:11)
+    (mountForm default
+        (footprintRef "BGA60C80P9X10_800X900X100")
+        (spec "System")
+    )
+)
