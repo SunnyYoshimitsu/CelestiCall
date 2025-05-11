@@ -1,0 +1,438 @@
+/*
+
+AMD Vivado v2024.2 (64-bit) [Major: 2024, Minor: 2]
+SW Build: 5239630 on Fri Nov 08 22:35:27 MST 2024
+IP Build: 5239520 on Sun Nov 10 16:12:51 MST 2024
+IP Build: 5239520 on Sun Nov 10 16:12:51 MST 2024
+
+Process ID (PID): 28068
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sun Mar 23 13:47:38 PDT 2025
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 11
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 2560x1440
+Local screen bounds: x = 0, y = 0, width = 2560, height = 1392
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+Anti-Alias Enabled: false
+
+Java version: 	21.0.1 64-bit
+
+Java home: 	D:/Vivado2024/Vivado/2024.2/tps/win64/jre21.0.1_12
+Java executable: 	D:/Vivado2024/Vivado/2024.2/tps/win64/jre21.0.1_12/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:ParallelGCThreads=4, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	Hatsu
+User home directory: C:/Users/Hatsu
+User working directory: D:/CelestiCall/Hardwares/First Test/HDL and FPGA/Test
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: D:/Vivado2024/Vivado
+HDI_APPROOT: D:/Vivado2024/Vivado/2024.2
+RDI_DATADIR: D:/Vivado2024/Vivado/2024.2/data
+RDI_BINDIR: D:/Vivado2024/Vivado/2024.2/bin
+
+Vivado preferences file: C:/Users/Hatsu/AppData/Roaming/Xilinx/Vivado/2024.2/vivado.xml
+Vivado preferences directory: C:/Users/Hatsu/AppData/Roaming/Xilinx/Vivado/2024.2/
+Vivado layouts directory: C:/Users/Hatsu/AppData/Roaming/Xilinx/Vivado/2024.2/data/layouts
+PlanAhead jar file: 	D:/Vivado2024/Vivado/2024.2/lib/classes/planAhead.jar
+Vivado log file: 	D:/CelestiCall/Hardwares/First Test/HDL and FPGA/Test/vivado.log
+Vivado journal file: 	D:/CelestiCall/Hardwares/First Test/HDL and FPGA/Test/vivado.jou
+Engine tmp dir: 	D:/CelestiCall/Hardwares/First Test/HDL and FPGA/Test/.Xil/Vivado-28068-DESKTOP-I4589KT
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+FITTERDIR: C:\Wincupl\Wincupl\Fitters
+RDI_APPROOT: D:/Vivado2024/Vivado/2024.2
+RDI_ARGS:  -gui_launcher_event rodinguilauncherevent9020 "D:\CelestiCall\Hardwares\First Test\HDL and FPGA\Test\Test.xpr"
+RDI_ARGS_FUNCTION: RDI_EXEC_DEFAULT
+RDI_BASEROOT: D:/Vivado2024/Vivado
+RDI_BINDIR: D:/Vivado2024/Vivado/2024.2/bin
+RDI_BINROOT: D:/Vivado2024/Vivado/2024.2/bin
+RDI_BUILD: yes
+RDI_CHECK_PROG: True
+RDI_DATADIR: D:/Vivado2024/Vivado/2024.2/data
+RDI_INSTALLROOT: D:/Vivado2024
+RDI_INSTALLVER: 2024.2
+RDI_INSTALLVERSION: 2024.2
+RDI_ISE_PLATFORM: nt64
+RDI_JAVACEFROOT: D:/Vivado2024/Vivado/2024.2/tps/win64/java-cef-95.0.4638.69
+RDI_JAVAFXROOT: D:/Vivado2024/Vivado/2024.2/tps/win64/javafx-sdk-21.0.1
+RDI_JAVAROOT: D:/Vivado2024/Vivado/2024.2/tps/win64/jre21.0.1_12
+RDI_JAVA_VERSION: 21.0.1_12
+RDI_LIBDIR: D:/Vivado2024/Vivado/2024.2/lib/win64.o
+RDI_MINGW_LIB: D:/Vivado2024/Vivado/2024.2\tps\mingw\6.2.0\win64.o\nt\bin;D:/Vivado2024/Vivado/2024.2\tps\mingw\6.2.0\win64.o\nt\libexec\gcc\x86_64-w64-mingw32\6.2.0
+RDI_OPT_EXT: .o
+RDI_PLATFORM: win64
+RDI_PREPEND_PATH: D:/Vivado2024/Vitis/2024.2/bin;D:/Vivado2024/Vivado/2024.2/ids_lite/ISE/bin/nt64;D:/Vivado2024/Vivado/2024.2/ids_lite/ISE/lib/nt64
+RDI_PROG: D:/Vivado2024/Vivado/2024.2/bin/unwrapped/win64.o/vivado.exe
+RDI_PROGNAME: vivado.exe
+RDI_PYTHON3: D:/Vivado2024/Vivado/2024.2\tps\win64\python-3.8.3
+RDI_PYTHON3_VERSION: 3.8.3
+RDI_PYTHONHOME: D:/Vivado2024/Vivado/2024.2\tps\win64\python-3.8.3
+RDI_PYTHONPATH: D:/Vivado2024/Vivado/2024.2\tps\win64\python-3.8.3;D:/Vivado2024/Vivado/2024.2\tps\win64\python-3.8.3\bin;D:/Vivado2024/Vivado/2024.2\tps\win64\python-3.8.3\lib;D:/Vivado2024/Vivado/2024.2\tps\win64\python-3.8.3\lib\site-packages
+RDI_PYTHON_LD_LIBPATH: D:/Vivado2024/Vivado/2024.2\tps\win64\python-3.8.3\lib
+RDI_SESSION_INFO: D:\CelestiCall\Hardwares\FirstTest\HDLandFPGA\Test:DESKTOP-I4589KT-Sun03-23-2025_13-47-25.86
+RDI_SHARED_DATA: D:/Vivado2024/SharedData/2024.2/data
+RDI_TPS_ROOT: D:/Vivado2024/Vivado/2024.2/tps/win64
+RDI_USE_JDK21: True
+RDI_VERBOSE: False
+XILINX: D:/Vivado2024/Vivado/2024.2/ids_lite/ISE
+XILINX_DSP: D:/Vivado2024/Vivado/2024.2/ids_lite/ISE
+XILINX_HLS: D:/Vivado2024/Vitis/2024.2
+XILINX_PLANAHEAD: D:/Vivado2024/Vivado/2024.2
+XILINX_SDK: D:/Vivado2024/Vitis/2024.2
+XILINX_VITIS: D:/Vivado2024/Vitis/2024.2
+XILINX_VIVADO: D:/Vivado2024/Vivado/2024.2
+_RDI_BINROOT: D:\Vivado2024\Vivado\2024.2\bin
+_RDI_CWD: D:\CelestiCall\Hardwares\First Test\HDL and FPGA\Test
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 785 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+selectButton(RDIResource.BaseDialog_OK, "OK", "Older Project Version"); // a (RDIResource.BaseDialog_OK)
+// Opening Vivado Project: D:\CelestiCall\Hardwares\First Test\HDL and FPGA\Test\Test.xpr. Version: Vivado v2023.2 
+dismissDialog("Older Project Version"); // az (dialog0)
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project {D:/CelestiCall/Hardwares/First Test/HDL and FPGA/Test/Test.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 788 MB. GUI used memory: 76 MB. Current time: 3/23/25, 1:47:39 PM PDT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {D:/CelestiCall/Hardwares/First Test/HDL and FPGA/Test/Test.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/CPU 8bit system/ALL phone projects/CelestiCall/CelestiCall/Low Level Code/First Test/HDL and FPGA/Test' since last save. INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/CelestiCall/Hardwares/First Test/HDL and FPGA/Test/Test.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [Project 1-230] Project 'Test.xpr' upgraded for this version of Vivado. INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 173 MB (+178975kb) [00:00:26]
+// [Engine Memory]: 836 MB (+725379kb) [00:00:26]
+// WARNING: HEventQueue.dispatchEvent() is taking  2478 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado2024/Vivado/2024.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 871 MB. GUI used memory: 103 MB. Current time: 3/23/25, 1:47:56 PM PDT
+// Project name: Test; location: D:/CelestiCall/Hardwares/First Test/HDL and FPGA/Test; part: xc7z020clg400-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:19 . Memory (MB): peak = 1160.410 ; gain = 67.598 
+// Elapsed time: 19 seconds
+dismissDialog("Open Project"); // bh (Open Project Progress)
+// Tcl Message: update_compile_order -fileset sources_1 
+// [Engine Memory]: 881 MB (+2637kb) [00:00:31]
+// Elapsed time: 30 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1 (design_1.bd)]", 1, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 22, true); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl (Dont Echo) Command: 'rdi::info_commands get_hw_probes'
+// Tcl (Dont Echo) Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // x (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// Tcl Message: open_hw_manager 
+dismissDialog("Open Hardware Manager"); // bh (Open Hardware Manager Progress)
+// HMemoryUtils.trashcanNow. Engine heap size: 896 MB. GUI used memory: 105 MB. Current time: 3/23/25, 1:48:29 PM PDT
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (PAResourceOtoP.ProgramDebugTab_OPEN_TARGET)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // aq (PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, auto_connect_target_menu)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2024.2   **** Build date : Oct 29 2024 at 10:25:41     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.   INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0 INFO: [Labtools 27-3417] Launching cs_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:   ******** Xilinx cs_server v2024.2.0   ****** Build date   : Oct 30 2024-11:19:07     **** Build number : 2024.2.1730312347       ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.       ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.    
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1181.691 ; gain = 8.570 
+dismissDialog("Auto Connect"); // bh (Auto Connect Progress)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (PAResourceOtoP.ProgramDebugTab_OPEN_TARGET)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "localhost (0) ; Connected", 0, "localhost (0)", 0, false); // m (PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "localhost (0) ; Connected", 0, "localhost (0)", 0, false, false, false, false, true, false); // m (PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_CLOSE_SERVER, "Close Server"); // aq (PAResourceCommand.PACommandNames_CLOSE_SERVER, close_server_menu)
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_SERVER
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (PAResourceOtoP.ProgramDebugTab_OPEN_TARGET)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD, "Open New Target..."); // aq (PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD, open_target_wizard_menu)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD
+selectButton("NEXT", "Next", "Open New Hardware Target"); // JButton (NEXT)
+// TclEventType: HW_SERVER_UPDATE
+selectButton("NEXT", "Next", "Open New Hardware Target"); // JButton (NEXT)
+dismissDialog("Open Server"); // bh (Open Server Progress)
+selectButton(PAResourceTtoZ.TargetChooserPanel_ADD_XILINX_VIRTUAL_CABLE_AS_HARDWARE, "Add Xilinx Virtual Cable (XVC)", "Open New Hardware Target"); // a (PAResourceTtoZ.TargetChooserPanel_ADD_XILINX_VIRTUAL_CABLE_AS_HARDWARE)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Add Virtual Cable"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Add Virtual Cable"); // a (dialog2)
+// Tcl (Dont Echo) Command: 'open_hw_target -xvc_url 192.168.1.128:2542'
+// HMemoryUtils.trashcanNow. Engine heap size: 896 MB. GUI used memory: 107 MB. Current time: 3/23/25, 1:49:33 PM PDT
+// Tcl Message: ERROR: [Labtools 27-3094] Timeout while opening port to xvc server 192.168.1.128:2542. ERROR: [Labtoolstcl 44-142] There is no current hw_target and no option value given for 'hw_target'. 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/az': 31s
+// Elapsed time: 31 seconds
+dismissDialog("Add XVC Target"); // bh (Add XVC Target Progress)
+// Elapsed time: 46 seconds
+selectButton(PAResourceTtoZ.TargetChooserPanel_ADD_XILINX_VIRTUAL_CABLE_AS_HARDWARE, "Add Xilinx Virtual Cable (XVC)", "Open New Hardware Target"); // a (PAResourceTtoZ.TargetChooserPanel_ADD_XILINX_VIRTUAL_CABLE_AS_HARDWARE)
+setText(PAResourceAtoD.AddVirtualCableDialog_HOST_NAME, "192.168.1.128"); // d.c (PAResourceAtoD.AddVirtualCableDialog_HOST_NAME)
+setText(PAResourceAtoD.AddVirtualCableDialog_HOST_NAME, "192.168.56.1"); // d.c (PAResourceAtoD.AddVirtualCableDialog_HOST_NAME)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Add Virtual Cable"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Add Virtual Cable"); // a (dialog3)
+// Tcl (Dont Echo) Command: 'open_hw_target -xvc_url 192.168.56.1:2542'
+// HMemoryUtils.trashcanNow. Engine heap size: 896 MB. GUI used memory: 107 MB. Current time: 3/23/25, 1:50:56 PM PDT
+// Tcl Message: ERROR: [Labtools 27-3094] Timeout while opening port to xvc server 192.168.56.1:2542. ERROR: [Labtoolstcl 44-142] There is no current hw_target and no option value given for 'hw_target'. 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/az': 31s
+// Elapsed time: 31 seconds
+dismissDialog("Add XVC Target"); // bh (Add XVC Target Progress)
+// Elapsed time: 38 seconds
+selectButton(PAResourceTtoZ.TargetChooserPanel_ADD_XILINX_VIRTUAL_CABLE_AS_HARDWARE, "Add Xilinx Virtual Cable (XVC)", "Open New Hardware Target"); // a (PAResourceTtoZ.TargetChooserPanel_ADD_XILINX_VIRTUAL_CABLE_AS_HARDWARE)
+setText(PAResourceAtoD.AddVirtualCableDialog_HOST_NAME, "192.168.56.1"); // d.c (PAResourceAtoD.AddVirtualCableDialog_HOST_NAME)
+setText(PAResourceAtoD.AddVirtualCableDialog_HOST_NAME, "192.168.56.1"); // d.c (PAResourceAtoD.AddVirtualCableDialog_HOST_NAME)
+setText(PAResourceAtoD.AddVirtualCableDialog_HOST_NAME, "192.168.56.1"); // d.c (PAResourceAtoD.AddVirtualCableDialog_HOST_NAME)
+// Elapsed time: 28 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK", "Add Virtual Cable"); // a (RDIResource.BaseDialog_OK)
+// Tcl (Dont Echo) Command: 'open_hw_target -xvc_url 192.168.56.1:2542'
+dismissDialog("Add Virtual Cable"); // a (dialog4)
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:58661 INFO: [Labtools 27-3414] Connected to existing cs_server. INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/192.168.56.1:2542 
+// Tcl Message: ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Xilinx/192.168.56.1:2542. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-register this hardware target. 
+// Tcl Message: ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors. 
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: close_hw_target {localhost:3121/xilinx_tcf/Xilinx/192.168.56.1:2542} 
+// Tcl Message: INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Xilinx/192.168.56.1:2542 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+dismissDialog("Open Target"); // bh (Open Target Progress)
+// TclEventType: DEBUG_PROBE_DELETE
+dismissDialog("Close Target"); // bh (Close Target Progress)
+// Elapsed time: 27 seconds
+selectTable(PAResourceTtoZ.TargetChooserPanel_TARGET_CHOOSER_TABLE, "xilinx_tcf ; Xilinx/192.168.56.1:2542 ; 10000000", 0, "10000000", 2); // bf (PAResourceTtoZ.TargetChooserPanel_TARGET_CHOOSER_TABLE)
+selectTable(PAResourceTtoZ.TargetChooserPanel_TARGET_CHOOSER_TABLE, "xilinx_tcf ; Xilinx/192.168.56.1:2542 ; 10000000", 0, "10000000", 2, false, false, false, false, true); // bf (PAResourceTtoZ.TargetChooserPanel_TARGET_CHOOSER_TABLE) - Double Click
+selectTable(PAResourceTtoZ.TargetChooserPanel_TARGET_CHOOSER_TABLE, "xilinx_tcf ; Xilinx/192.168.56.1:2542 ; 10000000", 0, "Xilinx/192.168.56.1:2542", 1); // bf (PAResourceTtoZ.TargetChooserPanel_TARGET_CHOOSER_TABLE)
+selectTable(PAResourceTtoZ.TargetChooserPanel_TARGET_CHOOSER_TABLE, "xilinx_tcf ; Xilinx/192.168.56.1:2542 ; 10000000", 0, "Xilinx/192.168.56.1:2542", 1); // bf (PAResourceTtoZ.TargetChooserPanel_TARGET_CHOOSER_TABLE)
+selectTable(PAResourceTtoZ.TargetChooserPanel_TARGET_CHOOSER_TABLE, "xilinx_tcf ; Xilinx/192.168.56.1:2542 ; 10000000", 0, "xilinx_tcf", 0); // bf (PAResourceTtoZ.TargetChooserPanel_TARGET_CHOOSER_TABLE)
+selectTable(PAResourceTtoZ.TargetChooserPanel_TARGET_CHOOSER_TABLE, "xilinx_tcf ; Xilinx/192.168.56.1:2542 ; 10000000", 0, "xilinx_tcf", 0, false, false, false, false, true); // bf (PAResourceTtoZ.TargetChooserPanel_TARGET_CHOOSER_TABLE) - Double Click
+selectButton(PAResourceTtoZ.TargetChooserPanel_ADD_XILINX_VIRTUAL_CABLE_AS_HARDWARE, "Add Xilinx Virtual Cable (XVC)", "Open New Hardware Target"); // a (PAResourceTtoZ.TargetChooserPanel_ADD_XILINX_VIRTUAL_CABLE_AS_HARDWARE)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Add Virtual Cable"); // a (RDIResource.BaseDialog_OK)
+// Tcl (Dont Echo) Command: 'open_hw_target -xvc_url 192.168.56.1:2542'
+// TclEventType: HW_SERVER_UPDATE
+dismissDialog("Add Virtual Cable"); // a (dialog5)
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:58661 INFO: [Labtools 27-3414] Connected to existing cs_server. INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/192.168.56.1:2542 
+// Tcl Message: ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Xilinx/192.168.56.1:2542. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-register this hardware target. 
+// Tcl Message: ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors. 
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: close_hw_target {localhost:3121/xilinx_tcf/Xilinx/192.168.56.1:2542} 
+// Tcl Message: INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Xilinx/192.168.56.1:2542 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+dismissDialog("Open Target"); // bh (Open Target Progress)
+// TclEventType: DEBUG_PROBE_DELETE
+dismissDialog("Close Target"); // bh (Close Target Progress)
+selectButton(PAResourceTtoZ.TargetChooserPanel_ADD_XILINX_VIRTUAL_CABLE_AS_HARDWARE, "Add Xilinx Virtual Cable (XVC)", "Open New Hardware Target"); // a (PAResourceTtoZ.TargetChooserPanel_ADD_XILINX_VIRTUAL_CABLE_AS_HARDWARE)
+setText(PAResourceAtoD.AddVirtualCableDialog_HOST_NAME, (String) null); // d.c (PAResourceAtoD.AddVirtualCableDialog_HOST_NAME)
+typeControlKey(null, null, 'z');
+setText(PAResourceAtoD.AddVirtualCableDialog_HOST_NAME, "192.168.56.1"); // d.c (PAResourceAtoD.AddVirtualCableDialog_HOST_NAME)
+typeControlKey(null, null, 'z');
+setText(PAResourceAtoD.AddVirtualCableDialog_HOST_NAME, "192.168..254.128"); // d.c (PAResourceAtoD.AddVirtualCableDialog_HOST_NAME)
+setText(PAResourceAtoD.AddVirtualCableDialog_HOST_NAME, "192.168..254.128"); // d.c (PAResourceAtoD.AddVirtualCableDialog_HOST_NAME)
+setText(PAResourceAtoD.AddVirtualCableDialog_HOST_NAME, "192.168.254.128"); // d.c (PAResourceAtoD.AddVirtualCableDialog_HOST_NAME)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Add Virtual Cable"); // a (RDIResource.BaseDialog_OK)
+// Tcl (Dont Echo) Command: 'open_hw_target -xvc_url 192.168.254.128:2542'
+dismissDialog("Add Virtual Cable"); // a (dialog6)
+// HMemoryUtils.trashcanNow. Engine heap size: 899 MB. GUI used memory: 108 MB. Current time: 3/23/25, 1:53:37 PM PDT
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: ERROR: [Labtools 27-3094] Timeout while opening port to xvc server 192.168.254.128:2542. 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/192.168.56.1:2542 
+// Tcl Message: ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Xilinx/192.168.56.1:2542. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-register this hardware target. 
+// Tcl Message: open_hw_target: Time (s): cpu = 00:00:00 ; elapsed = 00:00:31 . Memory (MB): peak = 1181.691 ; gain = 0.000 
+// Tcl Message: ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors. 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/az': 31s
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: close_hw_target {localhost:3121/xilinx_tcf/Xilinx/192.168.56.1:2542} 
+// Tcl Message: INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Xilinx/192.168.56.1:2542 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// Elapsed time: 31 seconds
+dismissDialog("Open Target"); // bh (Open Target Progress)
+// TclEventType: DEBUG_PROBE_DELETE
+dismissDialog("Close Target"); // bh (Close Target Progress)
+// Elapsed time: 17 seconds
+selectButton(PAResourceTtoZ.TargetChooserPanel_ADD_XILINX_VIRTUAL_CABLE_AS_HARDWARE, "Add Xilinx Virtual Cable (XVC)", "Open New Hardware Target"); // a (PAResourceTtoZ.TargetChooserPanel_ADD_XILINX_VIRTUAL_CABLE_AS_HARDWARE)
+setText(PAResourceAtoD.AddVirtualCableDialog_DEFAULT_AMD_VIRTUAL_CABLE_SERVER_PORT, "3121"); // G (PAResourceAtoD.AddVirtualCableDialog_DEFAULT_AMD_VIRTUAL_CABLE_SERVER_PORT)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Add Virtual Cable"); // a (RDIResource.BaseDialog_OK)
+// Tcl (Dont Echo) Command: 'open_hw_target -xvc_url 192.168.56.1:3121'
+dismissDialog("Add Virtual Cable"); // a (dialog7)
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: ERROR: [Labtools 27-3094] Timeout while opening port to xvc server 192.168.56.1:3121. 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/192.168.56.1:2542 
+// Tcl Message: ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Xilinx/192.168.56.1:2542. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-register this hardware target. 
+// Tcl Message: open_hw_target: Time (s): cpu = 00:00:01 ; elapsed = 00:00:31 . Memory (MB): peak = 1181.691 ; gain = 0.000 
+// Tcl Message: ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors. 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/az': 31s
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: close_hw_target {localhost:3121/xilinx_tcf/Xilinx/192.168.56.1:2542} 
+// Tcl Message: INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Xilinx/192.168.56.1:2542 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// Elapsed time: 31 seconds
+dismissDialog("Open Target"); // bh (Open Target Progress)
+// TclEventType: DEBUG_PROBE_DELETE
+dismissDialog("Close Target"); // bh (Close Target Progress)
+selectButton(PAResourceTtoZ.TargetChooserPanel_ADD_XILINX_VIRTUAL_CABLE_AS_HARDWARE, "Add Xilinx Virtual Cable (XVC)", "Open New Hardware Target"); // a (PAResourceTtoZ.TargetChooserPanel_ADD_XILINX_VIRTUAL_CABLE_AS_HARDWARE)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel", "Add Virtual Cable"); // a (RDIResource.BaseDialog_CANCEL)
+dismissDialog("Add Virtual Cable"); // a (dialog8)
+selectButton("CANCEL", "Cancel", "Open New Hardware Target"); // JButton (CANCEL)
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// 'D' command handler elapsed time: 349 seconds
+dismissDialog("Open New Hardware Target"); // ap (dialog1)
+// Elapsed time: 159 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (PAResourceOtoP.ProgramDebugTab_OPEN_TARGET)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD, "Open New Target..."); // aq (PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD, open_target_wizard_menu)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD
+selectButton("NEXT", "Next", "Open New Hardware Target"); // JButton (NEXT)
+selectComboBox(PAResourceOtoP.OpenTargetWizard_CONNECT_TO, "Connect to:", "Remote server (target is on remote machine)", 1); // d (PAResourceOtoP.OpenTargetWizard_CONNECT_TO, Connect to: )
+setText(PAResourceOtoP.OpenTargetWizard_HOST_NAME, (String) null); // d.c (PAResourceOtoP.OpenTargetWizard_HOST_NAME)
+// Elapsed time: 10 seconds
+setText(PAResourceOtoP.OpenTargetWizard_HOST_NAME, (String) null); // d.c (PAResourceOtoP.OpenTargetWizard_HOST_NAME)
+selectComboBox(PAResourceOtoP.OpenTargetWizard_CONNECT_TO, "Connect to:", "Local server (target is on local machine)", 0); // d (PAResourceOtoP.OpenTargetWizard_CONNECT_TO, Connect to: )
+// TclEventType: HW_SERVER_UPDATE
+selectButton("NEXT", "Next", "Open New Hardware Target"); // JButton (NEXT)
+dismissDialog("Open Server"); // bh (Open Server Progress)
+selectButton(PAResourceTtoZ.TargetChooserPanel_ADD_XILINX_VIRTUAL_CABLE_AS_HARDWARE, "Add Xilinx Virtual Cable (XVC)", "Open New Hardware Target"); // a (PAResourceTtoZ.TargetChooserPanel_ADD_XILINX_VIRTUAL_CABLE_AS_HARDWARE)
+setText(PAResourceAtoD.AddVirtualCableDialog_HOST_NAME, "192.168.56.1"); // d.c (PAResourceAtoD.AddVirtualCableDialog_HOST_NAME)
+setText(PAResourceAtoD.AddVirtualCableDialog_HOST_NAME, "192.168.56.1"); // d.c (PAResourceAtoD.AddVirtualCableDialog_HOST_NAME)
+// Elapsed time: 30 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK", "Add Virtual Cable"); // a (RDIResource.BaseDialog_OK)
+// Tcl (Dont Echo) Command: 'open_hw_target -xvc_url 192.168.56.1:2542'
+dismissDialog("Add Virtual Cable"); // a (dialog10)
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:58859 INFO: [Labtools 27-3414] Connected to existing cs_server. INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/192.168.56.1:2542 
+// Tcl Message: ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Xilinx/192.168.56.1:2542. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-register this hardware target. 
+// Tcl Message: ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors. 
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: close_hw_target {localhost:3121/xilinx_tcf/Xilinx/192.168.56.1:2542} 
+// Tcl Message: INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Xilinx/192.168.56.1:2542 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+dismissDialog("Open Target"); // bh (Open Target Progress)
+// TclEventType: DEBUG_PROBE_DELETE
+dismissDialog("Close Target"); // bh (Close Target Progress)
+selectButton("CANCEL", "Cancel", "Open New Hardware Target"); // JButton (CANCEL)
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// 'D' command handler elapsed time: 76 seconds
+dismissDialog("Open New Hardware Target"); // ap (dialog9)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (PAResourceOtoP.ProgramDebugTab_OPEN_TARGET)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // aq (PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, auto_connect_target_menu)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0 INFO: [Labtools 27-3417] Launching cs_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:   ******** Xilinx cs_server v2024.2.0   ****** Build date   : Oct 30 2024-11:19:07     **** Build number : 2024.2.1730312347       ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.       ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.    
+dismissDialog("Auto Connect"); // bh (Auto Connect Progress)
+selectButton(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Hardware_auto_connect_target"); // C (PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, Hardware_auto_connect_target)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0 INFO: [Labtools 27-3417] Launching cs_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:   ******** Xilinx cs_server v2024.2.0   ****** Build date   : Oct 30 2024-11:19:07     **** Build number : 2024.2.1730312347       ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.       ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.    
+dismissDialog("Auto Connect"); // bh (Auto Connect Progress)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (PAResourceOtoP.ProgramDebugTab_OPEN_TARGET)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // aq (PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, auto_connect_target_menu)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0 INFO: [Labtools 27-3417] Launching cs_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:   ******** Xilinx cs_server v2024.2.0   ****** Build date   : Oct 30 2024-11:19:07     **** Build number : 2024.2.1730312347       ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.       ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.    
+dismissDialog("Auto Connect"); // bh (Auto Connect Progress)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "localhost (0) ; Connected", 0, "localhost (0)", 0, false, false, false, false, true, false); // m (PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_CLOSE_SERVER, "Close Server"); // aq (PAResourceCommand.PACommandNames_CLOSE_SERVER, close_server_menu)
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_SERVER
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (PAResourceOtoP.ProgramDebugTab_OPEN_TARGET)
+// Elapsed time: 121 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (PAResourceOtoP.ProgramDebugTab_OPEN_TARGET)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // aq (PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, auto_connect_target_menu)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel", "Auto Connect"); // a (RDIResource.ProgressDialog_CANCEL)
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2024.2   **** Build date : Oct 29 2024 at 10:25:41     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.   INFO: [Labtools 27-2058] connect_hw_server command cancelled. INFO: [Common 17-344] 'connect_hw_server' was cancelled 
+// CommandFailedException: ERROR: [Common 17-69] Command failed:  
+dismissDialog("Auto Connect"); // bh (Auto Connect Progress)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (PAResourceOtoP.ProgramDebugTab_OPEN_TARGET)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD, "Open New Target..."); // aq (PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD, open_target_wizard_menu)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD
+selectButton("NEXT", "Next", "Open New Hardware Target"); // JButton (NEXT)
+// HMemoryUtils.trashcanNow. Engine heap size: 904 MB. GUI used memory: 110 MB. Current time: 3/23/25, 2:02:11 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 904 MB. GUI used memory: 110 MB. Current time: 3/23/25, 2:02:41 PM PDT
+// Elapsed time: 91 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel", "Open Server"); // a (RDIResource.ProgressDialog_CANCEL)
+// HMemoryUtils.trashcanNow. Engine heap size: 904 MB. GUI used memory: 110 MB. Current time: 3/23/25, 2:03:11 PM PDT
