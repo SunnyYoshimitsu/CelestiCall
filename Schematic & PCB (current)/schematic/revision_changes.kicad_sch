@@ -1,0 +1,121 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a237cd56-d154-45fd-b8e6-9d912029035f")
+	(paper "A4")
+	(title_block
+		(title "Revision History")
+		(date "2024-09-22")
+		(rev "1.0")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 34.29 43.18)
+		(end 143.51 130.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid eb9943af-15c7-4812-b891-edbe3bd668b6)
+	)
+	(text "Initial revision"
+		(exclude_from_sim no)
+		(at 55.626 51.562 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4020eb80-dc0c-4114-a08d-c6970edfc2af")
+	)
+	(text "1.0"
+		(exclude_from_sim no)
+		(at 40.132 51.562 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "714d3d52-33cf-4a2f-958f-bf1a1c8a9040")
+	)
+	(text "REV"
+		(exclude_from_sim no)
+		(at 39.878 46.482 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "c56ffd55-1502-4c52-b62f-2b5069571066")
+	)
+	(text "Description"
+		(exclude_from_sim no)
+		(at 80.518 46.482 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "d03b3a89-8af7-4c72-ae3f-9a7f34d0204b")
+	)
+	(polyline
+		(pts
+			(xy 45.72 43.18) (xy 45.72 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1baf8aa9-19cc-417c-9803-d0ed8ee19b9c")
+	)
+	(polyline
+		(pts
+			(xy 34.29 58.42) (xy 143.51 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88e5f67e-ebb1-4c11-8930-5fa452022a05")
+	)
+	(polyline
+		(pts
+			(xy 128.27 43.18) (xy 128.27 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba2683bb-e21b-4944-917b-f8e0700ad3b4")
+	)
+	(polyline
+		(pts
+			(xy 34.29 53.34) (xy 143.51 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca1fdfcf-d39e-4ea2-97da-daeaf1639b4c")
+	)
+	(polyline
+		(pts
+			(xy 34.29 48.26) (xy 143.51 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4fda2f3-bd1a-4738-a813-5dc40e778446")
+	)
+)

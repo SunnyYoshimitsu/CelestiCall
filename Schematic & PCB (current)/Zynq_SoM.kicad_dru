@@ -1,0 +1,15 @@
+(version 1)
+(rule 50ohm_inner
+	(layer inner)
+	(condition "A.NetClass == ('DDR_ADDR')")
+	(constraint track_width (opt 0.135mm)))
+
+(rule 50ohm_inner_bl1
+	(layer inner)
+	(condition "A.NetClass == ('DDR_BL1')")
+	(constraint track_width (opt 0.135mm)))
+
+(rule pad_clearance
+	(condition "A.Pad_Type == 'SMD'")
+	(constraint clearance (min 0.127mm)))
+

@@ -1,0 +1,258 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "9.0.0-9.0.0-2~ubuntu24.10.1"
+    },
+    "CreationDate": "2025-04-01T16:44:13+02:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "Zynq_SoM",
+      "GUID": "5a796e71-5f53-46f4-9d2e-6b696361645f",
+      "Revision": "1.0"
+    },
+    "Size": {
+      "X": 50.1,
+      "Y": 42.1
+    },
+    "LayerNumber": 8,
+    "BoardThickness": 1.2396,
+    "Finish": "ENIG",
+    "ImpedanceControlled": true
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.09,
+      "PadToTrack": 0.09,
+      "TrackToTrack": 0.09,
+      "MinLineWidth": 0.1,
+      "TrackToRegion": 0.127,
+      "RegionToRegion": 0.127
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.09,
+      "MinLineWidth": 0.1,
+      "TrackToRegion": 0.127,
+      "RegionToRegion": 0.127
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "Zynq_SoM-L1 (Sig).gtl",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zynq_SoM-L2 (Gnd).g1",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zynq_SoM-L3 (Pwr).g2",
+      "FileFunction": "Copper,L7,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zynq_SoM-L4 (Sig+Pwr).g3",
+      "FileFunction": "Copper,L9,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zynq_SoM-L5 (Gnd).g4",
+      "FileFunction": "Copper,L11,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zynq_SoM-L6 (Sig+Pwr).g5",
+      "FileFunction": "Copper,L13,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zynq_SoM-L7 (Gnd).g6",
+      "FileFunction": "Copper,L15,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zynq_SoM-L8 (Sig).gbl",
+      "FileFunction": "Copper,L8,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zynq_SoM-F_Paste.gtp",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zynq_SoM-B_Paste.gbp",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zynq_SoM-F_Silkscreen.gto",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zynq_SoM-B_Silkscreen.gbo",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zynq_SoM-F_Mask.gts",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "Zynq_SoM-B_Mask.gbs",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "Zynq_SoM-Edge_Cuts.gm1",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zynq_SoM-FAB.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "L1 (Sig)"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.0764,
+      "Material": "FR4",
+      "DielectricConstant": "3.91",
+      "LossTangent": "0.02",
+      "Name": "L1 (Sig)/L2 (Gnd)",
+      "Notes": "Type: dielectric layer 1 (from L1 (Sig) to L2 (Gnd))"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "L2 (Gnd)"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.2,
+      "Material": "FR4",
+      "DielectricConstant": "4.36",
+      "LossTangent": "0.02",
+      "Name": "L2 (Gnd)/L3 (Pwr)",
+      "Notes": "Type: dielectric layer 2 (from L2 (Gnd) to L3 (Pwr))"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "L3 (Pwr)"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1528,
+      "Material": "FR4",
+      "DielectricConstant": "3.91",
+      "LossTangent": "0.02",
+      "Name": "L3 (Pwr)/L4 (Sig+Pwr)",
+      "Notes": "Type: dielectric layer 3 (from L3 (Pwr) to L4 (Sig+Pwr))"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "L4 (Sig+Pwr)"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.2,
+      "Material": "FR4",
+      "DielectricConstant": "4.36",
+      "LossTangent": "0.02",
+      "Name": "L4 (Sig+Pwr)/L5 (Gnd)",
+      "Notes": "Type: dielectric layer 4 (from L4 (Sig+Pwr) to L5 (Gnd))"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "L5 (Gnd)"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1528,
+      "Material": "FR4",
+      "DielectricConstant": "3.91",
+      "LossTangent": "0.02",
+      "Name": "L5 (Gnd)/L6 (Sig+Pwr)",
+      "Notes": "Type: dielectric layer 5 (from L5 (Gnd) to L6 (Sig+Pwr))"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "L6 (Sig+Pwr)"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.2,
+      "Material": "FR4",
+      "DielectricConstant": "4.36",
+      "LossTangent": "0.02",
+      "Name": "L6 (Sig+Pwr)/L7 (Gnd)",
+      "Notes": "Type: dielectric layer 6 (from L6 (Sig+Pwr) to L7 (Gnd))"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "L7 (Gnd)"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.0764,
+      "Material": "FR4",
+      "DielectricConstant": "3.91",
+      "LossTangent": "0.02",
+      "Name": "L7 (Gnd)/L8 (Sig)",
+      "Notes": "Type: dielectric layer 7 (from L7 (Gnd) to L8 (Sig))"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "L8 (Sig)"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}

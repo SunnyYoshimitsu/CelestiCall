@@ -1,0 +1,169 @@
+(footprint "Oscillator_SMD_Kyocera_4PIN_2.0x1.6mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.75 2.1 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7e3ad97d-9fd0-49dc-ab1d-12b4d8a36e41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ASCO"
+		(at 1.8 12.2 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "437bec62-da38-45ef-b1b9-ea1ef52142a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Mylibrary:Oscillator_SMD_Kyocera_4PIN_2.0x1.6mm"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "013ce7bc-5b09-492f-bdeb-cab3eca5fe28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://abracon.com/Oscillators/ASCO.pdf"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "017cd00c-8f7d-40eb-8f37-2db94132ac46")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Crystal Clock Oscillator, Abracon ASCO"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd894ac6-13cd-4237-8610-85653ca78bee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63be5256-4e62-41c0-9938-1dfdc1432f91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Digikey" "KC2016Z13.0000C1KX00"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4aa23bb8-e941-4d4a-b9c7-8f734970a403")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.4 -1.2)
+		(end 1.4 1.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "258579a9-8a7c-443d-b05d-d7cfe36d9138")
+	)
+	(fp_rect
+		(start -1.5 -1.3)
+		(end 1.5 1.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "13eb45f9-53a0-4863-b58f-a49609fd8312")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.3 9.4 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "95650967-862c-450b-82cd-2d4330f48a5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.9 0.6 180)
+		(size 0.6 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "2ba050e1-ff37-4524-9cc1-ba1a5101ee91")
+	)
+	(pad "2" smd rect
+		(at 0.9 0.6 180)
+		(size 0.6 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "8f4e272d-9186-482d-b6f4-9627c46a6ec8")
+	)
+	(pad "3" smd rect
+		(at 0.9 -0.6 180)
+		(size 0.6 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "992504cd-e7ec-4e14-a6f7-f8e8634f8761")
+	)
+	(pad "4" smd rect
+		(at -0.9 -0.6 180)
+		(size 0.6 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "183d2dec-0856-4d7c-a3e0-6abfabec7bfa")
+	)
+	(model "/home/gio/.local/share/kicad/8.0/3rdparty/3dmodels/MyModels/KC2016Z.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

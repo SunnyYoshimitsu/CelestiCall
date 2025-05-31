@@ -1,0 +1,216 @@
+(footprint "Diodes_DFN1411-3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DFN package size 1006 3 pins")
+	(tags "DFN package size 1006 3 pins")
+	(property "Reference" "Q1"
+		(at 0 -1.6 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "50524a31-d1d2-4750-82e1-d8cb40a1ee34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DMP2104LP"
+		(at 0 1.6 0)
+		(layer "F.Fab")
+		(uuid "26df96eb-a9f9-49c1-9d5c-c2de284bb8d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8596bfa0-05e6-415c-ad34-a4dd40c633f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32ddf80d-86dd-4b7c-81c5-1ba3c5c19556")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB Position Offset" ""
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df0a6831-a90e-4cc0-a2ca-0658d65ed1d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB Rotation Offset" "180"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4dd05b51-4adc-4acd-8c77-42b1098a0d34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C260933"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b8e6c8e-fb5b-4d67-a19a-81655573063e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 1 -0.7)
+		(end 0.5 -0.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "44eae125-4e54-44db-a310-d610ad7d9514")
+	)
+	(fp_line
+		(start 1 -0.7)
+		(end 1 -0.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "283fb269-6be4-4c29-8439-080d0bba9071")
+	)
+	(fp_rect
+		(start -0.775 -0.675)
+		(end 0.875 0.675)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "476a2631-c3c4-4eed-aa10-fb25157a734f")
+	)
+	(fp_line
+		(start -0.65 0.55)
+		(end -0.65 -0.225)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "93beb9b4-e39d-4416-977c-dfa83a4ffea0")
+	)
+	(fp_line
+		(start -0.275 -0.55)
+		(end -0.65 -0.225)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cbcf12af-7a83-4bab-ab56-04099923b5ea")
+	)
+	(fp_line
+		(start -0.275 -0.55)
+		(end 0.75 -0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d9ac7292-3000-4da3-8303-ffbe4f584b5c")
+	)
+	(fp_line
+		(start 0.75 -0.55)
+		(end 0.75 0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e466cdef-ad37-41ac-9fee-57b119448e65")
+	)
+	(fp_line
+		(start 0.75 0.55)
+		(end -0.65 0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "132a9aeb-1884-4133-b0e2-0ab9aafeb923")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.6 0)
+		(layer "F.Fab")
+		(uuid "7eafe46b-4ce4-444f-95a0-b0b8db323735")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.38 -0.275)
+		(size 0.48 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fd554dea-e5d5-42b9-8877-83fed651320f")
+	)
+	(pad "2" smd rect
+		(at -0.38 0.275)
+		(size 0.48 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1f79b4fe-b28d-4c95-a4cb-fbfdcfb4bfc7")
+	)
+	(pad "3" smd rect
+		(at 0.38 0 270)
+		(size 0.75 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e4925c27-a886-4c7c-9ced-512ed4e510fb")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Diodes_DFN1006-3.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
